@@ -1,0 +1,2227 @@
+# Norwegian/Bokmaal translation of emesene.
+# Copyright (C) 2007 THE emesene'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the emesene package.
+# Lars-Erik A. Labori <deb@fagskole.eu>, 2007.
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emesene 938\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-06-19 10:58+0000\n"
+"Last-Translator: Thor Marius K.H <nitrolinken@gmail.com>\n"
+"Language-Team: Norwegian/Bokmaal <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#~ msgid "%s starts typing..."
+#~ msgstr "%s skriver..."
+
+#~ msgid "Wikipedia"
+#~ msgstr "Wikipedia"
+
+#~ msgid "Read more in "
+#~ msgstr "Les mer i "
+
+#~ msgid "Language:"
+#~ msgstr "Språk:"
+
+#~ msgid "Wikipedia plugin config"
+#~ msgstr "Oppsett av Wikipedia-programtillegget"
+
+#~ msgid "Adds a /wp command to post in wordpress blogs"
+#~ msgstr "Legger til en /wp-kommando til postinger i wordpress-blogger"
+
+#~ msgid "Wordpress"
+#~ msgstr "Wordpress"
+
+#~ msgid "Configure the plugin"
+#~ msgstr "Oppsett av programtillegget"
+
+#~ msgid "Insert Title and Post"
+#~ msgstr "Sett inn tittel og post"
+
+#~ msgid "Url of WP xmlrpc:"
+#~ msgstr "Nettadresse til WP xmlrpc:"
+
+#~ msgid "User:"
+#~ msgstr "Bruker:"
+
+#~ msgid "Wordpress plugin config"
+#~ msgstr "Oppsett av Wordpress-programtillegget"
+
+#~ msgid "a MSN Messenger clone."
+#~ msgstr "en MSN Messenger klone"
+
+#~ msgid "_No picture"
+#~ msgstr "_Ingen profilbilde"
+
+#~ msgid "Delete selected"
+#~ msgstr "Slett valgte"
+
+#~ msgid "Delete all"
+#~ msgstr "Slett alt"
+
+#~ msgid "Current avatar"
+#~ msgstr "Nåværende profilbilde"
+
+#~ msgid "Are you sure to want to delete the selected avatar ?"
+#~ msgstr "Ønsker du å slette valgt profilbilde?"
+
+#~ msgid "Are you sure to want to delete all avatars ?"
+#~ msgstr "Ønsker du å slette alle profilbildene?"
+
+#~ msgid "Empty Nickname"
+#~ msgstr "Kallenavn ikke oppgitt"
+
+#~ msgid "Empty Field"
+#~ msgstr "Tomt felt"
+
+#~ msgid "Choose an user to remove"
+#~ msgstr "Velg brukeren som skal fjernes"
+
+#~ msgid "Are you sure you want to remove %s from your contact list?"
+#~ msgstr "Ønsker du å fjerne %s fra din kontaktliste?"
+
+#~ msgid "Choose an user"
+#~ msgstr "Velg en bruker"
+
+#~ msgid "Choose a group to delete"
+#~ msgstr "Velg gruppen som skal slettes"
+
+#~ msgid "Choose a group"
+#~ msgstr "Velg en gruppe"
+
+#~ msgid "Empty group name"
+#~ msgstr "Gruppenavn ikke oppgitt"
+
+#~ msgid "Empty AutoReply"
+#~ msgstr "Autosvar ikke oppgitt"
+
+#~ msgid "%s is now offline"
+#~ msgstr "%s er nå frakoblet"
+
+#~ msgid "%s is now online"
+#~ msgstr "%s er nå tilkoblet"
+
+#~ msgid "_Save conversation"
+#~ msgstr "_Lagre samtale"
+
+#~ msgid "Add a Friend"
+#~ msgstr "Legg til en venn"
+
+#~ msgid "Introduce your friend's email:"
+#~ msgstr "Epost-adresse til kontakten:"
+
+#~ msgid "Add to group:"
+#~ msgstr "Legg til i gruppe:"
+
+#~ msgid "No group"
+#~ msgstr "Ingen gruppe"
+
+#~ msgid "Add a Group"
+#~ msgstr "Legg til en gruppe"
+
+#~ msgid "Group name:"
+#~ msgstr "Gruppenavn:"
+
+#~ msgid "Change Nickname"
+#~ msgstr "Endre kallenavn"
+
+#~ msgid "New nickname:"
+#~ msgstr "Nytt kallenavn"
+
+#~ msgid "Rename Group"
+#~ msgstr "Gi gruppen et nytt navn"
+
+#~ msgid "New group name:"
+#~ msgstr "Nytt gruppenavn:"
+
+#~ msgid "Set AutoReply"
+#~ msgstr "Velg autosvar"
+
+#~ msgid "AutoReply message:"
+#~ msgstr "Autosvarmelding:"
+
+#~ msgid "Load display picture"
+#~ msgstr "Last inn profilbilder"
+
+#~ msgid "_Delete alias"
+#~ msgstr "_Slett alias"
+
+#~ msgid "Contact's list"
+#~ msgstr "Kontaktliste"
+
+#~ msgid "Conversation"
+#~ msgstr "Samtale"
+
+#~ msgid "_Log path:"
+#~ msgstr "Søkesti for _logg:"
+
+#~ msgid "Paint"
+#~ msgstr "Paint"
+
+#~ msgid "Eraser"
+#~ msgstr "Viskelær"
+
+#~ msgid "Clear"
+#~ msgstr "Fjern"
+
+#~ msgid "Small"
+#~ msgstr "Liten"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "Use multiple windows"
+#~ msgstr "Bruk flere enkle samtalevinduer"
+
+#~ msgid "Change Custom Emoticon shortcut"
+#~ msgstr "Endre snarvei for egne humørfjes"
+
+#~ msgid "Shortcut: "
+#~ msgstr "Snarvei: "
+
+#~ msgid "Shortcut:"
+#~ msgstr "Snarvei:"
+
+#~ msgid "Size:"
+#~ msgstr "Størrelse:"
+
+#~ msgid "is now online"
+#~ msgstr "er nå tilkoblet"
+
+#~ msgid "Take screenshots and upload to imageshack"
+#~ msgstr "Ta skjermbildekopi og last opp til imageshack"
+
+#~ msgid "Uploads images"
+#~ msgstr "Laster opp grafikk"
+
+#~ msgid "Tip: Use \"/screenshot save\" to skip the upload "
+#~ msgstr ""
+#~ "Tips: Bruk \"/skjermbildekopi lagring\" for å hoppe over opplastingen "
+
+#~ msgid "File not found"
+#~ msgstr "Filen ble ikke funnet"
+
+#~ msgid "Error uploading image"
+#~ msgstr "Feil ved opplastingen av grafikk"
+
+#~ msgid "Play a sound when someone get online"
+#~ msgstr "Spill av lyd når noen kobler seg til"
+
+#~ msgid "Play a sound when someone send you a message"
+#~ msgstr "Spill av lyd når noen sender deg en melding"
+
+#~ msgid "Play a sound when someone snd you a nudge"
+#~ msgstr "Spill av lyd når noen sender deg et dult"
+
+#~ msgid "Something wrong with gtkspell, this language exist"
+#~ msgstr "Feil med gtkspell, dette språket eksisterer"
+
+#~ msgid "New personal message:"
+#~ msgstr "Ny personlig melding:"
+
+#~ msgid "Userlist"
+#~ msgstr "Brukerliste"
+
+#~ msgid "Edit..."
+#~ msgstr "Rediger..."
+
+#~ msgid "Save logs automatically"
+#~ msgstr "Lagre logger automatisk"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Log Formats"
+#~ msgstr "Logg-format"
+
+#~ msgid "_No DNS mode"
+#~ msgstr "_Uten DNS modus"
+
+#~ msgid "Event filters"
+#~ msgstr "Hendelsesfiltre"
+
+#~ msgid "Mail filters"
+#~ msgstr "Epost-filtre"
+
+#~ msgid "Can't open the file"
+#~ msgstr "Kan ikke åpne filen"
+
+#~ msgid "Our nick changed"
+#~ msgstr "Kallenavn endret"
+
+#~ msgid "Status change"
+#~ msgstr "Endre status"
+
+#~ msgid "Personal message changed"
+#~ msgstr "Personlig MSN melding endret"
+
+#~ msgid "Our status changed"
+#~ msgstr "Status endret"
+
+#~ msgid "Our personal message changed"
+#~ msgstr "Personlig MSN melding endret"
+
+#~ msgid "Our current media changed"
+#~ msgstr "Avspillende media endret"
+
+#~ msgid "New mail received"
+#~ msgstr "Ny e-post"
+
+#~ msgid "Nick changed"
+#~ msgstr "Kallenavn endret"
+
+#~ msgid "User online"
+#~ msgstr "Bruker tilkoblet"
+
+#~ msgid "Event"
+#~ msgstr "Hendelse"
+
+#~ msgid "Mail"
+#~ msgstr "E-post"
+
+#~ msgid "Extra"
+#~ msgstr "Ekstra"
+
+#~ msgid "Shortcut it's empty"
+#~ msgstr "Snarveien er tom"
+
+#~ msgid "Emesene log viewer"
+#~ msgstr "Visning av emesene logg"
+
+#~ msgid "User offline"
+#~ msgstr "Bruker frakoblet"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"Felt '%(identifier)s ('%(value)s') ikke gyldig\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "Tilkoblet"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "Borte"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "Opptatt"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "Straks tilbake"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "I telefonen"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "Ute til lunch"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "Usynlig"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "Inaktiv"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "Frakoblet"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "_Tilkoblet"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "_Borte"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "_Opptatt"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "_Snart tilbake"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "Snakker i tel_efonen"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "Ute til _lunsj"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "_Usynlig"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "_Inaktiv"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "_Frakoblet"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "Det oppsto en feil under innloggingen, prøv igjen"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_Status"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "Kritisk feil"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "Dette er en feil i programmet, rapporter den på:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "feil med kontroll() rapportert verdi"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "programtillegget %s kunne ikke startes grunnet:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "Tom konto"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "Feil under lasting av tema, bruker standard"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "Logget inn fra en annen enhet."
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "Frakoblet fra tjeneren."
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "Gruppesamtale"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s sendte deg et dult!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s kom inn i samtalen"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s forlot samtalen"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "du har sendt et dult!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "Vil du sende en melding til %s i frakoblet modus?"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "Kan ikke sende melding"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "Dette er en utgående melding"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "Dette er en ny melding fra samme bruker"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "Dette er en innkommende melding"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "Dette er en ny melding fra samme bruker"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "Dette er en informasjonsmelding"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "Dette er en feilmelding"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "sier"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "skriver en melding..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "skriver en melding..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "Kobler til..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "Koble til på nytt"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "Brukeren er allerede tilstede"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "Brukeren er ikke pålogget"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "Kan ikke koble til"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "Medlemmer"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "Send"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "Skriftvalg"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "Smilefjes"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "Dult"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "Inviter"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "Tøm samtalevindu"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "Send fil"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "Valg av skriftsnitt"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "Valg av farge for skriftsnittet"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "Skriftvalg"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "Sett inn et smilefjes"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "Send et dult"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "Inviter en venn til samtalen"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "Tøm samtalevindu"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "Send en fil"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "Brukere"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr "For å velge flere, hold inne CTRL og klikk"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "Status:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "Gjennomsnittshastighet"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "Forløpt tid:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "Velg et skriftsnitt"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "Velg en farge"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "Send fil"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "_Samtale"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "_Inviter"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "_Send fil"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "T_øm Samtale"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "Lukk alle"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "For_mat"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "Snarveien er tom"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "Snarveien er allerde i bruk"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "Bilde er ikke valgt"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "Sender %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s sender deg %(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "Du har akseptert %s"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "Du har avbrutt sendingen av %s"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "Starter sending av %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "Overføringen av %s feilet."
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "Deler av filen mangler"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "Avbrutt av bruker"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "Feil under sending"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s ble sendt uten problemer"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "%s mottatt uten feil."
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "Fet"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "Kursiv"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "Understreket"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "Gjennomstreket"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "Nullstill"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "Gi gruppen _nytt navn..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "_Slett gruppe"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "_Legg til kontakt"
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "Legg til _gruppe..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "Loggviser"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s har byttet kallenavn til %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s har byttet sin personlige melding til %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s har byttet status til %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s er nå avlogget\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s sendte deg en dytt\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "Åpne en logg-fil"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "Åpne"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_Fil"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "Kontakt"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "Navn"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "Kontakter"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "Brukerhendelser"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "Samtalehendelser"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "Brukerhendelser"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "Samtalehendelser"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "Tilstand"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "Merk alle"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "Fjern merking"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "_Bruker:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "_Passord:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "_Status:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "_Innlogging"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "_Husk meg"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "Glem meg"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "H_usk passord"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "Automatisk innlogging"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "Feil med tilkoblingen"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "Prøver å koble til påny om "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " sekunder"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "Kobler til..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "Brukernavn eller passord er tomt"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "_Vis"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "H_andlinger"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_Innstillinger"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "_Ny konto"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "Sorter etter _gruppe"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "Sorter etter _status"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "Vis kallenavn"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "Vis _frakoblede"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "Vis _tomme grupper"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "Vis _antall kontakter"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "_Kallenavn på kontakt..."
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "_Blokker"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "_Fjern blokkering"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "F_lytt til gruppe"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "_Fjern kontakt"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "_Endre kallenavn..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "Endre _profilbilde..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "Endre au_tosvar..."
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "Aktiver au_tosvar"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "_Programtillegg"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "En klient for WLM%s-nettverket"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"Lars-Erik A. Labori\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Andreas Bertheussen https://launchpad.net/~andreasmarcel\n"
+"  Lars-Erik A. Labori https://launchpad.net/~deb-fagskole\n"
+"  Olav Andreas Lindekleiv https://launchpad.net/~aq\n"
+"  Thor Marius K.H https://launchpad.net/~nitrolinken\n"
+"  William Killerud https://launchpad.net/~klerud\n"
+"  Xecuter88 https://launchpad.net/~xecuter88"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "Ingen automatisk svar oppgitt"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "Automatisk svar:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "Endre automatisk svar"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "ingen gruppe"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "Programtilleggshåndterer"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "Aktiv"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "Beskrivelse"
+
+# Utvikler av programtillegg
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "Utvikler:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "Nettadresse:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "Oppsett"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "Oppstarten av programtillegget feilet: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "Brukervalg"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "Tema"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "Grensesnitt"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "Fargelegging"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "Filoverføring"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "Tilkobling"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "Kontakten skriver"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "Ventende melding"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "Personlig MSN melding"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "Linker og filer"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "Bruk RGBA-farger (programomstart nødvendig)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"Fant skriverbordsmiljø <b>\"%(detected)s\"</b>\n"
+"Bruker <span face=\"Monospace\">%(commandline)s</span> å åpne filer og linker"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>Ingen skrivebordsmiljø funnet.</b> Den første nettleseren funnet blir "
+"brukt til å åpne linker"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "Kommando:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "Overstyr automatisk konfigurasjon"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>Merk:</i> %s blir erstattet med lenken som skal åpnes."
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "Test kommando"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "Vis _feilsøking i konsollen"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "_Vis binære-koder i feilsøkingen"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "Bruk _HTTP-tilkobling"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "Proxy-innstillinger"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "Bruk _små ikoner"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "Vis _smilefjes"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "Ignorer tekstformatering"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "Smilefjestema"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "Sideoppsett for samtaler"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "Navn:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "Vis _menylinje"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "Vis _egen profil-informasjon"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "Vis _søkefelt"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "Vis s_tatusfeltet"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "Hovedvindu"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "Vis _informasjon om kontakten i samtalevinduet"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "Vis _verktøylinjen i samtalevinduet"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "Vis Send-_knapp"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "Vis _statuslinje"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "Vis _avatarer"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "Samtalevindu"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "Bruk flere _vinduer"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "Vis lukkeknappen på hver arkfane"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "Vis _profilbilder"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "Vis _profilbilder i oppgavelinjen"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "_Bruk proxy"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "_Tjener:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "_Port:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "Velg katalog"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "Sorter mottatte _filer etter avsender"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "_Lagre mottatte filer i:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr "Bruk \"/help <kommando>\" for hjelp med spesifikke kommandoer"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "Følgede kommandoer er tilgjengelige:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "Kommandoen %s eksisterer ikke"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "Smilefjes"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "Endre snarvei"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "Slett"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "Tom snarvei"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "Ny snarvei"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "Blokkert: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "Har deg: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "Har MSN Space: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "Ja"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "Nei"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s siden: %(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "_Åpne samtale"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "Send _E-post"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "Kopier e-post"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "Vis profil"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "_Kopier til gruppe"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "_Fjern fra gruppe"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "Klikk her for å velge din personlige melding"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "Det avspilles ingen media"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "Klikk her for å legge inn ditt kallenavn"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "Avspillende media"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "Feil!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "Advarsel"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "Informasjon"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "Unntak"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "Bekreft"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "Brukerinvitasjon"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "Legg til bruker"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "Konto"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "Gruppe"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "Legg til gruppe"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "Gruppenavn"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "Endre kallenavn"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "Nytt kallenavn"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "Forandre personlig melding"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "Ny personlig melding"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "Forandre bildet"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "Forandre navn på gruppe"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "Nytt gruppenavn"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "Sett alias"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "Brukeralias"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "Legg til kontakt"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "Minn meg på senere"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" har lagt til deg i sin kontaktliste.\n"
+"Vil du legge til ham/henne i din kontaktliste?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "Velg profilbilde"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "Ingen bilde"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "Fjern alle"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "Gjeldende"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "Er du sikker på at du vil fjerne alt"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "Bilde ikke valgt"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "Bildevelger"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "Alle filer"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "All grafikk"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "lite (16x61)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "stort (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "Snarvei"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "_Åpne lenke"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "_Kopier lenke"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "_Lagre som ..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "Noen kjekke kommandoer, prøv /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "Kommandoer"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "Erstatter variabler"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "Erstatter meg med ditt brukernavn"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "Sender en dult"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "Inviterer en venn"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "Legg til kontakt"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "Fjern kontakt"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "Blokker en kontakt"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "Avblokker en kontakt"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "Tøm samtalevindu"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "Sett ditt nick"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "Sett din PSM"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "Bruksmåte: /%s kontakt"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "Filen eksisterer ikke"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"Vis en personlig melding med navnet på sangen du hører på, fungerer med "
+"mange forskjellige avspillere."
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "Musikk"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "Visningsoppsett"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"Endre visningsoppsett for sangene du hører på. Mulige variabler er %title, "
+"%artist og %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "Musikkavspiller"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "Velg den musikkavspilleren du bruker"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "Vis logger"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "Bytt profilbilde"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "Hent albumgrafikk fra veven"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "Tilpasset innstilling"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "Programtillegg-oppsett"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "Logger"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "Type"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "Verdi"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "Med dette programtillegget kan du påvirke Dbus med emesene"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "Vurder python-kommandoer - BRUKES PÅ EGET ANSVAR"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "Kjør python-kommandoer"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "Tillat brukere:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "Fjernstyrt konfigurasjon"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"Endre status til en valgt status når økten blir inaktiv (du må bruke Gnome "
+"og ha gnome-screensaver installert)."
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "Inaktiv status"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "Inaktiv status:"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "Velg inaktiv status"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "Oppsett av inaktiv status endrer"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "Hent siste noe fra loggene"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "ugyldig nummer som første parameter"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "Tomt resultat"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "Slå på logger-pluggin"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "det oppsto et problem ved starting av pynotify modulen"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "Gi beskjed om forskjellige hendelser med pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "Notifiser meg når noen logger på"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "Notifiser meg når noen logger av"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "Notifiser meg ved mottatt e-post"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "Notifiser meg når noen begynner å skrive"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "Notifiser meg når en melding mottas"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "Slå av beskjeder når opptatt"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "Konfigurer LibNotify-plugin"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "er tilkoblet"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "er frakoblet"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "har sendt en melding"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "sendte en"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "skriver"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "Fra: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "Emne: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "Ny e-post"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "Du har %(num)i uleste meldinger%(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "Vis samtale_logg"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "Samtalelogg for %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "Dato"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "Ingen logger funnet for %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "Lagre samtalelogg"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "Oppsett av melding"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "Eksempeltekst"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "Bilde"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "Ikke notifiser meg hvis samtalen har begynt"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "Posisjon"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "Øverst til venstre"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "Øverst til høyre"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "Nederst til venstre"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "Nederst til høyre"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "Rull"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "Vannrett"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "Loddrett"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr "Vis et vindu nede i høyre hjørne når noen kobler seg til e.l."
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "Melding"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "skriver..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "Lagre den personlige meldingen"
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "Personlig melding"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "Nøkkel"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "Programtillegg for emesene som er ganske likt Messenger Pluss"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Pluss"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "Velg egendefinerte farger"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "Bruk bakgrunnsfarger"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr ""
+"Et panel for å kunne legge til Messenger Pluss formatering til teksten"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Pluss fargepanel"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "Ta en skjermdump og send den med "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "Tar skjermbildekopier"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "Tar skjermdump om %s sekunder"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr ""
+"Tips: Bruk \"/screenshot save <sekunder>\" for å skippe opplastningen "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "Midlertidig fil:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "Spill av lyd for enkelte hendelser."
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "Lyd"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer, play og aplay ble ikke funnet."
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "Spill av lyd for tilkoblinger"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "Spill lyd når noen logger på"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "Spill av lyd for meldinger"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "Spill lyd når noen sender deg en melding"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "Spill av lyd for dulting"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "Spill av lyd når noen sender en dult"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "Spill av en lyd når du sender en melding"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "Spill av lyd for meldinger kun når vinduet ikke er i bruk"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "Spill av lyd for meldinger kun når vinduet ikke er i bruk"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "Slå av lyder når du er opptatt"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "Bruk systemvarsel"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "Bruk systemvarsel istedenfor lydfiler"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "Oppsett for lyd-programtillegget"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr "Du må installere gtkspell for å bruke Stavekontroll-programtillegget"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "Stavekontroll for emesene"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "Stavekontroll"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "Plugin slått av"
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "Kunne ikke stavekontrollere inndata (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "Feil under henting av ordbokliste"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "Ingen ordbøker funnet."
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "Standard språk"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "Velg standard språk"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "Oppsett av stavekontrollen"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "Vis statusgrafikk:"
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "Oppsett av StatusHistory programtillegget"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "Rediger oppsettsfilen din"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "Tweaks"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "Oppsett"
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "Vinduet skjelver når et dult mottas."
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "Vindusskjelvende dult"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "Viser miniatyrbilder av yotube-videoer ved siden av lenkene"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "Send informasjon til last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "Brukernavn:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "Passord:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Ønsker du å slette %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "_Fjern"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "F_lytt"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "_Kopiér"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "Sett _alias"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "Er du sikker på at du vil fjerne kontakten %s?"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "Er du sikker på at du vil slette gruppen %s?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "Gammelt og nytt navn er likens"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "nytt navn ikke gyldig"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "Endre _navn"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "_Legg til kontakt"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "Er du sikker på at du vil slette gruppen %s?"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "_Avslutt"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "_Koble fra"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "_Kontakt"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "_Legg til"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "Sett _nick"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "Sett _melding"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "Sett _bilde"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "_Innstillinger"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "Plug_ins"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "_Om"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "Ingen gruppe valgt"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "Ingen kontakt valgt"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "Lunch"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "Brukeren kunne ikke legges til: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "Brukeren kunne ikke fjernes: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "Brukeren kunne ikke legges til i gruppen: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "Brukeren kunne ikke flyttes til gruppen: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "Brukeren kunne ikke fjernes: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "Gruppen kunne ikke legges til: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "Gruppen kunne ikke fjernes: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "Gruppen kunne ikke gis nytt navn: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "Kallenavnet kunne ikke endres: %s"

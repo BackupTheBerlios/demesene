@@ -1,0 +1,1976 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emesene\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-05-03 08:23+0000\n"
+"Last-Translator: Devid Antonio Filoni <Unknown>\n"
+"Language-Team: Italian Translation Team <@emesene forums>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/riky/msn/emesene\n"
+"X-Poedit-Basepath: /home/riky/msn/emesene\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#~ msgid "Can't import dcopext or python-dcop!"
+#~ msgstr "Impossibile importare dcopext o python-dcop!"
+
+#~ msgid "dcop not running"
+#~ msgstr "dcop non è in esecuzione"
+
+#~ msgid "This plugin only works in posix systems"
+#~ msgstr "Questo plugin funziona solo in sistemi POSIX"
+
+#~ msgid "Dcop not found"
+#~ msgstr "dcop non trovato"
+
+#~ msgid "D-Bus cannot be initialized"
+#~ msgstr "il plugin Dbus non può essere inizializzato:"
+
+#~ msgid "audtool is not on the path and you don't have dbus enabled."
+#~ msgstr "audtool non è nel path e non hai dbus abilitato"
+
+#~ msgid ""
+#~ "You don't have dbus. Try to install dbus and/or use a dbus enabled version "
+#~ "of quodlibet."
+#~ msgstr ""
+#~ "Non hai dbus. Prova a installare dbus e/o a usare una versione di quodlibet "
+#~ "abilitata a dbus"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"Campo '%(identifier)s ('%(value)s') non valido\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "In linea"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "Non al computer"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "Occupato"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "Torno subito"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "Al telefono"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "A pranzo"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "Invisibile"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "Inattivo"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "Non in linea"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "In _linea"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "Non _al computer"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "Occ_upato"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "To_rno subito"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "Al _telefono"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "A _pranzo"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "_Invisibile"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "Ina_ttivo"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "N_on in linea"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "Errore durante l'accesso, riprovare"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_Stato"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "Errore fatale"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "Questo è un bug. Segnalarlo a:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "valore ritornato da check() non valido"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "il plugin %s non può essere inizializzato per il seguente motivo:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "Account vuoto"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "Errore durante il caricamento del tema, torno a quello predefinito"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "Accesso eseguito da un'altra postazione."
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "Il server ti ha disconnesso."
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "Conversazione di gruppo"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s ti ha appena inviato un trillo!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s si è unito alla conversazione"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s ha abbandonato la conversazione"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "hai inviato un trillo!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "Sei sicuro di voler inviare un messaggio non in linea a %s"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "Impossibile inviare il messaggio"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "Questo è un messaggio inviato"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "Questo è un messaggio inviato consecutivo"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "Questo è un messaggio ricevuto"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "Questo è un messaggio ricevuto consecutivo"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "Questo è un messaggio informativo"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "Questo è un messaggio d'errore"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "dice"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "sta scrivendo un messaggio..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "stanno scrivendo un messaggio..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "Connessione..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "Riconnetti"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "L'utente è già presente"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "L'utente non è in linea"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "Impossibile connettersi"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "Membri"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "Invia"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "Stile dei caratteri"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "Smile"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "Trillo"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "Invita"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "Pulisci conversazione"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "Invia file"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "Selezione dei caratteri"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "Selezione del colore dei caratteri"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "Stili dei caratteri"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "Inserisci uno smile"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "Invia un trillo"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "Invita un amico alla conversazione"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "Pulisci conversazione"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "Invia un file"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "Utenti"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr ""
+"Per la selezione di più amici tieni premuto CTRL e fai clic su di loro"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "Stato:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "Velocità media:"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "Tempo trascorso:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "Scegli un carattere"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "Scegli un colore"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "Invia file"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "_Conversazione"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "_Invita"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "In_via file"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "Pu_lisci conversazione"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "Chiudi tutto"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "For_mato"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "La scorciatoia è vuota"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "Scorciatoia già in uso"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "Nessuna immagine selezionata"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "Invio di %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s ti sta inviando %(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "Hai accettato %s"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "Hai annullato il trasferimento di %s"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "Inizio il trasferimento di %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "Trasferimento di %s fallito."
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "Alcune parti del file sono mancanti"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "Interrotto dall'utente"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "Errore durante il trasferimento"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s inviato correttamente"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "%s ricevuto correttamente."
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "Grassetto"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "Corsivo"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "Sottolineato"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "Barrato"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "Resetta"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "Ri_nomina gruppo..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "Ri_muovi gruppo"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "_Aggiungi contatto..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "Aggiungi _gruppo..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "Visualizzatore log"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s ha cambiato il nick in %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s ha cambiato il messaggio personale in %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s ha cambiato lo stato in %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s è ora non in linea\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s ti ha appena inviato un trillo\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "Apri un file di log"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "Apri"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "Annulla"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_File"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "Contatto"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "Nome"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "Contatti"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "Eventi utente"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "Eventi conversazione"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "Eventi utente"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "Eventi conversazione"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "Stato"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "Deseleziona tutto"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "_Utente:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "_Password:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "_Stato:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "_Login"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "_Ricordami"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "Dimenticami"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "R_icorda password"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "Connessione automatica"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "Errore di connessione"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "Riconnessione in "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " secondi"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "Riconnessione..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "Utente o password vuoti"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "_Visualizza"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "_Azioni"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_Opzioni"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "_Nuovo account"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "Ordina per _gruppo"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "Ordina per _stato"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "Mostra per _nickname"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "Mostra n_on in linea"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "Mostra gruppi _vuoti"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "Mostra _conteggio contatti"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "Impo_sta soprannome al contatto"
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "_Blocca"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "_Sblocca"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "Mu_ovi al gruppo"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "_Rimuovi contatto"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "_Cambia nick..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "Cambia _immagine personale..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "Modifica risposta a_utomatica..."
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "Attiva risposta automatica"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "P_lugin"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "Un client di messaggistica istantanea per la rete di WLM%s"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"Crediti traduzione\n"
+"\n"
+"Launchpad Contributions:\n"
+"  C10uD https://launchpad.net/~c10ud\n"
+"  Damiano Dallatana https://launchpad.net/~damidalla\n"
+"  DarKprince https://launchpad.net/~sa-guarda\n"
+"  Devid Antonio Filoni https://launchpad.net/~d.filoni\n"
+"  Kino https://launchpad.net/~pikitano\n"
+"  LizardKing https://launchpad.net/~rampage11\n"
+"  echelon89 https://launchpad.net/~echelon89\n"
+"  weltall https://launchpad.net/~weltall2"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "Risposta automatica vuota"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "Risposta automatica:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "Cambia risposta automatica"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "nessun gruppo"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "Gestore plugin"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "Attivo"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "Descrizione"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "Autore:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "Sito web:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "Configura"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "Inizializzazione plugin fallita: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "Tema"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "Interfaccia"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "Schema colori"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "Trasferimento file"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "Scrivania"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "Connessione"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "Scrittura messaggio in corso"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "Nuovo messaggio in attesa"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "Messaggio personale"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "Link e file"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "Abilita mappatura colore RGBA (richiesto riavvio)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"L'ambiente desktop trovato è <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> verrà usato per aprire link "
+"e file"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>Nessun ambiente desktop rilevato.</b> Per aprire i link verrà usato il "
+"primo browser trovato"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "Comando:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "Forza le impostazioni rilevate"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>Nota:</i> %s sarà rimpiazzato dal link che dovrà essere aperto"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "Fai clic per provare"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "Mostra _debug nel terminale"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "Mostra codice _binario nel debug"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "Connetti tramite _HTTP"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "Impostazioni proxy"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "_Usa icone piccole"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "Mostra _smile"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "Disabilita formattazione del _testo"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "Tema smile"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "Layout conversazione"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "Nome:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "Descrizione:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "Mostra barra dei _menu"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "Mostra pannello _utente"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "Mostra barra di _ricerca"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "Mostra selettore dello s_tato"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "Finestra principale"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "Mostra _header della conversazione"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "Mostra la _toolbar della conversazione"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "Mostra il tasto _invia"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "Mostra barra di st_ato"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "Mostra a_vatar"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "Finestra conversazione"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "Usa _finestre multiple"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "Mostra il tasto _chiudi su ogni tab"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "Mostra _avatar"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "Mostra gli avatar nella task_bar"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "Usa pro_xy"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "_Host:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "_Porta:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "Scegli una cartella"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "_Ordina i file ricevuti per email del mittente"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "_Salva file in:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr "Usa \"/help <comando>\" per l'aiuto su un singolo comando"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "Sono disponibili i seguenti comandi:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "Il comando %s non esiste"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "Smile"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "Cambia scorciatoia"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "Elimina"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "Scorciatoia vuota"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "Nuova scorciatoia"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "Bloccato: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "Sei nella sua lista: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "Ha uno space msn: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "Si"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "No"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s dal: %(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "_Apri conversazione"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "Invia _mail"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "Copia _email"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "Visualizza profilo"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "Copia nel _gruppo"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "R_imuovi dal gruppo"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "Clicca qui per impostare il tuo messaggio personale"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "Nessun brano in riproduzione"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "Clicca qui per impostare il tuo nickname"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "Brano corrente"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "Errore!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "Attenzione"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "Informazione"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "Eccezione"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "Conferma"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "Invito utente"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "Aggiungi utente"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "Account"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "Gruppo"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "Aggiungi gruppo"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "Nome gruppo"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "Cambia nickname"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "Nuovo nickname"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "Cambia messaggio personale"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "Nuovo messaggio personale"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "Cambia immagine"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "Rinomina gruppo"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "Nuovo nome del gruppo"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "Imposta soprannome"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "Soprannome del contatto"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "Aggiungi contatto"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "Ricordamelo più tardi"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" ti ha aggiunto.\n"
+"Vuoi aggiungerlo/a alla tua lista contatti?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "Scegli avatar"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "Nessun avatar"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "Rimuovi tutto"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "Attuale"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "Sei sicuro di voler rimuovere tutto?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "Nessuna immagine selezionata"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "Scegli immagine"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "Tutti i file"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "Tutte le immagini"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "piccola (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "grande (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "Scorciatoia"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "_Apri link"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "_Copia link"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "_Salva come ..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "Rende disponibili alcuni comandi utili, prova /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "Comandi"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "Sostituisci variabili"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "Sostituiscimi con il tuo username"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "Invia un trillo"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "Invita un amico"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "Aggiungi un contatto"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "Rimuovi un contatto"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "Blocca un contato"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "Sblocca un contatto"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "Pulisci la conversazione"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "Imposta nickname"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "Imposta messaggio personale"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "Utilizzo /%s contatto"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "Il file non esiste"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"Mostra un messaggio personale con il brano in riproduzione nel tuo programma "
+"preferito."
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "Mostra canzone"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "Visualizza stile"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"Cambia lo stile secondo cui viene visualizzata la canzone nel messaggio "
+"personale, le variabili sono %title, %artist e %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "Riproduttore multimediale"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "Scegli il riproduttore multimediale in uso"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "Mostra log"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "Cambia avatar"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "Scarica copertina del disco dal web"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "Configurazione personalizzata"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "Configura plugin"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "Log"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "Tipo"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "Valore"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "Con questo plugin puoi interagire con emesene tramite Dbus"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "Esegue comandi in python - USA A TUO RISCHIO"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "Esegui comandi python"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "Utenti autorizzati:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "Configurazione remota"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"Cambia lo stato in un altro selezionato se la sessione è inattiva (richiede "
+"GNOME e gnome-screensaver installato)"
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "Cambia stato inattivo"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "Stato inattivo:"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "Imposta stato inattivo"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "Configurazione stato inattivo"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "Visualizza gli ultimi x dati dei log"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "numero invalido come primo parametro"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "Nessun risultato"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "Abilita il plugin Logger"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "c'è stato un problema inizializzando il modulo pynotify"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "Notifica diversi eventi tramite pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "Notifiche (LibNotify)"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "Notifica quando qualcuno si collega"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "Notifica quando qualcuno si disconnette"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "Notifica alla ricezione di una email"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "Notifica quando qualcuno inizia a scrivere"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "Notifica la ricezione di un messaggio"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "Disabilita notifiche quando occupato"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "Configura plugin"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "è in linea"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "non è in linea"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "ha inviato un messaggio"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "inviato un messaggio non in linea"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "inizia a scrivere"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "Da: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "Oggetto: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "Nuova email"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "Hai %(num)i messaggi%(s)s non letti"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "Visualizza _log conversazione"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "Log della conversazione per %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "Data"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "Nessun log trovato per %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "Salva log conversazione"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "Configura notifiche"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "Testo d'esempio"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "Immagine"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "Non notificare se la conversazione è iniziata"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "Posizione"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "In alto a sinistra"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "In alto a destra"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "In basso a sinistra"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "In basso a destra"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "Scorri"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "Verticale"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr ""
+"Mostra una piccola finestra nell'angolo in basso a destra dello schermo "
+"quando qualcuno di collega ecc."
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "Notifiche"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "inizia a scrivere..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "Ricorda il messaggio personale tra le varie sessioni."
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "Messaggio personale"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "Chiave"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "Plugin stile Messenger Plus"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "Scegli colore personalizzato"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "Abilita colore dello sfondo"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "Un pannello per applicare i formati di Messenger Plus al testo"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Pannello colori Plus"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "Cattura lo schermo e invia le schermate con "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "Cattura lo schermo"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "Catturo lo schermo in %s secondi"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr ""
+"Suggerimento: Usa \"/screenshot save <secondi>\" per evitare l'invio "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "File temporaneo:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "Riproduci suoni per eventi comuni."
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "Suono"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer, play e aplay non trovati"
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "Riproduci suono all'accesso di un contatto"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "Riproduci suono all'accesso di un contatto"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "Riproduci suono alla ricezione di un messaggio"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "Riproduci suono alla ricezione di un messaggio"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr ""
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "Riproduci suono alla ricezione di un trillo"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "Riproduci suono quando invii un messaggio"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "Riproduci suono quando la finestra è inattiva"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "Riproduci suono soltanto quando la finestra è inattiva"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "Disabilita suoni quando occupato"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "Usa campanella di sistema al posto dei normali suoni"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "Usa campanella di sistema al posto dei normali suoni"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "Configura plugin"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr "Devi installare gtkspell per usare questo plugin"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "Controllo ortografico per emesene"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "Controllo ortografico"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "Plugin disabilitato."
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "Errore controllando (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "Errore nella ricerca della lista dei dizionari"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "Nessun dizionario trovato."
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "Linguaggio predefinito"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "Imposta linguaggio predefinito"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "Configurazione del controllo ortografico"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "Mostra immagine di stato:"
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "Configurazione plugin"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "Modifica il tuo file di configurazione"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "Impostazioni avanzate"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "Configurazione"
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "Scuote la finestra quando si riceve un trillo."
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "Vibrazione finestra"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "Mostra anteprime dei video di youtube vicino ai link"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "YouTube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "Manda informazioni sulle tracce ascoltate a last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "Nome utente:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "Password:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Sei sicuro di voler cancellare %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "_Rimuovi"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "_Sposta"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "_Copia"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "Imposta sopr_annome"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "Sei sicuro di voler cancellare %s?"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "Sei sicuro di voler cancellare il gruppo %s?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "Nick uguale a prima"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "nuovo nick non valido"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "Ri_nomina"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "_Aggiungi contatto"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "Sei sicuro di voler rimuovere il gruppo %s?"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "_Chiudi"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "_Disconnetti"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "_Contatto"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "_Aggiungi"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "Imposta _nick"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "Imposta _messaggio personale"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "Imposta immagine _personale"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "P_lugin"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "_Informazioni"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "Nessun gruppo selezionato"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "Nessun contatto selezionato"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "Pranzo"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "L'utente non può essere aggiunto: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "L'utente non può essere rimosso: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "L'utente non può essere aggiunto al gruppo: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "L'utente non può essere mosso al gruppo: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "L'utente non può essere rimosso: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "Il gruppo non può essere aggiunto: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "Il gruppo non può essere rimosso: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "Il gruppo non può essere rinominato: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "Il nick non può essere cambiato: %s"

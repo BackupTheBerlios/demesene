@@ -1,0 +1,1939 @@
+# Thai translation for emesene
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the emesene package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emesene\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-05-29 21:57+0000\n"
+"Last-Translator: NUTKABPOM <Unknown>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"ช่อง '%(identifier)s ('%(value)s') ไม่ใช่\n"
+"'%(message)s' ที่ถูกต้อง"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "ออนไลน์"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "ไม่อยู่"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "ไม่ว่าง"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "เดี๋ยวกลับมา"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "คุยโทรศัพท์"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "ไปทานข้าว"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "ล่องหน"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "นิ่งเฉย"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "ออฟไลน์"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "ออนไลน์"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "ไม่อยู่"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "ไม่ว่าง"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "เดี๋ยวกลับมา"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "คุยโทรศัพท์"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "ไปทานข้าว"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "ล่องหน"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "นิ่งเฉย"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "ออฟไลน์"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "ผิดพลาดระหว่างการเข้าระบบ ลองใหม่อีกครั้ง"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "สถานะ"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "ข้อผิดพลาดร้ายแรง"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "พบบั๊กของโปรแกรม โปรดรายงานที่:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "invalid check() return value"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "ไม่สามารถเริ่มการทำงานปลั๊กอิน %s เนื่องจาก"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "บัญชีว่าง"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "เกิดข้อผิดพลาดในการโหลดธีม ระบบจะกลับสู่ค่าเริ่มต้น"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "มีการเข้าสู่ระบบจากที่อื่น"
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "เซิร์ฟเวอร์ได้ตัดการเชื่อมต่อของคุณ"
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "สนทนากลุ่ม"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s ได้ส่งการเขย่าให้กับคุณ!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s ได้เข้าร่วมการสนทนา"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s ได้ออกจากการสนทนา"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "คุณส่งการเขย่า!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "คุณแน่ใจว่าต้องการส่งข้อความขณะออฟไลน์ถึง %s"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "ไม่สามารถส่งข้อความ"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "นี่คือข้อความที่ส่งออกไป"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "นี่คือข้อความที่ส่งออกไปแบบต่อเนื่อง"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "นี่คือข้อความที่รับเข้ามา"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "นี่คือข้อความที่รับแบบต่อเนื่อง"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "ข้อความระบบ"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "ข้อความรายงานข้อผิดพลาด"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "พูดว่า"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "กำลังพิมพ์ข้อความ..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "กำลังพิมพ์ข้อความ..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "กำลังเชื่อมต่อ..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "เชื่อมต่อใหม่"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "มีผู้ใช้รายนี้อยู่แล้ว"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "ผู้ใช้ออฟไลน์"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "ไม่สามารถเชื่อมต่อ"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "สมาชิก"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "ส่ง"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "รูปแบบอักษร"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "รูปแสดงอารมณ์"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "สั่นหน้าจอ"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "เชิญ"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "ล้างการสนทนา"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "ส่งไฟล์"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "เลือกรูปแบบอักษร"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "เลือกสีอักษร"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "รูปแบบอักษร"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "ใส่รูปแสดงอารมณ์"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "ส่งการเขย่า"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "เชิญเพื่อนเข้าสู่การสนทนา"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "ล้างการสนทนา"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "ส่งไฟล์"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "ผู้ใช้"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr "กด CTRL ค้างไว้เพื่อเลือกหลายอัน"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "สถานะ:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "ความเร็วเฉลี่ย"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "ใช้เวลาอีก:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "เลือกแบบอักษร"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "เลือกสี"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "ส่งไฟล์"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "การสนทนา"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "เชิญชวน"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "ส่งไฟล์"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "ล้างการสนทนา"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "ปิดทั้งหมด"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "รูปแบบ"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "ไม่มีคีย์ลัด"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "คีย์ลัดนี้ถูกใช้แล้ว"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "ยังไม่ได้เลือกภาพไว้ขณะนี้"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "กำลังส่ง %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s ได้ส่ง %(file)s ให้กับคุณ"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "คุณตอบรับ %s"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "คุณยกเลิกการรับไฟล์ %s"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "เริ่มการส่งไฟล์ %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "การส่งไฟล์ %s ล้มเหลว"
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "บางส่วนของแฟ้มสูญหาย"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "ถูกขัดขวางโดยผู้ใช้"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "เกิดข้อผิดพลาดในการส่ง"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s ส่งเสร็จแล้ว"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "ได้รับ %s เรียบร้อยแล้ว"
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "ตัวหนา"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "ตัวเอียง"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "ขีดเส้นใต้"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "ขีดทับ"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "คืนค่าเดิม"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "เปลี่ยนชื่อกลุ่ม..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "ลบกลุ่ม"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "เพิ่มผู้ติดต่อ..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "เพิ่มกลุ่ม..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "ดูบันทึกเหตุการณ์"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s ได้เปลี่ยนชื่อเป็น %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s เปลี่ยนข้อความส่วนตัวเป็น %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s เปลี่ยนสถานะเป็น %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s ได้ออฟไลน์แล้ว\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, fuzzy, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s ได้ส่งการเขย่าถึงคุณ\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "เปิดแฟ้มบันทึกเหตุการณ์"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "เปิด"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "ไฟล์"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "ผู้ติดต่อ"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "ชื่อ"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "ผู้ติดต่อ"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "เหตการณ์ผู้ใช้"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "เหตุการณ์การสนทนา"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "เหตการณ์ผู้ใช้"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "เหตุการณ์การสนทนา"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "สถานะ"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "เลือกทั้งหมด"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "ไม่เลือกทั้งหมด"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "ผู้ใช้:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "รหัสผ่าน:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "สถานะ:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "เข้าสู่ระบบ"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "จำการเข้าสู้ระบบ"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "ลบข้อมูลผู้ใช้ของคุณ"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "จดจำรหัสผ่าน"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "เข้าสู่ระบบโดยอัตโนมัติ"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "การเชื่อมต่อผิดพลาด"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "เชื่อมต่อใหม่ใน "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " วินาที"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "กำลังเชื่อมต่อใหม่..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "คุณยังไม่ได้กรอกชื่อผู้ใช้หรือรหัสผ่าน"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "มุมมอง"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "การกระทำ"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "ตัวเลือก"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "วิธีใช้"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "บัญชีใหม่"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "เรียงตามกลุ่ม"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "เรียงตามสถานะ"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "แสดงโดยชื่อ"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "แสดงผู้ใช้ที่ออฟไลน์"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "แสดงกลุ่มว่าง"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "แสดงจำนวนผู้ติดต่อ"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "ตั้งชื่อที่ใช้แสดงแทน"
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "บล็อค"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "ยกเลิกบล็อค"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "ย้ายไปยังกลุ่ม"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "ลบผู้ติดต่อ"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "เปลี่ยนชื่อเล่น"
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "เปลี่ยนรูปภาพแสดงตน"
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "แก้ไขการโต้ตอบอัตโนมัติ"
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "เปิดใช้การโต้ตอบอัตโนมัติ"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "ปลั๊กอิน"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "ลูกข่ายสำหรับเครือข่าย WLM%s"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  DevilDogTG https://launchpad.net/~devildogtg\n"
+"  NUTKABPOM https://launchpad.net/~nutkabpom\n"
+"  Tharawut Paripaiboon https://launchpad.net/~xcession"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "ไม่มีการโต้ตอบอัตโนมัติ"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "ข้อความโต้ตอบอัตโนมัติ:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "เปลี่ยนการโต้ตอบอัตโนมัติ"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "ไม่มีกลุ่ม"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "ตัวจัดการปลั๊กอิน"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "ทำงาน"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "ผู้เขียน:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "เว็บไซต์:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "ปรับแต่ง"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "การเริ่มการทำงานของปลั๊กอินล้มเหลว: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "ธีม"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "ส่วนติดต่อผู้ใช้"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "ชุดสี"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "การส่งไฟล์"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "เดสก์ท็อป"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "การเชื่อมต่อ"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "ผู้ติดต่อกำลังพิมพ์"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "กำลังรอข้อความ"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "ข้อความส่วนตัว"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "ลิงค์และไฟล์"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "เปิดใช้งาน rgba colormap (ต้องเริ่มโปรแกรมใหม่)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"ตรวจพบ Desktop Environment คือ <b>\"%(detected)s\"</b>\n"
+"<span face=\"Monospace\">%(commandline)s</span> จะถูกใช้เพื่อเปิดลิงค์และไฟล์"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>ไม่พบ Desktop Environment</b> "
+"จะใช้โปรแกรมเว็บบราวเซอร์ที่ตรวจพบในการเปิดลิงค์"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "คำสั่ง:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "การตั้งค่าด้วยตัวเอง"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>Note</i> %s จะถูกแทนที่ด้วย url"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "คลิกเพื่อทดสอบ"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "แสดงข้อความดีบักในคอนโซล"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "แสดงการดีบักเป็นไบนารี่โค้ด"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "ใช้การเชื่อมต่อแบบ HTTP"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "ตั้งค่าพร็อกซี่"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "ใช้ไอคอนขนาดเล็ก"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "แสดงรูปแสดงอารมณ์"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "ยกเลิกการจัดรูปแบบข้อความ"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "ชุดรูปแสดงอารมณ์"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "การจัดวางการสนทนา"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "ชื่อ:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "คำอธิบาย:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "แสดงแถบเมนู"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "แสดงแผงควบคุมของผู้ใช้"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "แสดงแถบการค้นหา"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "แสดงแถบสถานะ"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "หน้าต่างหลัก"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "แสดงหัวข้อสนทนา"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "แสดงแถบเครื่องมือสนทนา"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "แสดงปุ่มส่ง"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "แสดงแถบสถานะ"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "แสดงรูปประจำตัว"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "หน้าต่างสนทนา"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "ใช้หน้าต่างหลายบาน"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "แสดงปุ่มปิดบนทุกๆ แท็ป"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "แสดงรูปประจำตัว"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "ใช้รูปประจำตัวแทนไอค่อนบนทาส์กบาร์"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "ใช้พร็อกซี่:"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "โฮสต์:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "พอร์ต:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "เลือกไดเรกทอรี่"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "เรียงแฟ้มที่ได้รับตามผู้ส่ง"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "บันทึกแฟ้มเป็น:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr ""
+"ใช้คำสั่ง \"/help <คำสั่ง>\" เพื่อดูความช่วยเหลือเพิ่มเติมของคำสั่งนั้น"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "คำสั่งที่สามารถใช้ได้:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "ไม่พบคำสั่ง %s"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "รูปแสดงอารมณ์"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "เปลี่ยนคีย์ลัด"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "ลบ"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "ไม่มีคีย์ลัด"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "คีย์ลัดใหม่"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "บล็อค: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "มีคุณในรายการ: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "มี MSN Space: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "ใช่"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "ไม่"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s ตั้งแต่: %(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "เปิดการสนทนา"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "ส่งจดหมาย"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "คัดลอกอีเมล์"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "แสดงข้อมูลส่วนตัว"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "คัดลอกไปยังกลุ่ม"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "ลบออกจากกลุ่ม"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "คลิกที่นี่เพื่อตั้งข้อความส่วนตัว"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "ไม่มีสื่อที่กำลังเล่น"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "คลิกที่นี่เพื่อตั้งชื่อเล่น"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "กำลังเล่น"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "ผิดพลาด!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "คำเตือน"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "ข้อมูล"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "ขัอยกเว้น"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "การเชิญชวนผู้ใช้"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "เพิ่มผู้ใช้"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "บัญชี"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "กลุ่ม"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "เพิ่มกลุ่ม"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "ชื่อกลุ่ม"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "เปลี่ยนชื่อเล่น"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "ชื่อเล่นใหม่"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "เปลี่ยนข้อความส่วนตัว"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "ข้อความส่วนตัวใหม่"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "เปลี่ยนรูปภาพ"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "เปลี่ยนชื่อกลุ่ม"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "ชื่อกลุ่มใหม่"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "ตั้งค่านามแฝง"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "นามแฝงของผู้ติดต่อ"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "เพิ่มผู้ติดต่อ"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "เตือนฉันในภายหลัง"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" ได้เพิ่มคุณ\n"
+"คุณต้องการที่จะเพิ่ม เขา/เธอ ในรายการติดต่อหรือไม่?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "ตัวเลือกรูปประจำตัว"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "ไม่มีรูปภาพ"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "เอาออกทั้งหมด"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "ปัจจุบัน"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "คุณแน่ใจแล้วที่จะลบรายการทั้งหมด?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "ไม่มีรูปภาพถูกเลือก"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "เลือกรูปภาพ"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "ไฟล์ทั้งหมด"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "รูปภาพทั้งหมด"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "เล็ก (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "ใหญ่ (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "คีย์ลัด"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "เปิดลิงค์"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "คัดลอกตำแหน่งลิงค์"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "บันทึกเป็น..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "เปิดใช้งานคำสั่งที่ประโยชน์ (ดูคำสั่งโดยพิมพ์ /help)"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "คำสั่ง"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "แทนค่าตัวแปร"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "จะเปลี่ยนคำว่า me เป็นชื่อผู้ใช้ของคุณ"
+
+#: plugins_base/Commands.py:89
+#, fuzzy
+msgid "Sends a nudge"
+msgstr "ส่งการเขย่า"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "เชิญคู่สนทนา"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "เพิ่มผู้ติดต่อ"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "ลบผู้ติดต่อ"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "บล็อคผู้ติดต่อ"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "ยกเลิกบล็อคผู้ติดต่อ"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "ล้างการสนทนา"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "ตั้งชื่อเล่น"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "ตั้งข้อความส่วนตัว"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "ใช้ /%s ผู้ติดต่อ"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "แฟ้มไม่มีอยู่"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"แสดงข้อความส่วนตัวด้วยเพลงที่เล่นปัจจุบันในโปรแกรมเครื่องเล่นที่หลากหลาย"
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "เพลงปัจจุบัน"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "รูปแบบการแสดงผล"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"เปลี่ยนรูปแบบการแสดงของเพลงที่คุณกำลังฟัง ตัวแปรที่ใช้ได้ประกอบด้วย %title, "
+"%artist และ %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "โปรแกรมเล่นเพลง"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "เลือกโปรแกรมเล่นเพลงที่คุณใช้อยู่"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "แสดงบันทึกเหตุการณ์"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "เปลี่ยนรูปประจำตัว"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "หาปกซีดีจากเว็บ"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "ตั้งค่ากำหนดเอง"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "ตั้งค่าปลั๊กอิน"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "บันทึกเหตุการณ์"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "ชนิด"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "ค่า"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "ด้วยปลั๊กอินนี้คุณสามารถใช้งานร่วมกันด้วย Dbus กับ emesene"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "ประเมินคำสั่งไพธอน"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "เรียกคำสั่ง Python"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "อนุญาตให้ผู้ใช้:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "ตั้งค่าการควบคุมระยะไกล"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"เปลี่ยนสถานะที่คุณเลือกถ้าวาระของคุณเป็นนิ่งเฉย (คุณควรใช้ gnome และมี gname-"
+"screensaver ติดตั้งอยู่ด้วย)"
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "เปลี่ยนสถานะนิ่งเฉย"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "สถานะเมื่อนิ่งเฉย:"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "ตั้งสถานะนิ่งเฉย"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "ตั้งค่าการเปลี่ยนสถานะนิ่งเฉย"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "รับรายการบางอย่างจากประวัติ"
+
+#: plugins_base/LastStuff.py:70
+#, fuzzy
+msgid "invalid number as first parameter"
+msgstr "ตัวเลขไม่ถูกต้องที่ตัวแปรแรก"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "ผลลัพธ์ว่าง"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "เปิดใช้งานปลั๊กอินตัวจดบันทึก"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "เกิดปัญหาในการเริ่มใช้งานโมดูล pynotify"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "เตือนเกี่ยวกับเหตุการต่าง ๆ โดยใช้ pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "เตือนเมื่อมีผู้ใช้ออนไลน์"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "เตือนเมื่อมีผู้ใช้ออฟไลน์"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "เตือนเมื่อได้รับอีเมล์"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "เตือนเมื่อผู้ใช้เริ่มพิมพ์"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "เตือนเมื่อได้รับข้อความ"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "ปิดการเตือนเมื่ออยู่ในสถานะไม่ว่าง"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "ตั้งค่าปลั๊กอิน LibNotify"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "กำลังออนไลน์"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "กำลังออฟไลน์"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "ได้ส่งข้อความ"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "ส่งข้อความออฟไลน์"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "เริ่มพิมพ์"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "จาก: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "หัวเรื่อง: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "อีเมล์ใหม่"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "คุณมี %(num)i ข้อความที่ไม่ได้อ่าน %(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "แสดงบันทึกการสนทนา"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "บันทึกการสนทนาของ %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "วันที่"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "ไม่พบบันทึกเหตุการณ์ของ %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "จดบันทึกการสนทนา"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "ตั้งค่าการแจ้งเตือน"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "ข้อความตัวอย่าง"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "รูปภาพ"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "ไม่ต้องเตือนเมื่อเริ่มการสนทนา"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "บนซ้าย"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "บนขวา"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "ล่างซ้าย"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "ล่างขวา"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "เลื่อนกรอบ"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "แนวนอน"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "แนวตั้ง"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr "แสดงหน้าต่างเล็กที่มุมล่างขวาของหน้าจอเมื่อมีผู้ใช้ออนไลน์"
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "การแจ้งเตือน"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "เริ่มพิมพ์..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "บันทึกข้อความส่วนตัวระหว่างวาระ"
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "ข้อความส่วนตัว"
+
+#: plugins_base/Plugin.py:162
+#, fuzzy
+msgid "Key"
+msgstr "ปุ่ม"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "ปลั๊กอินเสมือน Messenger Plus สำหรับ emesene"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "เลือกสีกำหนดเอง"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "เปิดใช้สีพื้นหลัง"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "แผงควบคุมเพื่อสนับสนุนรูปแบบข้อความของ Messenger Plus"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "แผงควบคุมสีของ Plus"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "ถ่ายภาพหน้าจอและส่งด้วย "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "ถ่ายรูปหน้าจอ"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "กำลังจะถ่ายรูปหน้าจอใน %s วินาที"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr "ทิป: ใช้ \"/screenshot save <seconds>\" เพื่อข้ามการอัพโหลด "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "แฟ้มชั่วคราว:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "เล่นเสียงสำหรับเหตุการณืทั่วไป"
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "เสียง"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "ไม่พบ gstreamer, play และ aplay"
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "เล่นเสียงเมื่อออนไลน์"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "เล่นเสียงเมื่อมีผู้ใช้ออนไลน์"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "เล่นเสียงข้อความ"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "เล่นเสียงเมื่อมีใครบางคนส่งข้อความถึงคุณ"
+
+#: plugins_base/Sound.py:265
+#, fuzzy
+msgid "Play nudge sound"
+msgstr "เล่นเสียงการเขย่า"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "เล่นเสียงเมื่อใครบางคนเขย่าหน้าต่างของคุณ"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "เล่นเสียงเมื่อคุณส่งข้อความ"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "เล่นเสียงข้อความเมื่อไม่ได้อยู่ที่หน้าต่างเท่านั้น"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "เล่นเสียงข้อความเมื่อไม่ได้อยู่ที่หน้าต่างเท่านั้น"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "ปิดเสียงเมื่ออยู่ในสถานะไม่ว่าง"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "ใช้เสียงบี๊บของระบบ"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "เล่นเสียงบี๊บของระบบแทนแฟ้มเสียง"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "ตั้งต่าปลั๊กอินเสียง"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr "คุณต้องติดตั้ง gtkspell เพื่อใช้ปลั๊กอินสะกดคำ"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "ตรวจสอบสะกดคำของ emesene"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "สะกดคำ"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "ปลั๊กอินปิดการใช้งาน"
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "ผิดพลาดในการนำเข้าการสะกดคำ (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "ผิดพลาดในการรับรายการพจนานุกรม"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "ไม่พบพจนานุกรม"
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "ภาษาปริยาย"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "ตั้งภาษาปริยาย"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "ตั้งค่าการสะกดคำ"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "แสดงรูปภาพสถานะ:"
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "ตั้งค่าปลั๊กอินประวัติสถานะ"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "แก้ไขแฟ้มตั้งค่าของคุณ"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "ปรับแต่งแก้ไข"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "การตั้งค่าแบบเลือกเอง"
+
+#: plugins_base/WindowTremblingNudge.py:34
+#, fuzzy
+msgid "Shakes the window when a nudge is received."
+msgstr "เขย่าหน้าต่างเมื่อได้รับการเขย่า"
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "หน้าต่างสั่นได้"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "แสดงรูปย่อของวิดีโอ Youtube ข้างตัวเชื่อมต่อ"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "ส่งข้อมูลไปที่ last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "ชื่อผู้ใช้:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "คุณแน่ใจแล้วที่จะลบ %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "เอาออก"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "ย้าย"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "คัดลอก"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "ตั้งค่า _alias"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "คุณแน่ใจแล้วที่จะลบผู้ติดต่อ %s?"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "คุณแน่ใจแล้วที่จะลบกลุ่ม %s?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "ชื่อใหม่เป็นชื่อเดียวกันกับชื่อเดิม"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "ชื่อใหม่ไม่ถูกต้อง"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "เปลี่ยนชื่อ"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "เพิ่มผู้ติดต่อ"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "คุณแน่ใจแล้วที่จะลบกลุ่ม %s?"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "ออก"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "ยกเลิกการเชื่อมต่อ"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "ผู้ติดต่อ"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "เพิ่ม"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "ตั้งชื่อเล่น"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "ตั้งข้อความ"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "ตั้งรูปภาพ"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "ปรับแต่ง"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "ปลั๊กอิน"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "เกี่ยวกับ"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "ไม่ได้เลือกกลุ่มใดๆ"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "ไม่มีผู้ติดต่อใดถูกเลือก"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "ทานข้าว"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "ไม่สามารถเพิ่มผู้ใช้: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "ไม่สามารถลบผู้ใช้: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "ไม่สามารถเพิ่มผู้ใช้เข้ากลุ่ม: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "ไม่สามารถย้ายผู้ใช้ไปยังกลุ่ม: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "ไม่สามารถลบผู้ใช้: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "ไม่สามารถเพิ่มกลุ่ม: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "ไม่สามารถลบกลุ่ม: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "ไม่สามารถเปลี่ยนชื่อกลุ่ม: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "ไม่สามารถเปลี่ยนชื่อเล่น: %s"

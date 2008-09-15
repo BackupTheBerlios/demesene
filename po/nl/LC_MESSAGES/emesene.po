@@ -1,0 +1,1943 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1006\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-04-18 10:26+0000\n"
+"Last-Translator: erikkll <erik@kleinlangenhorst.nl>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"Veld '%(identifier)s ('%(value)s') niet geldig\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "Online"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "Afwezig"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "Bezet"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "Ben zo terug"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "Aan de telefoon"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "Lunchpauze"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "Offline weergeven"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "Weg"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "Offline"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "_Online"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "_Afwezig"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "_Bezet"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "Ben _zo terug"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "Aan de _telefoon"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "Aan het _lunchen"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "_Offline weergeven"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "W_eg"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "O_ffline"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "Fout tijdens het inloggen, probeer het a.u.b. nogmaals"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_Status"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "Ernstige fout"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "Dit is een bug. Meld het bij:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "Ongeldige check() waarde teruggekregen"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "plugin %s kon niet worden ingesteld. De reden is:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "Leeg account"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "Probleem met het laden van het thema. Standaard thema wordt gebruikt"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "Ingelogd vanaf een andere locatie."
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "De server heeft de verbinding verbroken."
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "Groepchat"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s heeft je een buzzer gestuurd!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s neemt deel aan het gesprek"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s heeft het gesprek verlaten"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "Je hebt een buzzer verzonden!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "Weet je zeker dat je %s een offline bericht wil sturen?"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "Kan het bericht niet verzenden"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "Dit is een uitgaand bericht"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "Dit is een tweede uitgaand bericht"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "Dit is een inkomend bericht"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "Dit is een tweede inkomend bericht"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "Dit is een informatiebericht"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "Dit is een foutmelding"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "zegt"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "is aan het typen..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "zijn een bericht aan het typen"
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "Verbinding maken..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "Opnieuw verbinding maken"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "De gebruiker is al aanwezig"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "De gebruiker is offline"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "Kan geen verbinding maken"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "Deelnemers"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "Verzenden"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "Selecteer lettertype"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "Smilie"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "Buzzer"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "Uitnodiging"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "Gesprek wissen"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "Bestand verzenden"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "Lettertype selecteren"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "Letterkleur instellen"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "Tekstopmaak"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "Smiley invoegen"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "Buzzer versturen"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "Nodig een vriend uit in dit gesprek"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "Gesprek wissen"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "Bestand verzenden"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "Gebruikers"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr "Houd CTRL ingedrukt om meerdere contactpersonen te selecteren"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "Status:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "Gemiddelde snelheid:"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "Verstreken tijd:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "Kies een lettertype"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "Kies een kleur"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "Bestand verzenden"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "_Gesprek"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "_Uitnodigen"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "Bestand verzenden"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "Gesprek wissen"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "Alle sluiten"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "Le_ttertype"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "Sneltoets is leeg"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "Sneltoets is al in gebruik"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "%s versturen"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s stuurt je %(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "Je hebt %s geaccepteerd"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "Je hebt het verzenden/ontvangen van %s geannuleerd"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "Bezig met ontvangen van %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "Verzenden/ontvangen van %s is mislukt"
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "Delen van het bestand ontbreken"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "Onderbroken door gebruiker"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "Overdrachtsfout"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s succesvol ontvangen"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "%s succesvol ontvangen"
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "Vet"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "Schuingedrukt"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "Doorgestreept"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "Herstellen"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "Her_noem groep..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "Ver_wijder groep"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "Voeg cont_act toe..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "Voeg _groep toe..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "Gespreksgeschiedenis"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s wijzigde schermnaam naar %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s wijzigde persoonlijk bericht naar %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s wijzigde status naar %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s is nu offline\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s heeft je een buzzer gestuurd\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "Open een logbestand"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "Openen"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_Bestand"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "Contact"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "Naam"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "Contacten"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "Gebruikersgebeurtenissen"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "Gespreksgebeurtenissen"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "Gebruikersgebeurtenissen"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "Gespreksgebeurtenissen"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "Status"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "Alles selecteren"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "Alles deselecteren"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "Gebr_uiker:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "_Wachtwoord:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "_Status:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "_Aanmelden"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "Herinner mij"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "Vergeet mij"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "Onthoud wachtwoo_rd"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "Automatisch inloggen"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "Verbindingsprobleem"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "Opnieuw verbinden over "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " seconden"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "Opnieuw verbinden..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "Gebruikersnaam of wachtwoord leeg"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "_Bekijk"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "_Acties"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_Opties"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_Help"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "_Nieuw account"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "Sorteren op _groepsnaam"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "Sorteren op _status"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "Toon gebruikers_namen"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "Toon offline gebruikers"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "Toon l_ege groepen"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "Toon aantal _contacten"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "_Stel weergavenaam in"
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "_Blokkeer"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "_Deblokkeer"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "_Verplaats naar groep"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "Contact ver_wijderen"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "Schermnaam _wijzigen..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "Schermafbeelding wijzigen"
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "A_utomatisch antwoord bewerken..."
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "Au_tomatisch antwoord activeren"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "P_lugins"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "Een client voor het WLM%s netwerk"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"vertaler\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Emilio Pozuelo Monfort https://launchpad.net/~pochu\n"
+"  erikkll https://launchpad.net/~erik-kleinlangenhorst"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "Autoreply bericht is leeg"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "Automatisch antwoord:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "Wijzig automatisch antwoord"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "geen groep"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "Plugin beheerder"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "Actief"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "Beschrijving"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "Auteur"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "Website"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "Instellen"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "Inschakelen van plugin mislukt: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "Thema"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "Interface"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "Kleurenschema"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "Bestandsoverdracht"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "Desktop"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "Verbinding"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "Contact is aan het typen"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "Bericht wacht"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "Persoonlijk msn bericht"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "Links en bestanden"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "Rgba colormap inschakelen (herstart vereist)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"De gedetecteerde desktop omgeving is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> zal worden gebruikt voor het "
+"openen van links en bestanden"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>Geen desktop omgeving gedetecteerd.</b> De eerstgevonden browser zal "
+"gebruikt worden om links te openen"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "Commando:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "Gedetecteerde instellingen overschrijven"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>Opmerking:</i> %s zal worden vervangen door de url"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "Klik om te testen"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "Laat debug zien in con_sole"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "_Laat binaire codes zien in debug"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "Gebr_uik HTTP methode"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "Proxy instellingen"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "Gebruik kleine _iconen"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "Toon _smilies"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "Tekst niet opmaken"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "Smilie thema"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "Gesprekslayout"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "Naam:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "Toon _menubalk"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "Toon gebr_uikerspaneel"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "Toon _zoekopdracht"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "Toon status _combinatie"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "Hoofdvenster"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "Toon gespreks_titel"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "Toon gesprekstoolbar"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "Toon verzendknop"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "Toon st_atusbalk"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "Toon _schermafbeeldingen"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "Gespreksvenster"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "Gebruik losse vensters i.p.v. tabbladen"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "Toon sluitknop op elk tabblad"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "Toon _schermafbeeldingen"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "Toon schermafbeeldingen in taak_balk"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "Gebr_uik proxy"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "_Hostnaam"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "_Poort:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "Kies een map"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "Ontvangen bestanden sorteren op verzender"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "Bestanden opslaan in:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr ""
+"Typ \"/help <commando\" voor hulp bij het gebruik van een specifiek commando"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "De volgende commando's zijn beschikbaar:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "Het commando %s bestaat niet"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "Smilies"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "Wijzig sneltoets"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "Verwijder"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "Lege sneltoets"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "Nieuwe sneltoets"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "Geblokkeerd: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "Heeft jou: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "Heeft MSN Space: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "Ja"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "Nee"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s sinds: %(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "_Begin gesprek"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "Stuur e-_mail"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "Kopieer adres"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "Bekijk profiel"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "_Kopieer naar groep"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "V_erwijder uit groep"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "Klik hier om je persoonlijk bericht in te stellen"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "Er wordt nu niets gespeeld"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "Klik hier om je schermnaam in te stellen"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "Je huidige media"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "Fout!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "Informatie"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "Uitzondering"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "Gebruikersuitnodiging"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "Contact toevoegen"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "Account"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "Groep"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "Groep toevoegen"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "Groepsnaam"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "_Wijzig schermnaam"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "Nieuwe schermnaam"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "Wijzig persoonlijk bericht"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "Nieuw persoonlijk bericht"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "_Schermafbeelding wijzigen"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "Hernoem groep"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "Nieuwe groepsnaam"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "Weergavenaam instellen"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "Contact weergavenaam"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "Voeg contact toe"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "Herinner me later"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" heeft je toegevoegd. \n"
+"Wil je hem/haar toevoegen aan je contactenlijst?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "Avatar selecteren"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "Geen afbeelding"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "Alles verwijderen"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "Huidig"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "Weet u zeker dat u alle items wil verwijderen?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "Afbeelding selecteren"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "Alle bestanden"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "Alle afbeeldingen"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "klein (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "groot (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "Sneltoets"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "_Open link"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "_Kopieer link locatie"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "Op_slaan als..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "Maak enkele handige commando's beschikbaar, probeer /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "Commando's"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "Vervangt variabelen"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "Vervangt mij met je gebruikersnaam"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "Verstuur buzzer"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "Nodig een contactpersoon uit"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "Voeg contact toe"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "Verwijder contact"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "Blokkeer een contactpersoon"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "Deblokkeer een contactpersoon"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "Wis het gespreksvenster"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "Stelt je schermnaam in"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "Stelt je persoonlijk bericht in"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "Gebruik /%s contact"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "Bestand bestaat niet"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"Toon een persoonlijk bericht met het huidige nummer, afgespeeld in "
+"verschillende spelers"
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "HuidigNummer"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "Weegavestijl"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"Wijzig weergavestijl van het nummer dat je luistert, mogelijkheden zijn "
+"%title, %artist en %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "Muziek speler"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "Selecteer het programma dat je gebruikt"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "Toon logbestanden"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "Wijzig schermafbeelding"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "Download hoesje van het internet"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "Eigen instellingen"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "Configureer plugin"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "Logbestanden"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "Soort"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "Waarde"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "Met deze plugin kun je Dbus gebruiken voor het gebruik van emesene"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "Voer python commando's uit - OP EIGEN RISICO GEBRUIKEN"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "Python commando's uitvoeren"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "Toegestane gebruikers:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "Configuratie op afstand"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"Wijzigt status naar een geselecteerde status wanneer je weg bent (werkt "
+"alleen met gnome(-screensaver)"
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "Afwezig statuswijziging"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "Status als je er niet bent"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "Stel de status in"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "Statuswijzing configuratie"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "Verkrijg de laatste delen uit de logbestanden"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "Ongeldig nummer als eerste parameter"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "Resultaat is leeg"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "Schakel de logger plugin in"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "Er was een probleem bij het initialiseren van de pynotify module"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr ""
+"Laat je op de hoogte brengen van verschillende gebeurtenissen met pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "Toon bericht wanneer iemand online komt"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "Toon bericht wanneer iemand online komt"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "Toon bericht wanneer een email ontvangen is"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "Toon bericht wanneer gebruiker begint te typen"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "Toon bericht wanneer een bericht ontvangen is"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "Toon geen berichten wanneer je bezet bent"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "Configureer LibNotify plugin"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "is online"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "is offline"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "heeft een bericht gestuurd"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "heeft een offline bericht gestuurd"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "begint te typen"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "Van: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "Ond: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "Nieuwe email"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "U heeft %(num)i ongelezen bericht%(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "Toon gespreksgeschiedenis"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "Gespreksgeschiedenis voor %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "Datum"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "Geen gesprekken gevonden voor %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "Gesprek opslaan"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "Mededelingen configuratie"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "Voorbeeldtekst"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "Afbeelding"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "Geen melding als gesprek is geopend"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "Positie"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "Linksboven"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "Rechtsboven"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "Scrollen"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr ""
+"Toon een klein venster rechtsonder in je scherm wanneer bijvoorbeeld iemand "
+"online komt"
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "Mededeling"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "begint te typen..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "Bewaar het persoonlijk bericht tussen 2 sessies"
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "Persoonlijk bericht"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "Toets"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "Een messenger plus-achtige plugin voor emesene"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "Selecteer eigen kleur"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "Schakel achtergrondkleur in"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "Een paneel om msn-plus mogelijkheden op tekst toe te passen"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Plus kleurenpaneel"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "Neem screenshots en verstuur ze met "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "Neemt screenshots"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "Neemt screenshot over %s seconden"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr "Tip: gebruik \"/screenshot save <seconden>\" om niet te uploaden "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "Tijdelijk bestand:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "Speelt geluiden voor veel voorkomende gebeurtenissen"
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "Geluid"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer, play en aplay niet gevonden"
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "Speel online-geluid af"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "Speel een geluid af wanneer iemand online komt"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "Speel bericht-geluid af"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "Speel een geluid af wanneer iemand een bericht stuurt"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "Speel buzzer-geluid af"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "Speel een geluid af wanneer iemand een buzzer stuurt"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "Speel een geluid af wanneer je een bericht stuurt"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr ""
+"Speel alleen berichtgeluiden wanneer het venster niet op de voorgrond is"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr ""
+"Speel alleen berichtgeluiden wanneer het venster niet op de voorgrond is"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "Speel geen geluiden af wanneer je bezet bent"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "Gebruik systeempiep"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "Laat het systeempiepje horen i.p.v. geluidsbestanden"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "Configureer geluidsplugin"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr ""
+"Je dient gtkspell te installeren om de spelling plugin te kunnen gebruiken"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "Spellingscontrole voor emesene"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "Spelling"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "Plugin niet geactiveerd."
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "Fout bij het toepassen van Spelling op invoer (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "Fout tijdens het opvragen van woordenboeken"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "Geen woordenboeken gevonden."
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "Standaardtaal"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "Stel de standaardtaal in"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "Spelling configuratie"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "Toon statusafbeelding:"
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "Statusgeschiedenis plugin configuratie"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "Pas je configuratiebestand aan"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "Verbeteringen"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "Configureer configuratie"
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "Schudt het venster wanneer een buzzer wordt ontvangen."
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "Vensterschuddende buzzer"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "Toont een voorbeeld van youtube video's naast betreffende links"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "Stuur informatie naar last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Weet je zeker dat je %s wil verwijderen?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "Ver_wijdereren"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "_Verplaatsen"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "_Kopieren"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "_Weergavenaam instellen"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "Weet je zeker dat je %s uit je lijst wil verwijderen?"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "Weet je zeker dat je groep %s wil verwijderen?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "Oude en nieuwe naam zijn hetzelfde"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "nieuwe naam is ongeldig"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "Her_noem"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "Voeg contact toe"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "Weet je zeker dat je groep %s wil verwijderen?"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "_Verbinding verbreken"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "_Contact"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "_Toevoegen"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "Toon gebruikers_namen"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "Voltooid bericht"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "_Geen afbeelding"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "Voorkeuren"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "P_lugins"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "_Info"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "Geen groep geselecteerd"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "Geen contactpersoon geselecteerd"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "Lunchpauze"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "Gebruiker %s kon niet worden toegevoegd"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "Gebruiker %s kon niet worden verwijderd"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "Gebruiker kon niet worden toegevoegd aan groep %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "Gebruiker kon niet worden verplaatst naar groep: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "Gebruiker kon niet worden verwijderd: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "Groep kon niet worden toegevoegd: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "Groep kon niet worden verwijderd: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "Groep kon niet worden hernoemd: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "Naam kon niet worden gewijzigd: %s"

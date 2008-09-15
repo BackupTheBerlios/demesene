@@ -1,0 +1,1928 @@
+# emesene translation for the Hebrew language.
+# Copyright (C) Mark Krapivner <mark125@gmail.com>
+# This file is distributed under the same license as the emesene package.
+# Mark Krapivner <mark125@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emesene\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-04-18 11:26+0000\n"
+"Last-Translator: Mark Krapivner <mark125@gmail.com>\n"
+"Language-Team: hebrew <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Language: Hebrew\n"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "מחובר"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "לא נמצא"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "עסוק"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "מיד אשוב"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "משוחח בטלפון"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "יצא לאכול"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "בלתי נראה"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "לא פעיל"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "מנותק"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "_מחובר"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "_לא נמצא"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "_עסוק"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "מיד _אשוב"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "משוחח _בטלפון"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "יצא _לאכול"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "_בלתי נראה"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "לא _פעיל"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "מנו_תק"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "שגיאה בתהליך ההתחברות, נסה שוב"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_מצב"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "תקלה משמעותית"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr ""
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr ""
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "לא ניתן לאתחל את התוסף %s, סיבה:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "חשבון ריק"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "שגיאה בטעינת הערכה, מחזיר לברירת המחדל"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "מחובר ממיקום אחר."
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "השרת ניתק אותך."
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "צ'ט קבוצתי"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s שלך לך נדנוד!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s הצטרף לשיחה"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s עזב את השיחה"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "שלחת נדנוד"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr ""
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "לא ניתן לשלוח הודעה"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr ""
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr ""
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr ""
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr ""
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "זו היא הודעת מידע"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "זו היא הודעת שגיאה"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "אומר"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "מקליד הודעה..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "מקלידים הודעה..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "מתחבר..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "התחבר מחדש"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "המשתמש כבר נוכח"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "המשתמש מנותק"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "לא ניתן להתחבר"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "חברים"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "שלח"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "עיצוב גופן"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "סמיילי"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "נדנוד"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "הזמן"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "נקה שיחה"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "שלח קובץ"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "בחירת גופן"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "בחירת צבע גופן"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "עיצוב גופן"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "הכנס סמיילי"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "שלך נדנוד"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "הזמן חבר לשיחה"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "נקה שיחה"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "שלח קובץ"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "משתמשים"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr ""
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "מצב:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "מהירות ממוצעת:"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "זמן שחלף:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "בחר גופן"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "בחר צבע"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "שלח קובץ"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "_שיחה"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "_הזמן"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "_שלח קובץ"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "נ_קה שיחה"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "סגור הכל"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "עיצו_ב"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "הקיצור ריק"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr ""
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "לא נבחרה תמונה"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "שולח %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr ""
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr ""
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "ביטלת את ההעברה של %s"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "מתחיל את ההעברה של %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "ההעברה של %s נכשלה."
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "חלקים מהקובץ חסרים"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "ניקטע על ידי המשתמש"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "שגיאת העברה"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s נשלח בהצלחה"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "%s התקבל בהצלחה"
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "מודגש"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "נטוי"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "קו תחתון"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "קו חוצה"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "איפוס"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "שנוי _שם לקבוצה..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "ה_סר קבוצה"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "_הוסף איש קשר..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "הוסף _קבוצה..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "מציג יומנים"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr ""
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s שלך לך נדנוד\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr ""
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "פתח קובץ יומן"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "פתח"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "ביטול"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_קובץ"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "איש קשר"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "שם"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "אנשי קשר"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "אירועי משתמש"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "אירועי שיחה"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "אירועי משתמש"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "אירועי שיחה"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "מצב"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "בחר הכל"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "בטטל בחירה"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "_משתמש:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "_סיסמה:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "_מצב:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "_התחבר"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "_זכור אותי"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "שכח אותי"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "ז_כור סיסמה"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "התחברות אוטומטית"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "שגיאת חיבור"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "מתחבר מחדש בעוד "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " שניות"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "מתחבר מחדש..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "משתמש או סיסמה ריקים"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "_תצוגה"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "_פעולות"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_אפשרויות"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_עזרה"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "חשבון _חדש"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "סידור לפי _קבוצה"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "_סידור לפי _מצב"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "הצג לפי _כינוי"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "הצג חברים _מנותקים"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "הצג קבוצות _ריקות"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "הצג את _מספר אנשי קשר"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "קבע _כינוי לאיש קשר"
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "_חסימה"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "_בטל חסימה"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "הע_בר לקבוצה"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "_הסר איש קשר"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "_החלף כינוי..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "החלף _תמונת תצוגה..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "ערוך תגובה או_טומטית"
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "הפעלה תגובה אוטו_מטית"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "תו_ספים"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "תוכנה עבור רשת WLM%s"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"מארק קרפיבנר <mark125@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Mark Krapivner https://launchpad.net/~mark125\n"
+"  Yaron https://launchpad.net/~sh-yaron"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "תגובה אוטומטית ריקה"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "הודעת תגובה אוטומטית:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "שינוי תגובה אוטומטית"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "אין קבוצה"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "מנהל תוספים"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "פעיל"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "תיאור"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "יוצר:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "אתר אינטרנט:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "הגדר"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "הפעלת התוסף נכשלה: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "העדפות"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "ערכת נושא"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "ממשק"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "ערכת צבעים"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "העברת קבצים"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "חיבור"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "איש קשר מקליד"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "הודעה ממתינה"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "הודעת msn אישית"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "קישורים וקבצים"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr ""
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"סביבת שולחן העבודה שזוהתה היא <b>\"%(detected)s\"</b>.\n"
+"פתיחת קישורים וקבצים תתבצע בעזרת <span "
+"face=\"Monospace\">%(commandline)s</span>"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>לא זוהתה סביבת שולחן עבודה.</b> הדפדפן הראשון שימצא ישמש לפתיחת קישורים"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "שורת פקודה:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "עקיפת ההגדרות"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>הערה:</i>  %s יוחלף על ידי כתובת ממשית שתיפתח"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "לחץ כדי לבדוק"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr ""
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr ""
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr ""
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "הגדרות פרוקסי"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "_שימוש בסמלים קטנים"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "הצג _סמיילים"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "ביטול עיצוב טקסט"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "ערכת סמיילים"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "מבנה חלון שיחה"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "שם:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "תיאור:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "הצג _סרגל תפריטים"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "הצג את סרגל _המשתמש"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "הצג את שדה ה_חיפוש"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "הצג תפריט _מצב"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "חלון ראשי"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr ""
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr ""
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "הצ_ג כפתור שלח"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "הצג שו_רת מצב"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "הצג תמונות אי_שיות"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "חלון שיחה"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "שימוש _בחלונות מרובים"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "הצג כפתור סגירה על _כל לשונית"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "הצג _תמונות אישיות"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr ""
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "_שימוש בפרוקסי"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "_מארח:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "_יציאה:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "בחר תיקייה"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "מיון _קבצים שהתקבלו לפי השולח"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "_שמור קבצים אל:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr ""
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr ""
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "הפקודה %s לא קיימת"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "סמיילים"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "שינוי קיצור"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "מחיקה"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "קיצור ריק"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "קיצור חדש"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "חסום: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "יש אותך: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr ""
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "כן"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "לא"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr ""
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "_התחל שיחה"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "שלח _דואר אלקטרוני"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "העתק דואר אלקטרוני"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "הצג פרופיל"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "_העתק לקבוצה"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "הס_ר מקבוצה"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "לחץ כאן כדי לרשום את ההודעה האישית שלך"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr ""
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "לחץ כאן כדי לשנות את הכינוי שלך"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr ""
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "שגיאה!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "אזהרה"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "מידע"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr ""
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "אישור"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "הזמנת משתמש"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "הוסף משתמש"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "חשבון"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "קבוצה"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "הוסף קבוצה"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "שם הקבוצה"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "החלף כינוי"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "כינוי חדש"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "שינוי הודעה אישית"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "הודעה אישית חדשה"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "שינוי תמונה"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "שינוי שם לקבוצה"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "שם חדש לקבוצה"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr ""
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr ""
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "הוסף איש קשר"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "הזכר לי מאוחר יותר"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" הוסיף אותך.\n"
+"להוסיף אותו לרשימת אנשי הקשר שלך?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "בוחר תמונה אישית"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "אין תמונה"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "הסר הכל"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "נוכחי"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "האם אתה בטוח שברצונך להסיר את כל הפריטים?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "לא נבחרה תמונה"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "בוחר תמונה"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "כל התמונות"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "קטן  (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "גדול (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "קיצור"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "_פתח קישור"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "_העתק את מיקום הקישור"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "_שמור בשם..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr ""
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "פקודות"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr ""
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr ""
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "שולח נדנוד"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr ""
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "הוספת איש קשר"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "הסרת איש קשר"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "חסימת איש קשר"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "ביטול חסימת איש קשר"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "ניקוי השיחה"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "קבע את הכינוי שלך"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr ""
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr ""
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "קובץ לא קיים"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "שיר נוכחי"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "נגן מוזיקה"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "בחר את נגן המוזיקה שאתה משתמש בו"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "שינוי תמונה אישית"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr ""
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "סוג"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "ערך"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr ""
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr ""
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "הרצת פקודות python"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "משתמשים מורשים:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr ""
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr ""
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr ""
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr ""
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr ""
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr ""
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr ""
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr ""
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr ""
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr ""
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "הצגת הודעות בנוגע לאירועים שונים בעזרת pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "הצג הודעה כשמישהו מתחבר"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "הצג הודעה כשמישהו מתנתק"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "הצג הודעה כשמתקבל דואר"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "הצג הודעה כשמישהו מתחיל להקליד"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr ""
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr ""
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr ""
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "מחובר"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "מנותק"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "שלח הודעה"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr ""
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "מתחיל להקליד"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "מ: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "נושא: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "דואר אלקטרוני חדש"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr ""
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "הצג יו_מן שיחה"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "יומן שיחה עבור %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "תאריך"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "לא נמצאו יומנים עבור %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "שמור יומן שיחה"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr ""
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "טקסט לדוגמה"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "תמונה"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr ""
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "מיקום"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "עליון שמאל"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "עליון ימין"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "תחתון שמאל"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "תחתון ימין"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "גלילה"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "אופקי"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "אנכי"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr ""
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "הודעות"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "מתחיל להקליד..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr ""
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "הודעה אישית"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr ""
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr ""
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr ""
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr ""
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr ""
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr ""
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr ""
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "צלם תמונות מסך ושלח אותם עם "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "צילום תמונות מסך"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "מצלם תמונת מסך בעוד %s שניות"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr ""
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "קובץ זמני:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "נגן צלילים עבור אירועים נפוצים."
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "צליל"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr ""
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "נגן צליל מחובר"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "נגן צליל כשמישהו מתחבר"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "נגן צליל הודעה"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "נגן צליל כשמישהו שולח לך הודעה"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "נגן צליל נדנוד"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "נגן צליל כשמישהו שולח לך נדנוד"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "נגן צליל כשאתה שולח הודעה"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "נגן צלילים רק כאשר החלון הראשי פעיל"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "נגן את צליל ההודעה רק כאשר החלון הראשי פעיל"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr ""
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr ""
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr ""
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "הגדרת תוסף הצליל"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr "עליך להתקין את gtkspell כדי להשתמש בבודק האיות"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "בודק איות עבור emesene"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "איות"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "התוסף מכובה"
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr ""
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "התרחשה שגיאה בקריאת רשימת המילונים"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "לא נמצאו מילונים."
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "שפת ברירת מחדל"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "קבע את שפת ברירת המחדל"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "הגדרות בודק איות"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr ""
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr ""
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "ערוך את קובץ ההגדרות שלך"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr ""
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr ""
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "מרעיד את החלון כשמתקבל נדנוד."
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr ""
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr ""
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "שלך מידע אל last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "שם משתמש:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "סיסמה:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "האם אתה בטוח שברצונך למחוק את %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "_הסר"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "_העבר"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "_העתק"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr ""
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr ""
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr ""
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "השם החדש והישן זהים"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr ""
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "שינוי ש_ם"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "_הוסף איש קשר"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr ""
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "י_ציאה"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "ה_תנתק"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "_איש קשר"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "_הוסף"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "קבע _כינוי"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "קבע _הודעה"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "קבע _תמונה"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "_העדפות"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "תוספי_ם"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "_אודות"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "לא נבחרה קבוצה"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "לא נבחר איש קשר"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr ""
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "לא ניתן להוסיף את המשתמש: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "לא ניתן להסיר את המשתמש: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "לא ניתן להסיף את המשתמש לקבוצה: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "לא ניתן להעביר את המשתמש לקבוצה: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "לא ניתן להסיר את המשתמש: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "לא ניתן להוסיף את הקבוצה: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "לא ניתן להסיר את הקבוצה: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "לא ניתן לשנות את שם הקבוצה: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "לא ניתן לשנות את הכינוי: %s"

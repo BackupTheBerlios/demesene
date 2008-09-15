@@ -1,0 +1,1942 @@
+# emesene translation for the Serbian language.
+# Copyright (C) Milan SKOČIĆ <milan.skocic@numericable.fr>
+# This file is distributed under the same license as the emesene package.
+# Milan SKOČIĆ <milan.skocic@numericable.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-06-11 22:52+0000\n"
+"Last-Translator: Milan <milan.skocic@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: Serbia\n"
+"X-Poedit-Language: Serbian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"Поље '%(identifier)s ('%(value)s') није исправно\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "Пријављен(а)"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "Одсутан(на)"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "Заузет(а)"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "Враћам се одмах"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "Телефонирам"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "Ручам"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "Невидљив(а)"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "Неактиван(на)"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "Одјављен(а)"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "_Пријављен(а)"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "_Одсутан(на)"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "_Заузет(а)"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "В_раћам се одмах"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "Теле_фонирам"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "Р_учам"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "_Невидљив(а)"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "Н_еактиван(на)"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "О_дјављен(а)"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "Догодила се грешка у току пријаве, молим вас покушајте поново!"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_Стање"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "Фатална грешка"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "Ово је грешка. Молим вас изведите је овде:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "check() наредба је вратила неисправну вредност"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "додатак %s није могао бити упостављен, разлог:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "Празан налог"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "Грешка у току учитавања теме, повратак на подразумевану тему"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "Пријављен(а) са другог места"
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "Сервер вас је искључио"
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "Заједничко ћаскање"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s ваc је управо потапшао(ла)!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s се придружио(ла) разговору"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s је напустио(ла) разговор"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "Потапшали сте!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "Да ли сигурно желите послати поруку ван везе овом контакту %s"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "Не могу послати поруку"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "Ово је излазна порука"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "Ово је узастопна излазна порука"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "Ово је улазна порука"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "Ово је узастопна улазна порука"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "Ово је информационa порукa"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "Ово је порука о грешци"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "каже"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "пише поруку..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "пишу поруку..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "Повезујем..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "Поново повежи"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "Корисник је већ присутан"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "Корисник је одјављен"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "Не могу повезати"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "Чланови"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "Пошаљи"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "Стил фонта"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "Смешак"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "Потапшај"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "Позови"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "Обриши Разговор"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "Пошаљи Датотеку"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "Избор фонта"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "Избор боје фонта"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "Стилови фонта"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "Убаци  смешак"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "Потапшај"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "Позови пријатеља на разговор"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "Обриши разговор"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "Пошаљи датотеку"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "Корисници"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr ""
+"Ако желите изабрати више контакта задржите притиснуто CTRL тастер и кликните"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "Стање:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "Просечна брзина:"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "Протекло време:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "Изабери фонт"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "Изабери боју"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "Пошаљи датотеку"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "_Разговор"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "_Позови"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "По_шаљи датотеку"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "О_бриши разговор"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "Затвори све"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "Фор_мат"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "Пречица је празна"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "Пречица је већ коришћена"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "Нема изабране слике"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "Шаљем %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s шаље вам %(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "Прихватили сте %s"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "Поништили сте пренос датотеке %s"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "Почетак преноса датотеке %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "Пренос датотеке %s није успело"
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "Неколико делова датотеке недостају"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "Корисник је прекинуо"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "Грешка у току преноса"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "Датотека %s је успешно послата"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "Датотека %s је успешно примљена."
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "Подебљано"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "Курсив"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "Подвучено"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "Прецртано"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "Врати подразумеване поставке"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "Пре_именуј групу..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "_Уклони групу"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "_Додај контакта..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "Додај _групу..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "Прегледач дневника"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s је променио(ла) надимак. Нови је %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s је променио(ла) личну поруку. Нова је %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s је променио(ла) стање. Ново је %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s је сад одјављен(а)\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s вас је управо потапшао(ла)\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "Отвори датотеку дневника"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "Отвори"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "Одустани"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_Датотека"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "Контакт"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "Име"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "Контакти"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "Догађаји Корисника"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "Догађаји Разговора"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "Догађаји корисника"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "Догађаји разговора"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "Стање"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "Изабери све"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "Укини избор"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "_Корисник:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "_Лозинка:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "_Стање:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "_Пријава"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "_Запамти ме"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "Заборави ме"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "З_апамти лозинку"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "Аутоматска пријава"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "Грешка у току повезивања"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "Поново повезујем за "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " секунда"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "Поново повезујем..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "Поље корисника или лозинке је празно"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "П_реглед"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "_Акције"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_Опције"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_Помоћ"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "_Нови налог"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "Поређај по _групи"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "Поређај по _стању"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "Прикажи по _надимку"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "Прикажи _одјављене"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "Прикажи _празне групе"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "Прикажи _број контакта"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "_Постави друго име контакту..."
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "_Блокирај"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "_Деблокирај"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "П_ремести у групу"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "_Уклони контакта"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "_Промени надимак..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "Промени личну _слику..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "Уреди _аутоматски одговор..."
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "Активирај ау_томатски одговор"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "До_даци"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "Програм за WLM%s мрезу"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"Милан<milan.skocic@numericable.fr>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Milan https://launchpad.net/~milan-skocic"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "Аутоматски одговор је празан"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "Порука аутоматског одговора:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "Промени аутоматски одговор"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "Нема група"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "Управљач Додатака"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "Активно"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "Опис"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "Извођач:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "Веб адреса:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "Подеси"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "Упостављање додатка није успело: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "Поставке"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "Тема"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "Сучеље"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "Шема боје"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "Пренос датотеке"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "Радна површина"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "Повезивање"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "Контакт пише"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "Порука чека"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "Лична msn порука"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "Везе и датотеке"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "Омогући RGBA палету боја (морате поново покренути Emesene)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"Пронађено окружење радне поршине је <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> наредба ће бити коришћена за "
+"отварање веза и датотека"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>Није пронађено ниједно окружење радне површине.</b> Први пронађени "
+"прегледач ће бити коришћен за отварање веза"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "Командна линија:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "Пребриши пронађене поставке"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr ""
+"<i>Note:</i> %s је замењена са правом url адресом да би била отворена"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "Кликни  за пробу"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "_Покажи исправљача грешка (debug) у конзоли"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "_Прикажи бинарни код у исправљачу грешка (debug)"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "_Користи HTTP методу"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "Поставке посредника"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "_Користи мале иконице"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "Прикажи _смешке"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "Искључи форматирање текста"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "Тема смешака"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "Распоред Разговора"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "Име:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "Опис:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "Прикажи _мени"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "Прикажи панел _корисника"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "Прикажи _поље претраге"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "Прикажи панел _стања"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "Главни прозор"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "Прикажи _заглавље разговора"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "Прикажи панел _алата за разговор"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "П_рикажи дугме Пошаљи"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "Прикажи панел с_тања"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "Прикажи _личне сличице"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "Прозор Разговора"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "Користи више _прозора"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "Прикажи дугме затвори на _сваки језичак"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "Прикажи личне с_личице"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "Прикажи личне сличице на панел за_датака"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "_Користи посредника"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "_Домаћин:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "_Порт:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "Изабери један Директоријум"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "Роређај примљене датотеке по пошиљаоцу"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "_Сачувај датотеке у:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr "Користи \"/help <command>\" за помоћ о посебној наредби"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "Следеће наредбе су доступне:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "Наредба %s не постоји"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "Смешке"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "Промени пречицу"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "Уклони"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "Празна пречица"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "Нова пречица"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "Блокиран: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "Има вас у списку контакта: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "Има MSN Простор: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "Да"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "Не"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s од: %(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "_Отвори Разговор"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "Пошаљи _Електронску пошту"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "Умножи електронску адресу"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "Прикажи профил"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "У_множи у групу"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "У_клони из групе"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "Кликните овде и поставите вашу личну поруку"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "Нема пуштене песме"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "Кликните овде и поставите ваш надимак"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "Ваша текућа песма"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "Грешка!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "Упозорење"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "Информација"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "Изузетак"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "Потврди"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "Кориснички позив"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "Додај корисника"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "Налог"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "Група"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "Додај групу"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "Име групе"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "Промени надимак"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "Нови надимак"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "Промени личну поруку"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "Нова лична порука"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "Промени слику"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "Преименуј групу"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "Ново име групе"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "Поставите друго имe"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "Друго име контакта"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "Додај контакта"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "Посети ме касније"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" вас је додао(ла)\n"
+"Да ли желите га/је додати у ваш списак контакта?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "Избор личне сличице"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "Без слике"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "Уклони све"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "Тренутна сличица"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "Да ли сигурно желите уклонити све ставке?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "Нема изабране слике"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "Избор Слике"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "Све датотеке"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "Све слике"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "мале (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "велике (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "Пречица"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "_Отвори везу"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "_Умножи адресу везе"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "_Сачувај као..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "Додај допунске наредбе, покушајte /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "Наредбе"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "Замени променљиве"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "Замени ме са вашим корисничким именом"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "Потапшај"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "Позови другара"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "Додај једног контакта"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "Уклони једног контакта"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "Блокирај једног контакта"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "Деблокирај једног контакта"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "Обриши разговор"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "Поставите ваш надимак"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "Поставите вашу личну поруку"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "Употреба /%s контактa"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "Датотека не постоји"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"Прикажи личну поруку и текућу песму пуштена у разним програмима пуштања "
+"музике."
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "Текућа Песма"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "Стил приказивања"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"Промени стил приказивања песме коју слушате, могуће променљиве су %title, "
+"%artist and %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "Програм пуштања музике"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "Изаберите програм пуштања музике који тренутно користите"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "Прикажи дневник"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "Промени Личну сличицу"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "Преузми омот са интернета"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "Прилагођена конфигурација"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "Додатак за подешавање"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "Дневник"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "Врста"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "Вредност"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "Са овим додатком можете интераговати са Emesene-ом"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "Користи python наредбу - КОРИСТИТЕ НА СОПСТВЕНИ РИЗИК"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "Крени python наредбу"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "Дозвољени корисници:"
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "Удаљена Конфигурација"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"Променити стање када је сесија неактивна. Потребни су пакети гном и чувач "
+"екрана (gnome и gnome-screensaver)"
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "Промена Неактивног Стања"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "Неактивно Стање:"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "Поставите неактивно стање"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "Подешавање Промене Неактивног Стања"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "Преузми задњи догађај из дневника"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "неисправан број као први параметар"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "Празан резултат"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "Омогући додатак дневника"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "Грешка за време упостављања додатка pynotify"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "Обавести о различитим догађајима са pynotify"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "Обавести када се неко пријави"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "Обавести када се неко одјави"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "Обавести када примим електронску пошту"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "Обавести када неко почме писати"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "Обавести када примим поруку"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "Искључи обавештење када сам заузет(а)"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "Подешавање додатка LibNotify"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "је пријављен(а)"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "је одјављен(а)"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "је послао(ла) једну поруку"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "је послао(ла) једну поруку ван везе"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "почима писати"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "Од: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "Наслов: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "Нова електронска пошта"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "Имате %(num)i непрочитаних порука%(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "Прикажи _дневник разговора"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "Дневник разговора за %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "Датум"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "Није пронађен дневник разговора за %s"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "Сачувај дневник разговора"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "Подешавање Обавештења"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "Изглед текста"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "Слика"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "Необавести ако је почео разговор"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "Позиција"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "Горе Лево"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "Горе Десно"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "Доле Лево"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "Доле Десно"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "Клизање"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "Хоризонтално"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "Вертикално"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr ""
+"Прикажи мали прозор у доњом десном углу екрана када се неко пријави итд."
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "Обавештење"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "почима писати..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "Сачувај личну поруку међу сесијама."
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "Лична Порука"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "Тастер"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "Messenser Plus додатак за Emesene"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "Изабери прилагођену боју"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "Омогући боју позадине"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "Панел за примену Messenger Plus формате тексту"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Панел боја Messenger Plus"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "Уради снимке екрана и пошаљи их са "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "Уради снимке екрана"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "Уради снимку екрана након %s секунда"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr "Помоћ: Користи \"/screenshot save <seconds>\" да избегнете слање "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "Привремена датотека:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "Пусти звукове за заједничке догађаје"
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "Звук"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer, play и aplay нису пронађени."
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "Пусти звук пријаве"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "Пусти звук када се неко пријави"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "Пусти звук примљене поруке"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "Пусти звук када неко вам пошаље поруку"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "Пусти звук када неко потапша"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "Пусти звук када вас неко потапша"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "Пусти звук када пошаљете поруку"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "Пусти звук примљене поруке само када је прозор неактиван"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "Пусти звук примљене поруке само када је прозор неактиван"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "Искључи звукове када сам заузет(а)"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "Користи системски бип"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "Пусти системски бип у место звучни датотека"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "Подешавање Додатка за Звук"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr ""
+"Морате инсталирати gtkspell да би могли користити додатак провере правописа"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "Провера правописа за Emesene-а"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "Провера правописа"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "Додатак је искључен."
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "Грешка у току провере правописа следеће речи (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "Грешка тражећи списак речника"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "Нема ниједног речника."
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "Подразумевани језик"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "Поставите подразумевани језик"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "Подешавање провере правописа"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "Прикажи слику стања:"
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "Подешавање додатка StatusHistory"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "Уредите вашу датотеку подеса"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "Штеловање (Tweaks)"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "Конфигурација поставка"
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "Подрхтавање прозора када вас неко потапша."
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "Потапшај са Дрхтавим Прозором"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "Прикажи умањену Youtube видео поред везе"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "Пошаљи информацију према last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "Корисничко име:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Да ли сигурно желите уклонити %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "_Уклони"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "_Премести"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "_Умножи"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "Поставите _друго име"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "Да ли сигурно желите уклонити контакта %s"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "Да ли сигурно желите уклонити групу %s?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "Старо и ново име су исти"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "ново име није исправно"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "Пре_именуј"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "_Додај контакта"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "Да ли сигурно желите уклонити групу %s?"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "_Изађи"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "_Одјави"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "_Контакт"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "_Додај"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "Поставите _надимак"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "Поставите _поруку"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "Поставите _слику"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "_Поставке"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "Дода_ци"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "_О програму"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "Нема изабране групе"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "Нема изабраног контакта"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "Ручам"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "Не могу додати корисника: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "Не могу уклонити корисника: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "Не могу додати корисника у групу: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "Не могу преместити корисника у групу: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "Не могу уклонити корисника: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "Не могу додати групу: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "Не могу уклонити групу: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "Не могу преименовати групу: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "Не могу променити надимак: %s"

@@ -1,0 +1,2238 @@
+# Chinese/Simplified translation of PACKAGE.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the emesene package.
+# weitao <weitao1979@gmail.com>, 2007.
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-04-17 04:24+0000\n"
+"Last-Translator: Tao Wei <Unknown>\n"
+"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#~ msgid "%days days %hours hours %minutes minutes for the date"
+#~ msgstr "日期为 %days 天 %hours 小时 %minutes 分钟"
+
+#~ msgid "The countdown is done!"
+#~ msgstr "倒计时结束！"
+
+#~ msgid "Countdown config"
+#~ msgstr "倒计时配置"
+
+#~ msgid "Day"
+#~ msgstr "天"
+
+#~ msgid "Hour"
+#~ msgstr "小时"
+
+#~ msgid "Message"
+#~ msgstr "信息"
+
+#~ msgid "Done message"
+#~ msgstr "完成信息"
+
+#~ msgid "Invalid minute value"
+#~ msgstr "非法的分钟数值"
+
+#~ msgid "Message is empty"
+#~ msgstr "信息为空"
+
+#~ msgid "Done message is empty"
+#~ msgstr "完成的信息为空"
+
+#~ msgid "Count to a defined date"
+#~ msgstr "计数到一个定义的日期"
+
+#~ msgid "Countdown"
+#~ msgstr "倒计时"
+
+#~ msgid "Psycho Mode"
+#~ msgstr "心理模式"
+
+#~ msgid "Psycho mode"
+#~ msgstr "心理模式"
+
+#~ msgid "Wikipedia"
+#~ msgstr "维基"
+
+#~ msgid "Read more in "
+#~ msgstr "获取更多在 "
+
+#~ msgid "Language:"
+#~ msgstr "语言："
+
+#~ msgid "Wikipedia plugin config"
+#~ msgstr "维基百科插件配置"
+
+#~ msgid "Adds a /wp command to post in wordpress blogs"
+#~ msgstr "在 wordpress 博客的文章中添加一个 /wp 命令"
+
+#~ msgid "Wordpress"
+#~ msgstr "Wordpress"
+
+#~ msgid "Configure the plugin"
+#~ msgstr "配置插件"
+
+#~ msgid "Insert Title and Post"
+#~ msgstr "插入标题和内容"
+
+#~ msgid "Url of WP xmlrpc:"
+#~ msgstr "WP xmlrpc 的网址："
+
+#~ msgid "User:"
+#~ msgstr "用户："
+
+#~ msgid "Wordpress plugin config"
+#~ msgstr "Wordpress 插件配置"
+
+#~ msgid "A gmail notifier"
+#~ msgstr "一个 Gmail 提示器"
+
+#~ msgid "gmailNotify"
+#~ msgstr "gmailNotify"
+
+#~ msgid "Not checked yet."
+#~ msgstr "还没有检查。"
+
+#~ msgid "Checking"
+#~ msgstr "检查中"
+
+#~ msgid "Server error"
+#~ msgstr "服务器出错"
+
+#~ msgid "%(num)s messages for %(user)s"
+#~ msgstr "%(num) 信息对 %(user)"
+
+#~ msgid "No messages for %s"
+#~ msgstr "没有信息对于 %s"
+
+#~ msgid "No new messages"
+#~ msgstr "没有新信息"
+
+#~ msgid "Check every [min]:"
+#~ msgstr "每次检查间隔的分钟数："
+
+#~ msgid "Client to execute:"
+#~ msgstr "要执行的客户端："
+
+#~ msgid "Mail checker config"
+#~ msgstr "邮件检测器配置"
+
+#~ msgid "An IMAP mail checker"
+#~ msgstr "一个 IMAP 邮件检查器"
+
+#~ msgid "mailChecker"
+#~ msgstr "mailChecker"
+
+#~ msgid "and more.."
+#~ msgstr "更多.."
+
+#~ msgid "%(num) messages for %(user)"
+#~ msgstr "%(num) 信息对 %(user)"
+
+#~ msgid "IMAP server:"
+#~ msgstr "IMAP 服务器："
+
+#~ msgid "a MSN Messenger clone."
+#~ msgstr "一个 MSN Messenger 的克隆。"
+
+#~ msgid "Delete selected"
+#~ msgstr "删除选中的头像"
+
+#~ msgid "Current avatar"
+#~ msgstr "当前头像"
+
+#~ msgid "Are you sure to want to delete the selected avatar ?"
+#~ msgstr "你确定要删除选择的头像？"
+
+#~ msgid "Are you sure to want to delete all avatars ?"
+#~ msgstr "你确定要删除所有的头像？"
+
+#~ msgid "Empty Nickname"
+#~ msgstr "空白的昵称"
+
+#~ msgid "Empty Field"
+#~ msgstr "空白的域"
+
+#~ msgid "Choose an user to remove"
+#~ msgstr "选择一个用户来移除"
+
+#~ msgid "Are you sure you want to remove %s from your contact list?"
+#~ msgstr "你确定要从你的联系人列表中移除 %s 吗？"
+
+#~ msgid "Choose an user"
+#~ msgstr "选择一个用户"
+
+#~ msgid "Choose a group to delete"
+#~ msgstr "选择一个组来删除"
+
+#~ msgid "Choose a group"
+#~ msgstr "选择一个组"
+
+#~ msgid "Empty group name"
+#~ msgstr "空的组名"
+
+#~ msgid "%s is now offline"
+#~ msgstr "%s 现在离线了"
+
+#~ msgid "%s is now online"
+#~ msgstr "%s 现在上线了"
+
+#~ msgid "Add a Friend"
+#~ msgstr "添加一个朋友"
+
+#~ msgid "Introduce your friend's email:"
+#~ msgstr "介绍你朋友的电子邮件："
+
+#~ msgid "No group"
+#~ msgstr "没有组"
+
+#~ msgid "Add a Group"
+#~ msgstr "添加一个组"
+
+#~ msgid "Change Nickname"
+#~ msgstr "改变昵称"
+
+#~ msgid "Set AutoReply"
+#~ msgstr "设定自动回复"
+
+#~ msgid "Load display picture"
+#~ msgstr "加载显示的图片"
+
+#~ msgid "The plugin couldn't initialize: \n"
+#~ msgstr "这个插件不能够初始化： \n"
+
+#~ msgid "_Log path:"
+#~ msgstr "日志路径(_L)："
+
+#~ msgid "Paint"
+#~ msgstr "绘制"
+
+#~ msgid "Eraser"
+#~ msgstr "橡皮擦"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Change Custom Emoticon shortcut"
+#~ msgstr "改变自定义表情快捷键"
+
+#~ msgid "Shortcut: "
+#~ msgstr "快捷键： "
+
+#~ msgid "Size:"
+#~ msgstr "尺寸："
+
+#~ msgid "is now online"
+#~ msgstr "现在在线"
+
+#~ msgid "Uploads images"
+#~ msgstr "上载图像"
+
+#~ msgid "File not found"
+#~ msgstr "文件没有找到"
+
+#~ msgid "Error uploading image"
+#~ msgstr "上载图像出错"
+
+#~ msgid "Something wrong with gtkspell, this language exist"
+#~ msgstr "gtkspell 出错，退出语言"
+
+#~ msgid "Userlist"
+#~ msgstr "用户列表"
+
+#~ msgid "Edit..."
+#~ msgstr "编辑..."
+
+#~ msgid "Show _avatars in userlist"
+#~ msgstr "在用户列表中显示头像(_A)"
+
+#~ msgid "Save logs automatically"
+#~ msgstr "自动保存日志"
+
+#~ msgid "Text"
+#~ msgstr "文本"
+
+#~ msgid "Log Formats"
+#~ msgstr "日志格式"
+
+#~ msgid "_No DNS mode"
+#~ msgstr "没有 DNS 模式(_N)"
+
+#~ msgid "Event filters"
+#~ msgstr "事件过滤器"
+
+#~ msgid "Mail filters"
+#~ msgstr "邮件过滤器"
+
+#~ msgid "Can't open the file"
+#~ msgstr "不能够打开文件"
+
+#~ msgid "Our nick changed"
+#~ msgstr "我们的昵称已改变"
+
+#~ msgid "Status change"
+#~ msgstr "状态改变"
+
+#~ msgid "Personal message changed"
+#~ msgstr "个人信息意改变"
+
+#~ msgid "Our status changed"
+#~ msgstr "我们的状态意改变"
+
+#~ msgid "Our personal message changed"
+#~ msgstr "我们的个人信息已改变"
+
+#~ msgid "Our current media changed"
+#~ msgstr "我们当前的媒质已改变"
+
+#~ msgid "New mail received"
+#~ msgstr "接受到新邮件"
+
+#~ msgid "Nick changed"
+#~ msgstr "昵称已改变"
+
+#~ msgid "Event"
+#~ msgstr "事件"
+
+#~ msgid "Mail"
+#~ msgstr "邮件"
+
+#~ msgid "Extra"
+#~ msgstr "附加"
+
+#~ msgid "Invalid account"
+#~ msgstr "无效帐户"
+
+#~ msgid ""
+#~ "Could not add picture:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "不能添加图像：\n"
+#~ " %s"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"域 '%(identifier)s ('%(value)s') 无效\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "在线"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "离开"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "忙碌"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "马上回来"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "通话中"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "外出就餐"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "隐身"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "发呆"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "离线"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "在线(_O)"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "离开(_A)"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "忙碌(_B)"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "马上回来(_R)"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "通话中(_P)"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "外出就餐(_L)"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "隐身(_I)"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "发呆(_D)"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "离线(_F)"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "登录时出错，请重试"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "状态(_S)"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "致命错误"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "这是一个错误。请汇报至："
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "无效的 check() 返回值"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "插件 %s 不能够被初始化，原因是："
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "空帐户"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "加载主题失败，使用默认"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "从另外一个地方登录了。"
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "服务器断开了你的连接。"
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "群组聊天"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s 刚刚发给你一个闪屏震动！"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s 加入了对话"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s 离开了对话"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "你已经发送了一个闪屏震动！"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "你确定要发送一个离线信息给 %s 吗"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "不能够发送信息"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "这是一个发出的信息"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "这是一个连续的发送信息"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "这是一个接受的信息"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "这是一个连续的接受信息"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "这是一个情报信息"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "这是一个错误信息"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "说"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "正在输入信息..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "正在输入一个信息..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "连接中..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "重新连接"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "用户已经存在"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "用户离线"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "不能够连接"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "成员"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "发送"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "字体类型"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "笑脸"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "闪屏震动"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "邀请"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "清除聊天"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "发送文件"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "选择字体"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "选择字体颜色"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "字体类型"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "插入一个笑脸"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "发送闪屏震动"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "邀请一个朋友加入这个对话"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "清除对话"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "发送一个文件"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "用户"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr "要选中多个按住 CTRL 键然后点击"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "状态："
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "平均速度："
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "逝去时间："
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "选择一个字体"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "选择一个颜色"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "发送文件"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "对话(_C)"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "邀请(_I)"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "发送文件(_S)"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "清除聊天(_L)"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "关闭所有"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "格式(_M)"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "快捷键为空"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "快捷键已经被使用"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "没有选择图像"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "发送 %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s·正在给你发送·%(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "你已经接受了 %s"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "你已经取消了 %s 的传输"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "开始传输 %s"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "传输 %s 失败。"
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "这个文件的一些部分丢失"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "被用户终止"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "传输错误"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "%s 成功地发送了"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "%s 成功地接收了。"
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "粗体"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "斜体"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "下划线"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "删除线"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "重置"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "重命名组(_N)..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "移除组(_M)"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "添加联系人(_A)..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "添加组(_G)..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "日志查看器"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s 改变昵称为 %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s·改变了个人信息为·%(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s 改变了他的状态为 %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s 现在离线了\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s：%(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s]·%(mail)s 刚刚发给你一个闪屏震动\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "打开一个日志文件"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "打开"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "取消"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "文件(_F)"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "联系人"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "名称"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "联系人"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "用户事件"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "对话事件"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "用户事件"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "对话事件"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "状态"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "选择所有"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "不选择所有"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "用户(_U)："
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "密码(_P)："
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "状态(_S)："
+
+#: Login.py:147
+msgid "_Login"
+msgstr "登录(_L)"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "记住我(_R)"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "忘记我"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "记住密码(_E)"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "自动登录"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "连接出错"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "重新连接在 "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " 秒"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "重新连接中..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "用户或者密码为空"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "视图(_V)"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "操作(_A)"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "选项(_O)"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "新帐户(_N)"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "按组排序(_G)"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "按状态排序(_S)"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "按昵称显示(_N)"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "显示脱机好友(_O)"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "显示空白组(_E)"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "显示联系人数量(_C)"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "设定联系人别名(_S)..."
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "屏蔽(_B)"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "取消屏蔽(_U)"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "移动到组(_O)"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "移除联系人(_R)"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "改变昵称(_C)..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "改变显示的图片(_D)..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "编辑自动回复(_U)..."
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "启用自动回复(_T)"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "插件(_L)"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "一个 WLM%s 网络的客户端"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"翻译\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Tao Wei https://launchpad.net/~weitao1979"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "空的自动回复"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "自动回复信息："
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "改变自动回复"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "没有组"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "插件管理器"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "启用"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "描述"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "作者："
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "网址："
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "配置"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "插件初始化失败： \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "属性"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "主题"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "界面"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "颜色主题"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "文件传输器"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "桌面"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "连接"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "联系人正在打字中"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "等待信息中"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "私人 MSN 信息"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "链接和文件"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "启用 rgba 颜色图 (需要重启)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"检测到的桌面环境是<b>\"%(detected)s\"</b>。\n"
+"<span face=\"Monospace\">%(commandline)s</span> 将被用来打开链接和文件"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr "<b>没有检测到桌面环境。</b>找到的第一个浏览器将被用于打开链接"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "命令行："
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "覆盖检测到的设置"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>注意：</i> %s 被当前打开的网址来替换"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "点击来测试"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "在控制台中显示调试(_S)"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "在调试中显示二进制代码(_S)"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "使用 HTTP 方式(_U)"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "代理设置"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "使用小图标(_U)"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "显示笑脸(_S)"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "禁用文字格式化"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "笑脸主题"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "聊天布局"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "名称："
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "描述："
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "显示菜单栏(_M)"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "显示用户面板(_U)"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "显示搜索条目(_S)"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "显示状态组合框(_C)"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "主窗口"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "显示对话头(_H)"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "显示对话工具栏(_T)"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "显示一个发送按钮(_H)"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "显示状态栏"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "显示头像(_V)"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "对话窗口"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "使用多重窗口(_W)"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "在每个标签页上显示关闭按钮(_E)"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "显示头像(_A)"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "在任务栏上显示头像(_B)"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "使用代理(_U)"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "主机(_H)："
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "端口(_P)："
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "选择一个目录"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "排序收到的文件通过发送人(_F)"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "保存文件到(_S)："
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr "使用 \"/help <命令>\" 来在一个特定的命令上寻求帮助"
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "下列的命令是可用的："
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "命令 %s 不存在"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "笑脸"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "改变快捷键"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "删除"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "空的快捷键"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "新的快捷键"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "被屏蔽：%s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "有你：%s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "有 MSN 空间：%s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "是"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "否"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s 自从：%(time)s"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "打开对话(_O)"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "发送邮件(_M)"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "复制电子邮件"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "查看资料"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "复制到组(_C)"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "从组中移除(_E)"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "点击此处来设定你的个人信息"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "没有播放的媒质"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "点击此处来设定你的昵称"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "你当前的媒质"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "错误！"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "警告"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "信息"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "例外"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "确认"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "用户邀请"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "添加用户"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "帐户"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "组"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "添加组"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "组名"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "改变昵称"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "新昵称"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "改变私人信息"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "新的私人信息"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "改变图片"
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "重命名组"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "新的组名"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "设定别名"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "联系人别名"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "添加联系人"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "以后提醒我"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" 已经添加了你。\n"
+"你想把他／她加入到你的联系人列表中吗？"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "头像选择器"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "没有图片"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "移除所有"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "当前"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "你确定要删除所有条目吗？"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "没有选择图像"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "图像选择器"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "所有文件"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "所有图像"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "小 (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "大 (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "打开连接(_O)"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "复制连接位置(_C)"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "另存为(_S)..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "使一些有用的命令可用，尝试 /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "命令"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "替换变量"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "把我替换为你的用户名"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "发送一个闪屏震动"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "邀请一个好友"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "添加一个联系人"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "移除一个联系人"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "屏蔽一个联系人"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "取消一个联系人的屏蔽"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "清除对话"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "设置你的昵称"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "设定你的 psm"
+
+#: plugins_base/Commands.py:144
+#, python-format
+msgid "Usage /%s contact"
+msgstr "使用 /%s 联系"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "文件不存在"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr "使用在多个播放器中播放的歌曲来显示为个人信息。"
+
+#: plugins_base/CurrentSong.py:53
+msgid "CurrentSong"
+msgstr "当前歌曲"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "显示类型"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr "改变你在听的歌曲的显示类型，可能的变量为 %title，%artist 和 %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "音乐播放器"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "选择你在使用的音乐播放器"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "显示日志"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "选择头像"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "从网上获得封面艺术"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "自定义配置"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "配置插件"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "日志"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "类型"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "数值"
+
+#: plugins_base/Dbus.py:44
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr "使用这个插件你可以通过 Dbus 和 emesene 互动"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "执行 python 命令－使用后果自负"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "运行 python 命令"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "允许的用户："
+
+#: plugins_base/Eval.py:159
+msgid "Remote Configuration"
+msgstr "远程配置"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr "如果不活动，那么改变状态为选择的（你必须使用 gnome 并且安装了 gnome-screensaver）"
+
+#: plugins_base/IdleStatusChange.py:36
+msgid "Idle Status Change"
+msgstr "Idle Status Change"
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Idle Status:"
+msgstr "发呆状态："
+
+#: plugins_base/IdleStatusChange.py:78
+msgid "Set the idle status"
+msgstr "设定发呆状态"
+
+#: plugins_base/IdleStatusChange.py:79
+msgid "Idle Status Change configuration"
+msgstr "发呆状态改变配置"
+
+#: plugins_base/LastStuff.py:34
+msgid "Get Last something from the logs"
+msgstr "从日志中获取上次的一些东西"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "第一个参数为非法数字"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "结果为空"
+
+#: plugins_base/LastStuff.py:155
+msgid "Enable the logger plugin"
+msgstr "启用日志插件"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "在初始化 pynotify 模式时出现了一个问题"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "使用 pynotify 来提示关于不同的事件"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "当别人上线时提示"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "当别人离线时提示"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "当收到了一个电子邮件时提示"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "当用户开始打字时提示"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "当收到一个消息时提示"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "当忙碌时禁用提示"
+
+#: plugins_base/LibNotify.py:147
+msgid "Config LibNotify Plugin"
+msgstr "配置 LIbNotify 插件"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "上线了"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "离线了"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "发送了一个消息"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "发送一个离线消息"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "开始打字"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "来自： "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "主题： "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "新邮件"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "你有 %(num)i 个未读的信息 %(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "显示对话日志(_L)"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "%s 的对话日志"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "日期"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "没有发现 %s 的日志"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "保存对话日志"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "提示配置"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "样本文本"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "图像"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "如果会话开始不要提示"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "位置"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "左上"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "右上"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "左下"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "右下"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "卷起"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "水平"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "垂直"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr "当有人上线或者其它状态时在屏幕的右下角显示一个小窗口。"
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "提示"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "开始输入..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "在会话中保存个人信息。"
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "私人信息"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "按键"
+
+#: plugins_base/Plus.py:245
+msgid "Messenser Plus like plugin for emesene"
+msgstr "一个类似于 Messenger Plus 的 emesene 插件"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "选择自定义颜色"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "启用背景颜色"
+
+#: plugins_base/PlusColorPanel.py:210
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "一个用于应用 Messenger Plus 格式到文字的面板"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Plus Color Panel"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "获取屏幕截图并发送它们使用 "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "获取屏幕截图"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "获取屏幕截图在 %s 秒内"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr "技巧：使用 \"/screenshot save <seconds>\" 来跳过上载 "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "临时文件："
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "为普通事件播放声音。"
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "声音"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer，play 和 aplay 没有找到"
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "播放在线声音"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "当别人上线时播放一个声音"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "播放信息声音"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "当别人给你发送一条信息时播放一个声音"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "播放振铃声音"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "当别人发送闪屏震动时播放一个声音"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "当你发送信息时播放声音"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "只当窗口没有激活时才播放信息声音"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "仅当窗口没有被激活时播放声音"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "当忙碌时禁用声音"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "使用系统滴声"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "播放系统滴声而不是声音文件"
+
+#: plugins_base/Sound.py:294
+msgid "Config Sound Plugin"
+msgstr "配置声音插件"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr "你需要安装 gtkspell 来使用拼写插件"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "emesene 的拼写检查"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "拼写"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "插件禁用了。"
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "应用拼写到输入 (%s) 出错"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "获取字典列表出错"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "没有发现字典"
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "默认语言"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "设定默认语言"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "拼写配置"
+
+#: plugins_base/StatusHistory.py:69
+msgid "Show status image:"
+msgstr "显示状态图像："
+
+#: plugins_base/StatusHistory.py:71
+msgid "StatusHistory plugin config"
+msgstr "状态历史插件配置"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "编辑你的配置文件"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "微调"
+
+#: plugins_base/Tweaks.py:66
+msgid "Config config"
+msgstr "配置配置"
+
+#: plugins_base/WindowTremblingNudge.py:34
+msgid "Shakes the window when a nudge is received."
+msgstr "当收到闪屏震动时晃动窗口。"
+
+#: plugins_base/WindowTremblingNudge.py:38
+msgid "Window Trembling Nudge"
+msgstr "窗口颤抖启示"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "在链接后显示 youtube 的缩略图"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "发送信息到 last.fm"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "用户名："
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "密码："
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "你确定要删除 %s 吗？"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "移除(_R)"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "移动(_M)"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "复制(_C)"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "设定别名(_A)"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "你确定要移除联系人 %s？"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "你确定要删除组 %s？"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "旧的和新的名称是相同的"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "新的名称无效"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "重命名(_N)"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "添加联系人(_A)"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "你确定要移除组 %s 吗？"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "断开(_D)"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "联系人(_C)"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "添加(_A)"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "设定昵称(_N)"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "设定信息(_M)"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "设定图片(_P)"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "首选项(_P)"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "插件(_I)"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "关于(_A)"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "没有选择组"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "没有选择联系人"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "午餐"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "用户不能够被添加：%s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "用户不能够被移除：%s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "用户不能够被添加到组：%s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "用户不能够被移动到组：%s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "用户不能够被移除：%s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "不能添加组：%s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "不能移除组：%s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "不能重命名组：%s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "昵称不能被改变：%s"

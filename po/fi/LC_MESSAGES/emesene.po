@@ -1,0 +1,1964 @@
+# emesene Finnish translation
+# Copyright (C) 2008 Toni Kaihola
+# This file is distributed under the same license as the emesene package.
+# Toni Kaihola <aamukahvi gmail com>, 2008.
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0r1230\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 10:56-0300\n"
+"PO-Revision-Date: 2008-05-29 21:25+0000\n"
+"Last-Translator: aamukahvi <aamukahvi@gmail.com>\n"
+"Language-Team: finnish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-19 21:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ConfigDialog.py:162
+#, python-format
+msgid ""
+"Field '%(identifier)s ('%(value)s') not valid\n"
+"'%(message)s'"
+msgstr ""
+"Kenttä '%(identifier)s ('%(value)s') virheellinen\n"
+"'%(message)s'"
+
+#: Controller.py:98 UserList.py:406 abstract/status.py:37
+msgid "Online"
+msgstr "Online-tilassa"
+
+#: Controller.py:98 abstract/status.py:39
+msgid "Away"
+msgstr "Poissa"
+
+#: Controller.py:98 abstract/status.py:38
+msgid "Busy"
+msgstr "Varattu"
+
+#: Controller.py:98 abstract/status.py:44
+msgid "Be right back"
+msgstr "Palaan pian"
+
+#: Controller.py:99 abstract/status.py:43
+msgid "On the phone"
+msgstr "Puhelimessa"
+
+#: Controller.py:99
+msgid "Gone to lunch"
+msgstr "Syömässä"
+
+#: Controller.py:99 abstract/status.py:41
+msgid "Invisible"
+msgstr "Näkymätön"
+
+#: Controller.py:100 abstract/status.py:40
+msgid "Idle"
+msgstr "Jouten"
+
+#: Controller.py:100 abstract/status.py:36
+msgid "Offline"
+msgstr "Poissa linjoilta"
+
+#: Controller.py:102
+msgid "_Online"
+msgstr "Tavoitettavissa"
+
+#: Controller.py:102
+msgid "_Away"
+msgstr "_Poissa"
+
+#: Controller.py:102
+msgid "_Busy"
+msgstr "_Varattu"
+
+#: Controller.py:102
+msgid "Be _right back"
+msgstr "Tulen _pian takaisin"
+
+#: Controller.py:103
+msgid "On the _phone"
+msgstr "Puhelimessa"
+
+#: Controller.py:103
+msgid "Gone to _lunch"
+msgstr "Syömässä"
+
+#: Controller.py:103
+msgid "_Invisible"
+msgstr "Näkymätön"
+
+#: Controller.py:104
+msgid "I_dle"
+msgstr "Jouten"
+
+#: Controller.py:104
+msgid "O_ffline"
+msgstr "Poissa linjoilta"
+
+#: Controller.py:244
+msgid "Error during login, please retry"
+msgstr "Virhe kirjautumisessa, ole hyvä ja yritä uudelleen"
+
+#: Controller.py:295 MainMenu.py:66 UserPanel.py:391 abstract/MainMenu.py:71
+msgid "_Status"
+msgstr "_Tila"
+
+#: Controller.py:368
+msgid "Fatal error"
+msgstr "Vakava virhe"
+
+#: Controller.py:370
+msgid "This is a bug. Please report it at:"
+msgstr "Tämä on ohjelmistovirhe. Ole hyvä ja raportoi se osoitteessa:"
+
+#: Controller.py:548
+msgid "invalid check() return value"
+msgstr "virheellinen check() palautusarvo"
+
+#: Controller.py:550
+#, python-format
+msgid "plugin %s could not be initialized, reason:"
+msgstr "Liitännäistä %s ei voitu alustaa, koska:"
+
+#: Controller.py:600 abstract/GroupMenu.py:81
+msgid "Empty account"
+msgstr "Tyhjä käyttäjätili"
+
+#: Controller.py:628
+msgid "Error loading theme, falling back to default"
+msgstr "Virhe ladattaessa teemaa, käytetään oletusta"
+
+#: Controller.py:777
+msgid "Logged in from another location."
+msgstr "Kirjautunut sisään toisesta osoitteesta."
+
+#: Controller.py:779
+msgid "The server has disconnected you."
+msgstr "Palvelin katkaisi yhteyden."
+
+#: Conversation.py:170 ConversationUI.py:518
+msgid "Group chat"
+msgstr "Ryhmäkeskustelu"
+
+#: Conversation.py:264
+#, python-format
+msgid "%s just sent you a nudge!"
+msgstr "%s lähetti sinulle herätteen!"
+
+#: Conversation.py:328
+#, python-format
+msgid "%s has joined the conversation"
+msgstr "%s liittyi keskusteluun"
+
+#: Conversation.py:340
+#, python-format
+msgid "%s has left the conversation"
+msgstr "%s poistui keskustelusta"
+
+#: Conversation.py:374
+msgid "you have sent a nudge!"
+msgstr "lähetit herätteen!"
+
+#: Conversation.py:425
+#, python-format
+msgid "Are you sure you want to send a offline message to %s"
+msgstr "Haluatko varmasti lähettää offline-viestin %s:lle"
+
+#: Conversation.py:448
+msgid "Can't send message"
+msgstr "Viestiä ei voitu lähettää"
+
+#: ConversationLayoutManager.py:222
+msgid "This is an outgoing message"
+msgstr "Tämä on lähtevä viesti"
+
+#: ConversationLayoutManager.py:229
+msgid "This is a consecutive outgoing message"
+msgstr "Tämä on seuraava lähtevä viesti"
+
+#: ConversationLayoutManager.py:235
+msgid "This is an incoming message"
+msgstr "Tämä on saapuva viesti"
+
+#: ConversationLayoutManager.py:242
+msgid "This is a consecutive incoming message"
+msgstr "Tämä on seuraava saapuva viesti"
+
+#: ConversationLayoutManager.py:247
+msgid "This is an information message"
+msgstr "Tämä on tiedotusviesti"
+
+#: ConversationLayoutManager.py:252
+msgid "This is an error message"
+msgstr "Tämä on virheviesti"
+
+#: ConversationLayoutManager.py:348
+msgid "says"
+msgstr "sanoo"
+
+#: ConversationUI.py:348
+msgid "is typing a message..."
+msgstr "kirjoittaa viestiä..."
+
+#: ConversationUI.py:350
+msgid "are typing a message..."
+msgstr "kirjoittavat viestiä..."
+
+#: ConversationUI.py:442 ConversationUI.py:525
+msgid "Connecting..."
+msgstr "Yhdistetään..."
+
+#: ConversationUI.py:444
+msgid "Reconnect"
+msgstr "Yhdistä uudelleen"
+
+#: ConversationUI.py:489
+msgid "The user is already present"
+msgstr "Käyttäjä on jo paikalla"
+
+#: ConversationUI.py:491
+msgid "The user is offline"
+msgstr "Käyttäjä on poissa linjoilta"
+
+#: ConversationUI.py:496
+msgid "Can't connect"
+msgstr "Ei voida yhdistää"
+
+#: ConversationUI.py:520
+msgid "Members"
+msgstr "Jäsenet"
+
+#: ConversationUI.py:734
+msgid "Send"
+msgstr "Lähetä"
+
+#: ConversationUI.py:1083
+msgid "Fontstyle"
+msgstr "Kirjasintyyli"
+
+#: ConversationUI.py:1088
+msgid "Smilie"
+msgstr "Hymiö"
+
+#: ConversationUI.py:1092
+msgid "Nudge"
+msgstr "Heräte"
+
+#: ConversationUI.py:1096 ConversationUI.py:1247
+msgid "Invite"
+msgstr "Kutsu"
+
+#: ConversationUI.py:1103
+msgid "Clear Conversation"
+msgstr "Pyyhi keskustelu"
+
+#: ConversationUI.py:1108
+msgid "Send File"
+msgstr "Lähetä tiedosto"
+
+#: ConversationUI.py:1135
+msgid "Font selection"
+msgstr "Kirjasimen valinta"
+
+#: ConversationUI.py:1136
+msgid "Font color selection"
+msgstr "Kirjasimen värin valinta"
+
+#: ConversationUI.py:1137 FontStyleWindow.py:43
+msgid "Font styles"
+msgstr "Kirjasintyylit"
+
+#: ConversationUI.py:1138
+msgid "Insert a smilie"
+msgstr "Lisää hymiö"
+
+#: ConversationUI.py:1139
+msgid "Send nudge"
+msgstr "Lähetä heräte"
+
+#: ConversationUI.py:1141
+msgid "Invite a friend to the conversation"
+msgstr "Kutsu tuttava keskusteluun"
+
+#: ConversationUI.py:1142
+msgid "Clear conversation"
+msgstr "Pyyhi keskustelu"
+
+#: ConversationUI.py:1143 plugins_base/Commands.py:93
+msgid "Send a file"
+msgstr "Lähetä tiedosto"
+
+#: ConversationUI.py:1274
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: ConversationUI.py:1290
+msgid "For multiple select hold CTRL key and click"
+msgstr "Pidä Ctrl-näppäintä pohjassa jos haluat valita useita"
+
+#: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
+msgid "Status:"
+msgstr "Tila:"
+
+#: ConversationUI.py:1530
+msgid "Average speed:"
+msgstr "Keskinopeus:"
+
+#: ConversationUI.py:1531
+msgid "Time elapsed:"
+msgstr "Kulunut aika:"
+
+#: ConversationWindow.py:399 plugins_base/Notification.py:184
+msgid "Choose a font"
+msgstr "Valitse kirjasin"
+
+#: ConversationWindow.py:422 plugins_base/Notification.py:195
+msgid "Choose a color"
+msgstr "Valitse väri"
+
+#: ConversationWindow.py:442
+msgid "Send file"
+msgstr "Lähetä tiedosto"
+
+#: ConversationWindow.py:470
+msgid "_Conversation"
+msgstr "Keskustelu"
+
+#: ConversationWindow.py:473
+msgid "_Invite"
+msgstr "Kutsu"
+
+#: ConversationWindow.py:480
+msgid "_Send file"
+msgstr "Lähetä tiedosto"
+
+#: ConversationWindow.py:487
+msgid "C_lear Conversation"
+msgstr "Pyyhi keskustelu"
+
+#: ConversationWindow.py:495
+msgid "Close all"
+msgstr "Sulje kaikki"
+
+#: ConversationWindow.py:511
+msgid "For_mat"
+msgstr "Tekstin muotoilu"
+
+#: CustomEmoticons.py:40
+msgid "Shortcut is empty"
+msgstr "Pikavalinta on tyhjä"
+
+#: CustomEmoticons.py:44
+msgid "Shortcut already in use"
+msgstr "Pikavalinta on jo käytössä"
+
+#: CustomEmoticons.py:56
+msgid "No Image selected"
+msgstr "Ei kuvaa valittuna"
+
+#: FileTransfer.py:70
+#, python-format
+msgid "Sending %s"
+msgstr "Lähetetään %s"
+
+#: FileTransfer.py:74
+#, python-format
+msgid "%(mail)s is sending you %(file)s"
+msgstr "%(mail)s lähettää sinulle tiedostoa %(file)s"
+
+#: FileTransfer.py:100
+#, python-format
+msgid "You have accepted %s"
+msgstr "Olet hyväksynyt %s :n"
+
+#: FileTransfer.py:114
+#, python-format
+msgid "You have canceled the transfer of %s"
+msgstr "Olet peruuttanut tiedoston %s siirron"
+
+#: FileTransfer.py:148
+#, python-format
+msgid "Starting transfer of %s"
+msgstr "Aloitetaan tiedoston %s siirto"
+
+#: FileTransfer.py:165
+#, python-format
+msgid "Transfer of %s failed."
+msgstr "Teidoston %s siirto epäonnistui."
+
+#: FileTransfer.py:168
+msgid "Some parts of the file are missing"
+msgstr "Tiedoston osia puuttuu"
+
+#: FileTransfer.py:170
+msgid "Interrupted by user"
+msgstr "Keskeytetty käyttäjän toimesta"
+
+#: FileTransfer.py:172
+msgid "Transfer error"
+msgstr "Tiedostonsiirtovirhe"
+
+#: FileTransfer.py:184
+#, python-format
+msgid "%s sent successfully"
+msgstr "Tiedoston %s lähetys onnistui"
+
+#: FileTransfer.py:187
+#, python-format
+msgid "%s received successfully."
+msgstr "Tiedoston %s vastaanotto onnistui."
+
+#: FontStyleWindow.py:54 plugins_base/PlusColorPanel.py:59
+msgid "Bold"
+msgstr "Lihavointi"
+
+#: FontStyleWindow.py:62 plugins_base/PlusColorPanel.py:64
+msgid "Italic"
+msgstr "Kursiivi"
+
+#: FontStyleWindow.py:70 plugins_base/PlusColorPanel.py:69
+msgid "Underline"
+msgstr "Alleviivaus"
+
+#: FontStyleWindow.py:78 plugins_base/PlusColorPanel.py:74
+msgid "Strike"
+msgstr "Yliviivaus"
+
+#: FontStyleWindow.py:82
+msgid "Reset"
+msgstr "Palauta oletukset"
+
+#: GroupMenu.py:33 MainMenu.py:190
+msgid "Re_name group..."
+msgstr "Uudelleennimeä ryhmä..."
+
+#: GroupMenu.py:36 MainMenu.py:188
+msgid "Re_move group"
+msgstr "Poista ryhmä"
+
+#: GroupMenu.py:45 MainMenu.py:129 UserMenu.py:142
+msgid "_Add contact..."
+msgstr "Lisää tuttava..."
+
+#: GroupMenu.py:48 MainMenu.py:133
+msgid "Add _group..."
+msgstr "Lisää ryhmä..."
+
+#: LogViewer.py:38
+msgid "Log viewer"
+msgstr "Lokitiedoston näyttö"
+
+#: LogViewer.py:44
+#, python-format
+msgid "[%(date)s] %(mail)s changed the nick to %(data)s\n"
+msgstr "[%(date)s] %(mail)s vaihtoi nimimerkiksi %(data)s\n"
+
+#: LogViewer.py:46
+#, python-format
+msgid "[%(date)s] %(mail)s changed the personal message to %(data)s\n"
+msgstr "[%(date)s] %(mail)s vaihtoi henkilökohtaiseksi viestiksi %(data)s\n"
+
+#: LogViewer.py:48
+#, python-format
+msgid "[%(date)s] %(mail)s changed his status to %(data)s\n"
+msgstr "[%(date)s] %(mail)s vaihtoi tilakseen %(data)s\n"
+
+#: LogViewer.py:50
+#, python-format
+msgid "[%(date)s] %(mail)s is now offline\n"
+msgstr "[%(date)s] %(mail)s on nyt poissa linjoilta\n"
+
+#: LogViewer.py:52
+#, python-format
+msgid "[%(date)s] %(mail)s: %(data)s\n"
+msgstr "[%(date)s] %(mail)s: %(data)s\n"
+
+#: LogViewer.py:54
+#, python-format
+msgid "[%(date)s] %(mail)s just sent you a nudge\n"
+msgstr "[%(date)s] %(mail)s lähetti sinulle herätteen\n"
+
+#: LogViewer.py:56
+#, python-format
+msgid "[%(date)s] %(mail)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(data)s\n"
+
+#: LogViewer.py:59
+#, python-format
+msgid "[%(date)s] %(mail)s %(event)s %(data)s\n"
+msgstr "[%(date)s] %(mail)s %(event)s %(data)s\n"
+
+#: LogViewer.py:127
+msgid "Open a log file"
+msgstr "Avaa lokitiedosto"
+
+#: LogViewer.py:129
+msgid "Open"
+msgstr "Avaa"
+
+#: LogViewer.py:130 Login.py:198 Login.py:210
+msgid "Cancel"
+msgstr "Peru"
+
+#: LogViewer.py:308 MainMenu.py:39
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: LogViewer.py:346
+msgid "Contact"
+msgstr "Tuttava"
+
+#: LogViewer.py:347 LogViewer.py:348 PluginManagerDialog.py:62
+msgid "Name"
+msgstr "Nimi"
+
+#: LogViewer.py:351
+msgid "Contacts"
+msgstr "Tuttavat"
+
+#: LogViewer.py:353
+msgid "User Events"
+msgstr "Käyttäjätapahtumat"
+
+#: LogViewer.py:355
+msgid "Conversation Events"
+msgstr "Keskustelutapahtumat"
+
+#: LogViewer.py:387
+msgid "User events"
+msgstr "Käyttäjätapahtumat"
+
+#: LogViewer.py:389
+msgid "Conversation events"
+msgstr "Keskustelutapahtumat"
+
+#: LogViewer.py:444
+msgid "State"
+msgstr "_Tila"
+
+#: LogViewer.py:455
+msgid "Select all"
+msgstr "Valitse kaikki"
+
+#: LogViewer.py:456
+msgid "Deselect all"
+msgstr "Poista valinnat kaikista"
+
+#: Login.py:49
+msgid "_User:"
+msgstr "Käyttäjänimi:"
+
+#: Login.py:50
+msgid "_Password:"
+msgstr "Salasana:"
+
+#: Login.py:51
+msgid "_Status:"
+msgstr "Tila:"
+
+#: Login.py:147
+msgid "_Login"
+msgstr "Kirjaudu"
+
+#: Login.py:151
+msgid "_Remember me"
+msgstr "Muista minut"
+
+#: Login.py:157
+msgid "Forget me"
+msgstr "Unohda minut"
+
+#: Login.py:162
+msgid "R_emember password"
+msgstr "Muista salasana"
+
+#: Login.py:166
+msgid "Auto-Login"
+msgstr "Kirjaudu automaattisesti"
+
+#: Login.py:194
+msgid "Connection error"
+msgstr "Yhteysvirhe"
+
+#: Login.py:280
+msgid "Reconnecting in "
+msgstr "Yhdistetään "
+
+#: Login.py:280
+msgid " seconds"
+msgstr " sekunnin kuluttua"
+
+#: Login.py:282
+msgid "Reconnecting..."
+msgstr "Yhdistetään..."
+
+#: Login.py:289
+msgid "User or password empty"
+msgstr "Käyttäjänimi tai salasana tyhjä"
+
+#: MainMenu.py:46 abstract/MainMenu.py:94
+msgid "_View"
+msgstr "_Näytä"
+
+#: MainMenu.py:50 abstract/MainMenu.py:129
+msgid "_Actions"
+msgstr "Toi_minnot"
+
+#: MainMenu.py:55 abstract/MainMenu.py:213
+msgid "_Options"
+msgstr "_Valinnat"
+
+#: MainMenu.py:59 abstract/MainMenu.py:231
+msgid "_Help"
+msgstr "_Ohje"
+
+#: MainMenu.py:77
+msgid "_New account"
+msgstr "Uusi käyttäjätili"
+
+#: MainMenu.py:96 abstract/MainMenu.py:100
+msgid "Order by _group"
+msgstr "Järjestä ryhmän mukaan"
+
+#: MainMenu.py:98 abstract/MainMenu.py:97
+msgid "Order by _status"
+msgstr "Järjestä tilan mukaan"
+
+#: MainMenu.py:109 abstract/MainMenu.py:107
+msgid "Show by _nick"
+msgstr "Näytä nimimerkin mukaan"
+
+#: MainMenu.py:111 abstract/MainMenu.py:111
+msgid "Show _offline"
+msgstr "Näytä henkilöt jotka ovat poissa linjoilta"
+
+#: MainMenu.py:114 abstract/MainMenu.py:115
+msgid "Show _empty groups"
+msgstr "Näytä tyhjät ryhmät"
+
+#: MainMenu.py:116
+msgid "Show _contact count"
+msgstr "Näytä tuttavien määrä"
+
+#: MainMenu.py:144 UserMenu.py:50
+msgid "_Set contact alias..."
+msgstr "Aseta tuttavan alias..."
+
+#: MainMenu.py:145 UserMenu.py:87 abstract/ContactMenu.py:42
+#: abstract/MainMenu.py:159
+msgid "_Block"
+msgstr "Aseta esto"
+
+#: MainMenu.py:147 UserMenu.py:93 abstract/ContactMenu.py:46
+#: abstract/MainMenu.py:163
+msgid "_Unblock"
+msgstr "Pura esto"
+
+#: MainMenu.py:149 UserMenu.py:106
+msgid "M_ove to group"
+msgstr "Siirrä ryhmään"
+
+#: MainMenu.py:151 UserMenu.py:99
+msgid "_Remove contact"
+msgstr "Poista tuttava"
+
+#: MainMenu.py:202
+msgid "_Change nick..."
+msgstr "Vaihda _nimimerkki..."
+
+#: MainMenu.py:204 UserPanel.py:395
+msgid "Change _display picture..."
+msgstr "Vaihda näyttö_kuva..."
+
+#: MainMenu.py:211
+msgid "Edit a_utoreply..."
+msgstr "Muokkaa a_utomaattista vastausta"
+
+#: MainMenu.py:214
+msgid "Activate au_toreply"
+msgstr "Ota au_tomaattinen vastaaja käyttöön"
+
+#: MainMenu.py:221
+msgid "P_lugins"
+msgstr "_Liitännäiset"
+
+#: MainMenu.py:376
+#, python-format
+msgid "A client for the WLM%s network"
+msgstr "Keskusteluohjelma WLM%s -verkkoon"
+
+#: MainMenu.py:401
+msgid "translator-credits"
+msgstr ""
+"Toni Kaihola, 2008\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Emilio Pozuelo Monfort https://launchpad.net/~pochu\n"
+"  Henrik Forsten https://launchpad.net/~henrik-forsten\n"
+"  JP Penttila https://launchpad.net/~excopy\n"
+"  Jani Hyytiäinen https://launchpad.net/~janihy\n"
+"  aamukahvi https://launchpad.net/~aamukahvi"
+
+#: MainMenu.py:473
+msgid "Empty autoreply"
+msgstr "Tyhjä automaattinen vastaus"
+
+#: MainMenu.py:478
+msgid "Autoreply message:"
+msgstr "Automaattisen vastaajan viesti:"
+
+#: MainMenu.py:480
+msgid "Change autoreply"
+msgstr "Muokkaa automaattista vastausta"
+
+#: MainWindow.py:301
+msgid "no group"
+msgstr "Ei ryhmää"
+
+#: PluginManagerDialog.py:43 PluginManagerDialog.py:44
+msgid "Plugin Manager"
+msgstr "Liitännäisten hallinta"
+
+#: PluginManagerDialog.py:60
+msgid "Active"
+msgstr "Käytössä"
+
+#: PluginManagerDialog.py:66
+msgid "Description"
+msgstr "Kuvaus"
+
+#: PluginManagerDialog.py:106 PreferenceWindow.py:519
+msgid "Author:"
+msgstr "Tekijä:"
+
+#: PluginManagerDialog.py:109 PreferenceWindow.py:521
+msgid "Website:"
+msgstr "Kotisivu:"
+
+#: PluginManagerDialog.py:121
+msgid "Configure"
+msgstr "Muokkaa asetuksia"
+
+#: PluginManagerDialog.py:262
+msgid "Plugin initialization failed: \n"
+msgstr "Liitännäisen käynnistys epäonnistui: \n"
+
+#: PreferenceWindow.py:39 PreferenceWindow.py:40
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: PreferenceWindow.py:66 PreferenceWindow.py:361 plugins_base/Sound.py:249
+msgid "Theme"
+msgstr "Teema"
+
+#: PreferenceWindow.py:67
+msgid "Interface"
+msgstr "Käyttöliittymä"
+
+#: PreferenceWindow.py:69
+msgid "Color scheme"
+msgstr "Värit"
+
+#: PreferenceWindow.py:71
+msgid "Filetransfer"
+msgstr "Tiedostonsiirto"
+
+#: PreferenceWindow.py:77 PreferenceWindow.py:81
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: PreferenceWindow.py:78 PreferenceWindow.py:80
+msgid "Connection"
+msgstr "Yhteys"
+
+#: PreferenceWindow.py:135
+msgid "Contact typing"
+msgstr "Tuttava kirjoittaa"
+
+#: PreferenceWindow.py:137
+msgid "Message waiting"
+msgstr "Viesti odottaa"
+
+#: PreferenceWindow.py:139
+msgid "Personal msn message"
+msgstr "Henkilökohtainen viesti"
+
+#: PreferenceWindow.py:182
+msgid "Links and files"
+msgstr "Linkit ja tiedostot"
+
+#: PreferenceWindow.py:189
+msgid "Enable rgba colormap (requires restart)"
+msgstr "Ota käyttöön rgba-värikartta (vaatii uudelleenkäynnistyksen)"
+
+#: PreferenceWindow.py:216
+#, python-format
+msgid ""
+"The detected desktop environment is <b>\"%(detected)s\"</b>.\n"
+"<span face=\"Monospace\">%(commandline)s</span> will be used to open links "
+"and files"
+msgstr ""
+"Tunnistettu työpöytäympäristö on <b>\"%(detected)s\"</b>.\n"
+" Sovellusta <span face=\"Monospace\">%(commandline)s</span> käytetään "
+"linkkien ja tiedostojen avaamiseen"
+
+#: PreferenceWindow.py:221
+msgid ""
+"<b>No desktop environment detected.</b> The first browser found will be used "
+"to open links"
+msgstr ""
+"<b>Työpöytäympäristöä ei tunnistettu.</b> Ensimmäistä löydettyä selainta "
+"käytetään avaamaan linkit"
+
+#: PreferenceWindow.py:232
+msgid "Command line:"
+msgstr "Komentorivi:"
+
+#: PreferenceWindow.py:235
+msgid "Override detected settings"
+msgstr "Käytä omaa asetusta"
+
+#: PreferenceWindow.py:240
+#, python-format
+msgid "<i>Note:</i> %s is replaced by the actual url to be opened"
+msgstr "<i>Huomaa:</i> %s korvataan avattavalla osoitteella"
+
+#: PreferenceWindow.py:245
+msgid "Click to test"
+msgstr "Klikkaa testataksesi"
+
+#: PreferenceWindow.py:293
+msgid "_Show debug in console"
+msgstr "Näytä _debug-tiedot konsolissa"
+
+#: PreferenceWindow.py:295
+msgid "_Show binary codes in debug"
+msgstr "Näytä binäärikoodit debugissa"
+
+#: PreferenceWindow.py:297
+msgid "_Use HTTP method"
+msgstr "Käytä HTTP:tä"
+
+#: PreferenceWindow.py:301
+msgid "Proxy settings"
+msgstr "Välityspalvelimen asetukset"
+
+#: PreferenceWindow.py:347
+msgid "_Use small icons"
+msgstr "Käytä pieniä kuvakkeita"
+
+#: PreferenceWindow.py:349
+msgid "Display _smiles"
+msgstr "Näytä hymiöt"
+
+#: PreferenceWindow.py:351
+msgid "Disable text formatting"
+msgstr "Ota tekstin muotoilu pois käytöstä"
+
+#: PreferenceWindow.py:368
+msgid "Smilie theme"
+msgstr "Hymiöteema"
+
+#: PreferenceWindow.py:375 PreferenceWindow.py:436
+msgid "Conversation Layout"
+msgstr "Keskustelun asettelu"
+
+#: PreferenceWindow.py:515
+msgid "Name:"
+msgstr "Nimi:"
+
+#: PreferenceWindow.py:517
+msgid "Description:"
+msgstr "Kuvaus:"
+
+#: PreferenceWindow.py:566 PreferenceWindow.py:584
+msgid "Show _menu bar"
+msgstr "Näytä valikkorivi"
+
+#: PreferenceWindow.py:567
+msgid "Show _user panel"
+msgstr "Näytä käyttäjäpaneeli"
+
+#: PreferenceWindow.py:568
+msgid "Show _search entry"
+msgstr "Näytä hakukenttä"
+
+#: PreferenceWindow.py:570
+msgid "Show status _combo"
+msgstr "Näytä tilanvalintapalkki"
+
+#: PreferenceWindow.py:573
+msgid "Main window"
+msgstr "Pääikkuna"
+
+#: PreferenceWindow.py:585
+msgid "Show conversation _header"
+msgstr "Näytä keskusteluotsikko"
+
+#: PreferenceWindow.py:596
+msgid "Show conversation _toolbar"
+msgstr "Näytä keskustelun työkalupalkki"
+
+#: PreferenceWindow.py:598
+msgid "S_how a Send button"
+msgstr "Näytä Lähetä-nappi"
+
+#: PreferenceWindow.py:601
+msgid "Show st_atusbar"
+msgstr "Näytä tilanvalintapalkki"
+
+#: PreferenceWindow.py:602
+msgid "Show a_vatars"
+msgstr "Näytä näyttökuvat"
+
+#: PreferenceWindow.py:605
+msgid "Conversation Window"
+msgstr "Keskusteluikkuna"
+
+#: PreferenceWindow.py:617
+msgid "Use multiple _windows"
+msgstr "Käytä useita ikkunoita"
+
+#: PreferenceWindow.py:618
+msgid "Show close button on _each tab"
+msgstr "Näytä Sulje-nappi jokaisella välilehdellä"
+
+#: PreferenceWindow.py:619
+msgid "Show _avatars"
+msgstr "Näytä näyttökuvat"
+
+#: PreferenceWindow.py:620
+msgid "Show avatars in task_bar"
+msgstr "Näytä näyttökuvat ikkunalistassa"
+
+#: PreferenceWindow.py:647
+msgid "_Use proxy"
+msgstr "Käytä _välityspalvelinta"
+
+#: PreferenceWindow.py:659
+msgid "_Host:"
+msgstr "Palvelin:"
+
+#: PreferenceWindow.py:663
+msgid "_Port:"
+msgstr "Portti:"
+
+#: PreferenceWindow.py:713
+msgid "Choose a Directory"
+msgstr "Valitse hakemisto"
+
+#: PreferenceWindow.py:725
+msgid "Sort received _files by sender"
+msgstr "Lajittele vastaanotetut tiedostot lähettäjän mukaan"
+
+#: PreferenceWindow.py:731
+msgid "_Save files to:"
+msgstr "T_allenna tiedostot kansioon:"
+
+#: SlashCommands.py:86
+msgid "Use \"/help <command>\" for help on a specific command"
+msgstr ""
+"Käytä valintaa \"/help <komento>\" saadaksesi lisätietoa tietystä komennosta."
+
+#: SlashCommands.py:87
+msgid "The following commands are available:"
+msgstr "Seuraavat komennot ovat käytettävissä:"
+
+#: SlashCommands.py:104
+#, python-format
+msgid "The command %s doesn't exist"
+msgstr "Komentoa %s ei ole olemassa"
+
+#: SmilieWindow.py:44
+msgid "Smilies"
+msgstr "Hymiöt"
+
+#: SmilieWindow.py:132 SmilieWindow.py:172
+msgid "Change shortcut"
+msgstr "Muuta pikavalintaa"
+
+#: SmilieWindow.py:138
+msgid "Delete"
+msgstr "Poista"
+
+#: SmilieWindow.py:169 dialog.py:1061 htmltextview.py:605
+msgid "Empty shortcut"
+msgstr "Tyhjä pikavalinta"
+
+#: SmilieWindow.py:171 htmltextview.py:607
+msgid "New shortcut"
+msgstr "Uusi pikavalinta"
+
+#: TreeViewTooltips.py:61
+#, python-format
+msgid "Blocked: %s"
+msgstr "Estetty: %s"
+
+#: TreeViewTooltips.py:62
+#, python-format
+msgid "Has you: %s"
+msgstr "Olet tuttavasi listalla: %s"
+
+#: TreeViewTooltips.py:63
+#, python-format
+msgid "Has MSN Space: %s"
+msgstr "On MSN Spaces sivusto: %s"
+
+#: TreeViewTooltips.py:67
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: TreeViewTooltips.py:70
+msgid "Yes"
+msgstr "Kyllä"
+
+#: TreeViewTooltips.py:70
+msgid "No"
+msgstr "Ei"
+
+#: TreeViewTooltips.py:258
+#, python-format
+msgid "%(status)s since: %(time)s"
+msgstr "%(status)s %(time)s alkaen"
+
+#: UserMenu.py:36
+msgid "_Open Conversation"
+msgstr "Avaa keskustelu"
+
+#: UserMenu.py:40
+msgid "Send _Mail"
+msgstr "Lähetä postia"
+
+#: UserMenu.py:45
+msgid "Copy email"
+msgstr "Kopioi sähköposti"
+
+#: UserMenu.py:55 dialog.py:519
+msgid "View profile"
+msgstr "Näytä profiili"
+
+#: UserMenu.py:120
+msgid "_Copy to group"
+msgstr "Kopioi ryhmään"
+
+#: UserMenu.py:135
+msgid "R_emove from group"
+msgstr "Poista ryhmästä"
+
+#: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
+msgid "Click here to set your personal message"
+msgstr "Aseta henkilökohtainen viesti"
+
+#: UserPanel.py:107 UserPanel.py:292
+msgid "No media playing"
+msgstr "Mitään mediatiedostoa ei toisteta"
+
+#: UserPanel.py:117
+msgid "Click here to set your nick name"
+msgstr "Aseta nimimerkki"
+
+#: UserPanel.py:119
+msgid "Your current media"
+msgstr "Toistettava media"
+
+#: dialog.py:192 abstract/dialog.py:24
+msgid "Error!"
+msgstr "Virhe!"
+
+#: dialog.py:200 abstract/dialog.py:31
+msgid "Warning"
+msgstr "Varoitus"
+
+#: dialog.py:210 abstract/dialog.py:39
+msgid "Information"
+msgstr "Tietoa"
+
+#: dialog.py:219 abstract/dialog.py:47
+msgid "Exception"
+msgstr "Poikkeus"
+
+#: dialog.py:235 dialog.py:248 dialog.py:263 abstract/dialog.py:52
+#: abstract/dialog.py:58 abstract/dialog.py:64
+msgid "Confirm"
+msgstr "Vahvista"
+
+#: dialog.py:272
+msgid "User invitation"
+msgstr "Käyttäjäkutsu"
+
+#: dialog.py:283 abstract/dialog.py:81
+msgid "Add user"
+msgstr "Lisää tuttava"
+
+#: dialog.py:292
+msgid "Account"
+msgstr "Käyttäjätili"
+
+#: dialog.py:296
+msgid "Group"
+msgstr "Ryhmä"
+
+#: dialog.py:336 abstract/dialog.py:92
+msgid "Add group"
+msgstr "Lisää ryhmä"
+
+#: dialog.py:344
+msgid "Group name"
+msgstr "Ryhmän nimi"
+
+#: dialog.py:347 abstract/dialog.py:102
+msgid "Change nick"
+msgstr "Vaihda nimimerkki"
+
+#: dialog.py:352
+msgid "New nick"
+msgstr "Uusi nimimerkki"
+
+#: dialog.py:357 abstract/dialog.py:109
+msgid "Change personal message"
+msgstr "Vaihda henkilökohtainen viesti"
+
+#: dialog.py:363
+msgid "New personal message"
+msgstr "Uusi henkilökohtainen viesti"
+
+#: dialog.py:368 abstract/dialog.py:117
+msgid "Change picture"
+msgstr "Vaihda näyttö_kuva..."
+
+#: dialog.py:381 abstract/dialog.py:128
+msgid "Rename group"
+msgstr "Uudellennimeä ryhmä"
+
+#: dialog.py:387
+msgid "New group name"
+msgstr "Ryhmän uusi nimi"
+
+#: dialog.py:392 abstract/dialog.py:136
+msgid "Set alias"
+msgstr "Aseta alias"
+
+#: dialog.py:398
+msgid "Contact alias"
+msgstr "Tuttavan alias"
+
+#: dialog.py:475
+msgid "Add contact"
+msgstr "Lisää tuttava"
+
+#: dialog.py:516
+msgid "Remind me later"
+msgstr "Muistuta myöhemmin uudelleen"
+
+#: dialog.py:585
+msgid ""
+" has added you.\n"
+"Do you want to add him/her to your contact list?"
+msgstr ""
+" lisäsi sinut.\n"
+"Haluatko lisätä hänet tuttavalistallesi?"
+
+#: dialog.py:650
+msgid "Avatar chooser"
+msgstr "Näyttökuvan valinta"
+
+#: dialog.py:681
+msgid "No picture"
+msgstr "_Ei kuvaa"
+
+#: dialog.py:684
+msgid "Remove all"
+msgstr "Poista kaikki"
+
+#: dialog.py:698
+msgid "Current"
+msgstr "Nykyinen"
+
+#: dialog.py:851
+msgid "Are you sure you want to remove all items?"
+msgstr "Haluatko varmasti poistaa kaikki?"
+
+#: dialog.py:865 dialog.py:989 dialog.py:1066
+msgid "No picture selected"
+msgstr "Ei kuvaa valittuna"
+
+#: dialog.py:892
+msgid "Image Chooser"
+msgstr "Kuvanvalitsin"
+
+#: dialog.py:935
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+#: dialog.py:940
+msgid "All images"
+msgstr "Kaikki kuvat"
+
+#: dialog.py:1027
+msgid "small (16x16)"
+msgstr "pieni (16x16)"
+
+#: dialog.py:1028
+msgid "big (50x50)"
+msgstr "suuri (50x50)"
+
+#: dialog.py:1036 htmltextview.py:608
+msgid "Shortcut"
+msgstr "Pikavalinta"
+
+#: htmltextview.py:343
+msgid "_Open link"
+msgstr "Avaa linkki"
+
+#: htmltextview.py:349
+msgid "_Copy link location"
+msgstr "Kopioi linkki"
+
+#: htmltextview.py:585
+msgid "_Save as ..."
+msgstr "Tallenna nimellä ..."
+
+#: plugins_base/Commands.py:37
+msgid "Make some useful commands available, try /help"
+msgstr "Antaa käyttöön muutaman hyödyllisen komennon. Kokeile /help"
+
+#: plugins_base/Commands.py:40
+msgid "Commands"
+msgstr "Komennot"
+
+#: plugins_base/Commands.py:85
+msgid "Replaces variables"
+msgstr "Korvaa muuttujat"
+
+#: plugins_base/Commands.py:87
+msgid "Replaces me with your username"
+msgstr "Korvaa minut käyttäjänimelläsi"
+
+#: plugins_base/Commands.py:89
+msgid "Sends a nudge"
+msgstr "Lähettää herätteen"
+
+#: plugins_base/Commands.py:91
+msgid "Invites a buddy"
+msgstr "Kutsuu tuttavan"
+
+#: plugins_base/Commands.py:95
+msgid "Add a contact"
+msgstr "Lisää yhteystieto"
+
+#: plugins_base/Commands.py:97
+msgid "Remove a contact"
+msgstr "Poista yhteystieto"
+
+#: plugins_base/Commands.py:99
+msgid "Block a contact"
+msgstr "Estä"
+
+#: plugins_base/Commands.py:101
+msgid "Unblock a contact"
+msgstr "Poista esto"
+
+#: plugins_base/Commands.py:103
+msgid "Clear the conversation"
+msgstr "Tyhjennä keskusteluikkuna"
+
+#: plugins_base/Commands.py:105
+msgid "Set your nick"
+msgstr "Aseta näyttönimesi"
+
+#: plugins_base/Commands.py:107
+msgid "Set your psm"
+msgstr "Aseta henkilökohtainen viestisi"
+
+#: plugins_base/Commands.py:144
+#, fuzzy, python-format
+msgid "Usage /%s contact"
+msgstr "Käyttö /%s tuttava"
+
+#: plugins_base/Commands.py:163
+msgid "File doesn't exist"
+msgstr "Tiedostoa ei ole olemassa"
+
+#: plugins_base/CurrentSong.py:49
+msgid ""
+"Show a personal message with the current song played in multiple players."
+msgstr ""
+"Näyttää soivan kappaleen henkilökohtaisena viestinä useista eri soittimista"
+
+#: plugins_base/CurrentSong.py:53
+#, fuzzy
+msgid "CurrentSong"
+msgstr "Nykyinen kappale"
+
+#: plugins_base/CurrentSong.py:352
+msgid "Display style"
+msgstr "Esitystapa"
+
+#: plugins_base/CurrentSong.py:353
+msgid ""
+"Change display style of the song you are listening, possible variables are "
+"%title, %artist and %album"
+msgstr ""
+"Muuta tyyliä, jolla kuuntelemasi kappaleet näytetään. Mahdolliset muuttujat "
+"ovat: %title, %artist ja %album"
+
+#: plugins_base/CurrentSong.py:355
+msgid "Music player"
+msgstr "Musiikkisoitin"
+
+#: plugins_base/CurrentSong.py:356
+msgid "Select the music player that you are using"
+msgstr "Valitse musiikkisoitin, jota käytät"
+
+#: plugins_base/CurrentSong.py:362
+msgid "Show logs"
+msgstr "Näytä logit"
+
+#: plugins_base/CurrentSong.py:370 plugins_base/CurrentSong.py:371
+msgid "Change Avatar"
+msgstr "Vaihda kuvaa"
+
+#: plugins_base/CurrentSong.py:373
+msgid "Get cover art from web"
+msgstr "Hae kansikuva netistä"
+
+#: plugins_base/CurrentSong.py:376 plugins_base/CurrentSong.py:377
+msgid "Custom config"
+msgstr "Mukautetut asetukset"
+
+#: plugins_base/CurrentSong.py:380
+msgid "Config Plugin"
+msgstr "Muokkaa lisäosan asetuksia"
+
+#: plugins_base/CurrentSong.py:436
+msgid "Logs"
+msgstr "Loki"
+
+#: plugins_base/CurrentSong.py:445
+msgid "Type"
+msgstr "Tyyppi"
+
+#: plugins_base/CurrentSong.py:446 plugins_base/Plugin.py:163
+msgid "Value"
+msgstr "Arvo"
+
+#: plugins_base/Dbus.py:44
+#, fuzzy
+msgid "With this plugin you can interact via Dbus with emesene"
+msgstr ""
+"Tämän liitännäisen avulla voit vuorovaikuttaa Dbusin kautta emesenen kanssa"
+
+#: plugins_base/Dbus.py:47
+msgid "Dbus"
+msgstr "Dbus"
+
+#: plugins_base/Eval.py:50
+msgid "Evaluate python commands - USE AT YOUR OWN RISK"
+msgstr "Suorita Python-komentoja - KÄYTTÖ OMALLA VASTUULLA"
+
+#: plugins_base/Eval.py:65
+msgid "Run python commands"
+msgstr "Suorita python käskyjä"
+
+#: plugins_base/Eval.py:156
+msgid "Alowed users:"
+msgstr "Sallitut käyttäjät:"
+
+#: plugins_base/Eval.py:159
+#, fuzzy
+msgid "Remote Configuration"
+msgstr "Etäasetukset"
+
+#: plugins_base/IdleStatusChange.py:34
+msgid ""
+"Changes status to selected one if session is idle (you must use gnome and "
+"have gnome-screensaver installed)"
+msgstr ""
+"Muuttaa tilan valittuun jos istunto on jouten (sinun täytyy käyttää gnomea "
+"ja olla gnome-screensaver asennettuna)"
+
+#: plugins_base/IdleStatusChange.py:36
+#, fuzzy
+msgid "Idle Status Change"
+msgstr "Jouten tilan muutos"
+
+#: plugins_base/IdleStatusChange.py:78
+#, fuzzy
+msgid "Idle Status:"
+msgstr "Tila:"
+
+#: plugins_base/IdleStatusChange.py:78
+#, fuzzy
+msgid "Set the idle status"
+msgstr "Aseta jouten tila"
+
+#: plugins_base/IdleStatusChange.py:79
+#, fuzzy
+msgid "Idle Status Change configuration"
+msgstr "Jouten tilan muutos asetukset"
+
+#: plugins_base/LastStuff.py:34
+#, fuzzy
+msgid "Get Last something from the logs"
+msgstr "Hae viimeiset jotain lokeista"
+
+#: plugins_base/LastStuff.py:70
+msgid "invalid number as first parameter"
+msgstr "Virheellinen numero ensimmäisenä parametrina"
+
+#: plugins_base/LastStuff.py:81 plugins_base/LastStuff.py:90
+#: plugins_base/LastStuff.py:99 plugins_base/LastStuff.py:108
+#: plugins_base/LastStuff.py:133 plugins_base/LastStuff.py:145
+msgid "Empty result"
+msgstr "Tyhjä tulos"
+
+#: plugins_base/LastStuff.py:155
+#, fuzzy
+msgid "Enable the logger plugin"
+msgstr "Ota lokiliitännäinen käyttöön"
+
+#: plugins_base/LibNotify.py:34
+msgid "there was a problem initializing the pynotify module"
+msgstr "Ongelma alustettaessa pynotify moduulia"
+
+#: plugins_base/LibNotify.py:44
+msgid "Notify about diferent events using pynotify"
+msgstr "Ilmoita erilaisista tapahtumista käyttäen pynotifyä"
+
+#: plugins_base/LibNotify.py:47
+msgid "LibNotify"
+msgstr "LibNotify"
+
+#: plugins_base/LibNotify.py:126 plugins_base/Notification.py:100
+msgid "Notify when someone gets online"
+msgstr "Ilmoita kun joku kirjautuu sisään"
+
+#: plugins_base/LibNotify.py:129 plugins_base/Notification.py:102
+msgid "Notify when someone gets offline"
+msgstr "Ilmoita kun joku kirjautuu ulos"
+
+#: plugins_base/LibNotify.py:132 plugins_base/Notification.py:104
+msgid "Notify when receiving an email"
+msgstr "Ilmoita kun sähköpostiviesti saapuu"
+
+#: plugins_base/LibNotify.py:135 plugins_base/Notification.py:106
+msgid "Notify when someone starts typing"
+msgstr "Ilmoita kun joku alkaa kirjoittamaan"
+
+#: plugins_base/LibNotify.py:138 plugins_base/Notification.py:108
+msgid "Notify when receiving a message"
+msgstr "Ilmoita kun viesti saapuu"
+
+#: plugins_base/LibNotify.py:144 plugins_base/Notification.py:112
+msgid "Disable notifications when busy"
+msgstr "Poista ilmoitukset käytöstä kun tila on varattu"
+
+#: plugins_base/LibNotify.py:147
+#, fuzzy
+msgid "Config LibNotify Plugin"
+msgstr "Konfiguroi LibNotify liitännäinen"
+
+#: plugins_base/LibNotify.py:273 plugins_base/Notification.py:564
+msgid "is online"
+msgstr "on nyt online-tilassa"
+
+#: plugins_base/LibNotify.py:283 plugins_base/Notification.py:580
+msgid "is offline"
+msgstr "on offline-tilassa"
+
+#: plugins_base/LibNotify.py:303 plugins_base/Notification.py:606
+msgid "has send a message"
+msgstr "on lähettänyt viestin"
+
+#: plugins_base/LibNotify.py:322 plugins_base/Notification.py:631
+msgid "sent an offline message"
+msgstr "lähetettiin offline-viesti"
+
+#: plugins_base/LibNotify.py:337
+msgid "starts typing"
+msgstr "tuttava alkaa kirjoittamaan"
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:664
+#: plugins_base/Notification.py:667
+msgid "From: "
+msgstr "Lähettäjä: "
+
+#: plugins_base/LibNotify.py:348 plugins_base/Notification.py:671
+msgid "Subj: "
+msgstr "Aihe: "
+
+#: plugins_base/LibNotify.py:351 plugins_base/Notification.py:673
+msgid "New email"
+msgstr "Uusi sähköposti"
+
+#: plugins_base/LibNotify.py:363 plugins_base/Notification.py:690
+#, fuzzy, python-format
+msgid "You have %(num)i unread message%(s)s"
+msgstr "Sinulla on %(num)i lukematonta viestiä message%(s)s"
+
+#: plugins_base/Logger.py:638
+msgid "View conversation _log"
+msgstr "Näytä keskusteluhistoria"
+
+#: plugins_base/Logger.py:647
+#, python-format
+msgid "Conversation log for %s"
+msgstr "Keskustelulogi tuttavalle %s"
+
+#: plugins_base/Logger.py:680
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: plugins_base/Logger.py:705
+#, python-format
+msgid "No logs were found for %s"
+msgstr "Lokeja ei löytynyt %s:lle"
+
+#: plugins_base/Logger.py:765
+msgid "Save conversation log"
+msgstr "Tallenna keskusteluhistoria"
+
+#: plugins_base/Notification.py:44
+msgid "Notification Config"
+msgstr "Ilmoitusten asetukset"
+
+#: plugins_base/Notification.py:61 plugins_base/Notification.py:205
+msgid "Sample Text"
+msgstr "Malliteksti"
+
+#: plugins_base/Notification.py:82
+msgid "Image"
+msgstr "Kuva"
+
+#: plugins_base/Notification.py:110
+msgid "Don`t notify if conversation is started"
+msgstr "Älä ilmoita jos keskutelu on alkanut"
+
+#: plugins_base/Notification.py:116
+msgid "Position"
+msgstr "Sijainti"
+
+#: plugins_base/Notification.py:118
+msgid "Top Left"
+msgstr "Vasen yläreuna"
+
+#: plugins_base/Notification.py:119
+msgid "Top Right"
+msgstr "Oikea yläreuna"
+
+#: plugins_base/Notification.py:120
+msgid "Bottom Left"
+msgstr "Vasen alareuna"
+
+#: plugins_base/Notification.py:121
+msgid "Bottom Right"
+msgstr "Oikea alareuna"
+
+#: plugins_base/Notification.py:129
+msgid "Scroll"
+msgstr "Vieritin"
+
+#: plugins_base/Notification.py:131
+msgid "Horizontal"
+msgstr "Vaakataso"
+
+#: plugins_base/Notification.py:132
+msgid "Vertical"
+msgstr "Pystytaso"
+
+#: plugins_base/Notification.py:508
+msgid ""
+"Show a little window in the bottom-right corner of the screen when someone "
+"gets online etc."
+msgstr ""
+"Näytä pieni ikkuna näytön oikeassa alareunassa, kun joku kirjautuu sisään "
+"jne."
+
+#: plugins_base/Notification.py:511
+msgid "Notification"
+msgstr "Ilmoitus"
+
+#: plugins_base/Notification.py:652
+msgid "starts typing..."
+msgstr "alkaa kirjoittaa..."
+
+#: plugins_base/PersonalMessage.py:29
+msgid "Save the personal message between sessions."
+msgstr "Tallenna henkilökohtainen viesti istuntojen välissä."
+
+#: plugins_base/PersonalMessage.py:32
+msgid "Personal Message"
+msgstr "Henkilökohtainen viesti"
+
+#: plugins_base/Plugin.py:162
+msgid "Key"
+msgstr "Avain"
+
+#: plugins_base/Plus.py:245
+#, fuzzy
+msgid "Messenser Plus like plugin for emesene"
+msgstr "Messenger Plus tapainen liitännäinen emesenelle"
+
+#: plugins_base/Plus.py:248
+msgid "Plus"
+msgstr "Plus"
+
+#: plugins_base/PlusColorPanel.py:81
+msgid "Select custom color"
+msgstr "Valitse oma väri"
+
+#: plugins_base/PlusColorPanel.py:87
+msgid "Enable background color"
+msgstr "Käytä taustaväriä"
+
+#: plugins_base/PlusColorPanel.py:210
+#, fuzzy
+msgid "A panel for applying Messenger Plus formats to the text"
+msgstr "Paneeli Messenger Plus muotoilujen lisäämiseen tekstiin"
+
+#: plugins_base/PlusColorPanel.py:212
+msgid "Plus Color Panel"
+msgstr "Plus väripaneeli"
+
+#: plugins_base/Screenshots.py:34
+msgid "Take screenshots and send them with "
+msgstr "Ota ruutukaappauksia ja lähetä ne käyttäen "
+
+#: plugins_base/Screenshots.py:56
+msgid "Takes screenshots"
+msgstr "Ottaa kuvakaappauksen"
+
+#: plugins_base/Screenshots.py:74
+#, python-format
+msgid "Taking screenshot in %s seconds"
+msgstr "Ottaa kuvakaappauksen %s sekunnin kuluttua"
+
+#: plugins_base/Screenshots.py:79
+msgid "Tip: Use \"/screenshot save <seconds>\" to skip the upload "
+msgstr ""
+"Vihje: Käytä \"/screenshot save <seconds>\" ohittaaksesi lähettämisen "
+
+#: plugins_base/Screenshots.py:133
+msgid "Temporary file:"
+msgstr "Väliaikainen tiedosto:"
+
+#: plugins_base/Sound.py:122
+msgid "Play sounds for common events."
+msgstr "Soita ääni tavallisille tapahtumille"
+
+#: plugins_base/Sound.py:125
+msgid "Sound"
+msgstr "Ääni"
+
+#: plugins_base/Sound.py:185
+msgid "gstreamer, play and aplay not found."
+msgstr "gstreamer, play ja aplay ei löytynyt"
+
+#: plugins_base/Sound.py:253
+msgid "Play online sound"
+msgstr "Toista ääni kun tuttava kirjautuu sisään"
+
+#: plugins_base/Sound.py:254
+msgid "Play a sound when someone gets online"
+msgstr "Soita ääni kun joku kirjautuu sisään"
+
+#: plugins_base/Sound.py:259
+msgid "Play message sound"
+msgstr "Toista viesti ääni"
+
+#: plugins_base/Sound.py:260
+msgid "Play a sound when someone sends you a message"
+msgstr "Soita ääni kun joku lähettää sinulla viestin"
+
+#: plugins_base/Sound.py:265
+msgid "Play nudge sound"
+msgstr "Soita heräte ääni"
+
+#: plugins_base/Sound.py:266
+msgid "Play a sound when someone sends you a nudge"
+msgstr "Soita ääni kun joku lähettää sinulla herätteen"
+
+#: plugins_base/Sound.py:271 plugins_base/Sound.py:272
+msgid "Play sound when you send a message"
+msgstr "Soita ääni kun lähetät viestin"
+
+#: plugins_base/Sound.py:277
+msgid "Only play message sound when window is inactive"
+msgstr "Soita viesti ääni vain silloin kun ikkuna ei ole aktiivinen"
+
+#: plugins_base/Sound.py:278
+msgid "Play the message sound only when the window is inactive"
+msgstr "Soita viesti ääni vain silloin kun ikkuna ei ole aktiivinen"
+
+#: plugins_base/Sound.py:283 plugins_base/Sound.py:284
+msgid "Disable sounds when busy"
+msgstr "Poista äänet käytöstä kun tila on kiireinen"
+
+#: plugins_base/Sound.py:289
+msgid "Use system beep"
+msgstr "Käytä järjestelmäpiippausta"
+
+#: plugins_base/Sound.py:290
+msgid "Play the system beep instead of sound files"
+msgstr "Käytä järjestelmäpiippausta äänitiedostojen sijaan"
+
+#: plugins_base/Sound.py:294
+#, fuzzy
+msgid "Config Sound Plugin"
+msgstr "Konfiguroi Ääni-liitännäinen"
+
+#: plugins_base/Spell.py:32
+msgid "You need to install gtkspell to use Spell plugin"
+msgstr ""
+"Sinun täytyy asentaa gtkspell voidaksesi käyttää Oikoluku liitännäistä"
+
+#: plugins_base/Spell.py:42
+msgid "SpellCheck for emesene"
+msgstr "Oikoluku emesenelle"
+
+#: plugins_base/Spell.py:45
+msgid "Spell"
+msgstr "Oikoluku"
+
+#: plugins_base/Spell.py:103
+msgid "Plugin disabled."
+msgstr "Liitännäinen pois käytöstä."
+
+#: plugins_base/Spell.py:126 plugins_base/Spell.py:136
+#, fuzzy, python-format
+msgid "Error applying Spell to input (%s)"
+msgstr "Virhe sovellettaessa Oikolukua syötteeseen (%s)"
+
+#: plugins_base/Spell.py:170
+msgid "Error getting dictionaries list"
+msgstr "Virhe haettaessa sanakirjojen luetteloa"
+
+#: plugins_base/Spell.py:174
+msgid "No dictionaries found."
+msgstr "Sanakirjoja ei löytynyt"
+
+#: plugins_base/Spell.py:178
+msgid "Default language"
+msgstr "Oletuskieli"
+
+#: plugins_base/Spell.py:179
+msgid "Set the default language"
+msgstr "Aseta oletuskieli"
+
+#: plugins_base/Spell.py:182
+msgid "Spell configuration"
+msgstr "Oikoluvun asetukset"
+
+#: plugins_base/StatusHistory.py:69
+#, fuzzy
+msgid "Show status image:"
+msgstr "Näytä olotilan kuva:"
+
+#: plugins_base/StatusHistory.py:71
+#, fuzzy
+msgid "StatusHistory plugin config"
+msgstr "StatusHistory liitännäisen asetukset"
+
+#: plugins_base/Tweaks.py:31
+msgid "Edit your config file"
+msgstr "Muokkaa asetustiedostoasi"
+
+#: plugins_base/Tweaks.py:34
+msgid "Tweaks"
+msgstr "Viritykset"
+
+#: plugins_base/Tweaks.py:66
+#, fuzzy
+msgid "Config config"
+msgstr "Asetus asetus"
+
+#: plugins_base/WindowTremblingNudge.py:34
+#, fuzzy
+msgid "Shakes the window when a nudge is received."
+msgstr "Tärisyttää ikkunaa kun saadaan heräte."
+
+#: plugins_base/WindowTremblingNudge.py:38
+#, fuzzy
+msgid "Window Trembling Nudge"
+msgstr "Ikkunanheilutusheräte"
+
+#: plugins_base/Youtube.py:39
+msgid "Displays thumbnails of youtube videos next to links"
+msgstr "Näyttää youtube videoiden pikkukuvan linkin vieressä"
+
+#: plugins_base/Youtube.py:42
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugins_base/lastfm.py:207
+msgid "Send information to last.fm"
+msgstr "Lähetä tietoa last.fm:ään"
+
+#: plugins_base/lastfm.py:210
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: plugins_base/lastfm.py:256
+msgid "Username:"
+msgstr "Käyttäjätunnus:"
+
+#: plugins_base/lastfm.py:258
+msgid "Password:"
+msgstr "Salasana:"
+
+#: abstract/ContactManager.py:450
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Oletko varma, että haluat poistaa %s?"
+
+#: abstract/ContactMenu.py:38 abstract/GroupMenu.py:39
+#: abstract/MainMenu.py:139 abstract/MainMenu.py:155
+msgid "_Remove"
+msgstr "_Poista"
+
+#: abstract/ContactMenu.py:50 abstract/MainMenu.py:167
+msgid "_Move"
+msgstr "Siirrä"
+
+#: abstract/ContactMenu.py:54
+msgid "_Copy"
+msgstr "Kopioi"
+
+#: abstract/ContactMenu.py:58 abstract/MainMenu.py:171
+msgid "Set _alias"
+msgstr "Aseta alias"
+
+#: abstract/ContactMenu.py:77 abstract/MainMenu.py:331
+#, python-format
+msgid "Are you sure you want to remove contact %s?"
+msgstr "Oletko varma, että haluat poistaa tuttavan %s?"
+
+#: abstract/GroupManager.py:155
+#, python-format
+msgid "Are you sure you want to delete the %s group?"
+msgstr "Oletko varma, että haluat poistaa ryhmän %s?"
+
+#: abstract/GroupManager.py:170
+msgid "Old and new name are the same"
+msgstr "Vanha ja uusi nimi ovat samoja"
+
+#: abstract/GroupManager.py:174
+msgid "new name not valid"
+msgstr "uusi nimi ei kelpaa"
+
+#: abstract/GroupMenu.py:43 abstract/MainMenu.py:144
+msgid "Re_name"
+msgstr "_Nimeä uudelleen"
+
+#: abstract/GroupMenu.py:47
+msgid "_Add contact"
+msgstr "Lisää tuttava"
+
+#: abstract/GroupMenu.py:63 abstract/MainMenu.py:302
+#, python-format
+msgid "Are you sure you want to remove group %s?"
+msgstr "Oletko varma, että haluat poistaa ryhmän %s"
+
+#: abstract/MainMenu.py:66
+msgid "_Quit"
+msgstr "Lopeta"
+
+#: abstract/MainMenu.py:79
+msgid "_Disconnect"
+msgstr "_Katkaise yhteys"
+
+#: abstract/MainMenu.py:130
+msgid "_Contact"
+msgstr "Tuttava"
+
+#: abstract/MainMenu.py:134 abstract/MainMenu.py:150
+msgid "_Add"
+msgstr "Lisää"
+
+#: abstract/MainMenu.py:177
+msgid "Set _nick"
+msgstr "Aseta nimimerkki"
+
+#: abstract/MainMenu.py:182
+msgid "Set _message"
+msgstr "Aseta viesti"
+
+#: abstract/MainMenu.py:187
+msgid "Set _picture"
+msgstr "Aseta kuva"
+
+#: abstract/MainMenu.py:214
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: abstract/MainMenu.py:219
+msgid "Plug_ins"
+msgstr "_Liitännäiset"
+
+#: abstract/MainMenu.py:232
+msgid "_About"
+msgstr "Tietoja"
+
+#: abstract/MainMenu.py:305 abstract/MainMenu.py:314
+msgid "No group selected"
+msgstr "Ei ryhmää valittuna"
+
+#: abstract/MainMenu.py:334 abstract/MainMenu.py:343 abstract/MainMenu.py:352
+#: abstract/MainMenu.py:365
+msgid "No contact selected"
+msgstr "Ei yhteystietoa valittuna"
+
+#: abstract/status.py:42
+msgid "Lunch"
+msgstr "Päivällinen"
+
+#: emesenelib/ProfileManager.py:288
+#, python-format
+msgid "User could not be added: %s"
+msgstr "Käyttäjää ei voitu lisätä: %s"
+
+#: emesenelib/ProfileManager.py:320
+#, python-format
+msgid "User could not be remove: %s"
+msgstr "Käyttäjää ei voitu poistaa: %s"
+
+#: emesenelib/ProfileManager.py:357
+#, python-format
+msgid "User could not be added to group: %s"
+msgstr "Käyttäjää ei voitu lisätä ryhmään: %s"
+
+#: emesenelib/ProfileManager.py:427
+#, python-format
+msgid "User could not be moved to group: %s"
+msgstr "Käyttäjää ei voitu siirtää ryhmään: %s"
+
+#: emesenelib/ProfileManager.py:462
+#, python-format
+msgid "User could not be removed: %s"
+msgstr "Käyttäjää ei voitu poistaa: %s"
+
+#: emesenelib/ProfileManager.py:582
+#, python-format
+msgid "Group could not be added: %s"
+msgstr "Ryhmää ei voitu lisätä: %s"
+
+#: emesenelib/ProfileManager.py:615
+#, python-format
+msgid "Group could not be removed: %s"
+msgstr "Ryhmää ei voitu poistaa: %s"
+
+#: emesenelib/ProfileManager.py:657
+#, python-format
+msgid "Group could not be renamed: %s"
+msgstr "Ryhmää ei voitu nimetä uudelleen: %s"
+
+#: emesenelib/ProfileManager.py:721
+#, python-format
+msgid "Nick could not be changed: %s"
+msgstr "Nimimerkkiä ei voitu vaihtaa: %s"
