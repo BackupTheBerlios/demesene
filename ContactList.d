@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
+// -*- coding: utf-8 -*-
 
+/*
 #   This file is part of emesene.
 #
 #    Emesene is free software; you can redistribute it and/or modify
@@ -15,32 +16,41 @@
 #    You should have received a copy of the GNU General Public License
 #    along with emesene; if not, write to the Free Software
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-'''a gtk implementation of abstract.ContactList'''
-import gtk
-import gobject
+*/
 
-import abstract.ContactList
-import abstract.status as status
-from abstract.GroupManager import Group
-from abstract.ContactManager import Contact
+/// a gtk implementation of abstract.ContactList
+module ContactList;
 
-class ContactList(abstract.ContactList.ContactList, gtk.TreeView):
-    '''a gtk implementation of abstract.ContactList'''
+// Paul: just added a ; at the end of imports, not sure which one to include for D for now
+import gtk;
+import gobject;
 
-    def __init__(self, contacts, groups, dialog):
-        '''class constructor'''
-        abstract.ContactList.ContactList.__init__(self, contacts, groups, 
-            dialog)
-        gtk.TreeView.__init__(self)
+import abstract.ContactList;
+import abstract.status as status;
+import abstract.GroupManager : Group;
+import abstract.ContactManager : Contact;
 
-        # the image (None for groups) the object (group or contact) and 
-        # the string to display
-        self._model = gtk.TreeStore(gtk.gdk.Pixbuf, object, str)
-        self.model = self._model.filter_new(root=None)
-        self.model.set_visible_func(self._visible_func)
+//was: class ContactList(abstract.ContactList.ContactList, gtk.TreeView):
+///a gtk implementation of abstract.ContactList
+class ContactList : abstract.ContactList.ContactList gtk.TreeView{
 
-        self._model.set_sort_func(1, self._sort_method)
-        self._model.set_sort_column_id(1, gtk.SORT_ASCENDING)
+	gtk.TreeStore _model;
+	    
+
+    this(self, contacts, groups, dialog){
+        super(self, contacts, groups, dialog);
+		
+// Don't know how to call inteface super yet: gtk.TreeView.__init__(self)
+
+        // the image (None for groups) the object (group or contact) and 
+        // the string to display
+        this._model = gtk.TreeStore(gtk.gdk.Pixbuf, object, str);
+        this.model = this._model.filter_new(root=None);
+        this.model.set_visible_func(self._visible_func);
+
+        this._model.set_sort_func(1, self._sort_method);
+        this._model.set_sort_column_id(1, gtk.SORT_ASCENDING);
+// PaulD: well, I don't feel at ease here, I'll begin translating in abstract directory I think
 
         self.set_model(self.model)
         
