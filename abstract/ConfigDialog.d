@@ -33,10 +33,11 @@
 
 class Base{
 
-	//PaulD: really not obvious for me how to give a type to the following, where Python have none
-	auto identifier;
-	auto _value;
-	auto callback;
+	char[] identifier;
+	void delegate(char[] identifier, Object value,  bool isClosed) callback;
+
+    private:
+    Object _value;
 
     this(identifier, callback=None){
         this.identifier = identifier;
@@ -44,131 +45,157 @@ class Base{
         this.callback = callback
 	}
 
-	/// return _value
-    auto _get_value{
+	/// read for value property
+    char value(){
         return this._value;
 	}
 
-	/// set _value
-    void _set_value(value){
+	/// write for value property
+    void value(value){
         this._value = value;
         this.on_value_changed();
 	}
 
-    value = property(fget=_get_value, fset=_set_value)
+    // Python was: value = property(fget=_get_value, fset=_set_value), not needed in D
 
-    def on_value_changed(self, is_last_change=False):
-        '''call the calback if not none with the arguments especified on the
+    /** call the calback if not none with the arguments especified on the
         class doc, is_last_change will be True if it's the last change on the
-        object (when the config dialog is closed'''
-        if self.callback:
-            self.callback(self, self.identifier, self.value, is_last_change)
+        object (when the config dialog is closed
+	*/
+    void on_value_changed(bool is_last_change=false){
+        if callback != null
+            this.callback(this.identifier, this.value, is_last_change);
+	}
 
-    def validate(self, value=None):
-        '''since no validations can be done on this fiels, always return
-        True'''
-        return (True, 'OK', self)
+    ///since no validations can be done on this fiels, always return true
+    bool validate(out char[] result_mesg, out Object instance, Object value=null){
+        return (true, 'OK', self);
+	}
+}
 
-class Validable(Base):
-    '''a class that contain methods to validate the content'''
+/// a class that contain methods to validate the content
+class Validable:Base{
 
-    def __init__(self, identifier, callback=None):
-        '''class constructor'''
-        Base.__init__(self, identifier, callback)
-        self.validators = []
+	bool delegate(out char[], out Object, Object)[] validators;
 
-    def add_validator(self, validator, error_message):
-        '''add a validator method to the validators that will be called
+    this(char[] identifier, callback=null){
+        super(identifier, callback);
+        this.validators = [];
+	}
+
+    /** add a validator method to the validators that will be called
         on the content when the validate method is called.
-         if the validator return False, the error_message will be displayed'''
+         if the validator return False, the error_message will be displayed
+    **/	
+    void add_validator(bool delegate(out char[], out Object, Object) validator, char[] error_message){
+		this.validators.append(validator, error_message);
+	}
 
-        self.validators.append((validator, error_message))
-
-    def validate(self, value=None):
-        '''validate the value with all the validators or self.value if
-        value is None, the first that fails
+    /** validate the value with all the validators or self.value if
+        value is null, the first that fails
         will return the error message, if some fails will return 
-        (False, error_message, self) if none fails return (True, 'OK', self)'''
+        (False, error_message, self) if none fails return (True, 'OK', self
+	**/
+    bool validate(out char[] result_msg, out Object instance, Object value=null){
+		instance=this;
+        foreach (validator, error_message; this.validators){
+            if not validator(value or self.value){
+				result_msg=error_message;
+                return (false);
+			}
+		result_msg="OK";
+        return (True);
+	}
+}
 
-        for (validator, error_message) in self.validators:
-            if not validator(value or self.value):
-                return (False, error_message, self)
+/// a class that represent an abstract field that contains a label and a text field with an optional text content
+class Text:Validable{
+	gtk.Label label;
+	char[] value;
 
-        return (True, 'OK', self)
+    this(char[] identifier, gtk.Label label, char[] text=null,bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+        super();
+        self.label = label;
+		if text != null then self.value = text  else self.value = '';
+	}
+}
 
-class Text(Validable):
-    '''a class that represent an abstract field that contains a label and
-    a text field with an optional text content'''
-
-    def __init__(self, identifier, label, text=None, callback=None):
-        '''class constructor'''
-        Validable.__init__(self, identifier, callback)
-        self.label = label
-        self.value = text or ''
-
+///a class that represent an abstract field that contains a label and a password field with an optional text content
 class Password(Text):
-    '''a class that represent an abstract field that contains a label and
-    a password field with an optional text content'''
+	this(char[] identifier, gtk.Label label, char[] text=null, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+        super(identifier, label, text, callback);
+	}
+}
 
-    def __init__(self, identifier, label, text=None, callback=None):
-        '''class constructor'''
-        Text.__init__(self, identifier, label, text, callback)
+///a class that represent an abstract field that contains a label and can be set to checked or not checked
+class CheckBox:Base{
+    this(char[] identifier, gtk.Label label, bool value=false, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+        super(identifier, callback);
+        label = label;
+        value = value;
+	}
+}
 
-class CheckBox(Base):
-    '''a class that represent an abstract field that contains a label and
-    can be set to checked or not checked'''
+/** a class that represent an abstract group of fields on which only one
+    can be selected
 
-    def __init__(self, identifier, label, value=False, callback=None):
-        '''class constructor'''
-        Base.__init__(self, identifier, callback)
-        self.label = label
-        self.value = value
-
-class RadioGroup(Base):
-    '''a class that represent an abstract group of fields on which only one
-    can be selected, every item has a label and the group has a text that
+	every item has a label and the group has a text that
     describe the groups, for example group_label="fruits",
     labels=("apple", "orange", "banana") selected_index=1
     the identifiers are the values that will be returned as the selecetd
     index, for example the label can be A_pple and the identidier apple,
-    or the label can be translated, but identifier stay the same'''
+    or the label can be translated, but identifier stay the same
+**/
+class RadioGroup:Base{
+	gtk.Labels[] labels;
+	char[][] identifiers;
+	Group group_label;
 
-    def __init__(self, identifier, labels, identifiers, group_label, 
-            selected_index=0, callback=None):
-        '''class constructor, labels is a list or tuple of strings and 
+	/** class constructor
+
+		labels is a list or tuple of strings and 
         selected_index is the index of the selected index by default, if
         the index is out of range, the first item will be selected.
         identifier is the identifier of the group, identifiers is a list or
-        tuple of the identifier value for each label'''
-        Base.__init__(self, identifier, callback)
-        if len(labels) < 2:
-            raise ValueError("labels size < 2")
+        tuple of the identifier value for each label
+	**/
+    this(char [] identifier, gtk.Labels[] labels, char[][] identifiers, Group group_label, 
+            ushort selected_index=0, callback=null):
+        Base.__init__(self, identifier, bool delegate(char[] identifier, Object value,  bool isClosed) callback)
+        if len(labels) < 2
+            raise ValueError("labels size < 2");
 
-        if len(labels) != len(identifiers):
-            raise ValueError("number of labels and identifiers differ")
+        if len(labels) != len(identifiers)
+            raise ValueError("number of labels and identifiers differ");
 
-        self.labels = labels
-        self.group_label = group_label
-        self.selected_index = selected_index
-        self.identifiers = identifiers
+        this.labels = labels;
+        this.group_label = group_label;
+        this.selected_index = selected_index;
+        this.identifiers = identifiers;
         
-        if self.selected_index < 0 or self.selected_index > len(self.labels):
+        if self.selected_index < 0 || self.selected_index > len(self.labels)
             self.selected_index = 0
+	}
+}
 
-class Group(object):
-    '''a class that represent a logic group of elements, the way it is 
+/** a class that represent a logic group of elements, the way it is 
     represented can be a frame or something like that, it has a optional
     name for the group, if label is none, then no frame or label will be
-    displayed on the group'''
+    displayed on the group
+**/
+Label label;
+Object[] items;
 
-    def __init__(self, label=None):
-        '''class constructor'''
-        self.label = label
-        self.items = []
+class Group{
+    this(label=null){
+        self.label = label;
+        self.items = [];
+	}
 
-    def add_item(self, item):
-        '''add an item to the group, the item can be any element'''
-        self.items.append(item)
+	///add an item to the group, the item can be any element
+    void add_item(self, item){
+        self.items.append(item);
+	}
 
     def on_last_change(self):
         '''call last change for all the containing items'''
