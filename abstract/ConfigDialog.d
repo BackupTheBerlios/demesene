@@ -39,10 +39,10 @@ class Base{
     private:
     Object _value;
 
-    this(identifier, callback=None){
+    this(identifier, callback=null){
         this.identifier = identifier;
-        this._value = None
-        this.callback = callback
+        this._value = null;
+        this.callback = callback;
 	}
 
 	/// read for value property
@@ -63,13 +63,15 @@ class Base{
         object (when the config dialog is closed
 	*/
     void on_value_changed(bool is_last_change=false){
-        if callback != null
+        if (callback)
             this.callback(this.identifier, this.value, is_last_change);
 	}
 
     ///since no validations can be done on this fiels, always return true
     bool validate(out char[] result_mesg, out Object instance, Object value=null){
-        return (true, 'OK', self);
+		result_mesg="OK";
+		instance=this;
+        return true;
 	}
 }
 
@@ -99,7 +101,7 @@ class Validable:Base{
     bool validate(out char[] result_msg, out Object instance, Object value=null){
 		instance=this;
         foreach (validator, error_message; this.validators){
-            if not validator(value or self.value){
+            if (!validator(value || this.value)){
 				result_msg=error_message;
                 return (false);
 			}
@@ -115,13 +117,13 @@ class Text:Validable{
 
     this(char[] identifier, gtk.Label label, char[] text=null,bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super();
-        self.label = label;
-		if text != null then self.value = text  else self.value = '';
+        this.label = label;
+		if (text) this.value = text; else this.value = "";
 	}
 }
 
 ///a class that represent an abstract field that contains a label and a password field with an optional text content
-class Password(Text):
+class Password:Text{
 	this(char[] identifier, gtk.Label label, char[] text=null, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super(identifier, label, text, callback);
 	}
@@ -160,21 +162,21 @@ class RadioGroup:Base{
         tuple of the identifier value for each label
 	**/
     this(char [] identifier, gtk.Labels[] labels, char[][] identifiers, Group group_label, 
-            ushort selected_index=0, callback=null):
-        Base.__init__(self, identifier, bool delegate(char[] identifier, Object value,  bool isClosed) callback)
-        if len(labels) < 2
-            raise ValueError("labels size < 2");
+            ushort selected_index=0, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+        super(identifier, callback);
+        if (len(labels) < 2)
+            throw new Exception("labels size < 2");
 
-        if len(labels) != len(identifiers)
-            raise ValueError("number of labels and identifiers differ");
+        if (len(labels) != len(identifiers))
+            throw new Exception("number of labels and identifiers differ");
 
         this.labels = labels;
         this.group_label = group_label;
         this.selected_index = selected_index;
         this.identifiers = identifiers;
         
-        if self.selected_index < 0 || self.selected_index > len(self.labels)
-            self.selected_index = 0
+        if (self.selected_index < 0 || self.selected_index > len(self.labels))
+            self.selected_index = 0;
 	}
 }
 
@@ -197,50 +199,58 @@ class Group{
         self.items.append(item);
 	}
 
-    def on_last_change(self):
-        '''call last change for all the containing items'''
-        for item in self.items:
-            if issubclass(type(item), Base):
-                item.on_value_changed(True)
-            elif issubclass(type(item), Group):
-                item.on_last_change()
+	/// test if obj is a subclass of T
+	bool isSubclass(T)(Object obj) {
+		return (cast(T) obj)?true:false;
+	}
 
-    def validate(self):
-        '''calidate all the containing elements and return (True, 'OK')
+	/// call last change for all the containing items
+    void on_last_change(){
+        foreach (item; this.items)
+            if (isSubclass!(Base)(item))
+                item.on_value_changed(True);
+            else if (isSubclass!(Group)(item))
+                item.on_last_change();
+	}
+
+    /** validate all the containing elements and return (True, 'OK')
         if all validated and (False, error_message) of the first validation
-        that failed'''
+        that failed
+	**/
+    void validate(out char[] errorMsg, out Object element){
+		bool validated;
+        foreach (item; this.items){
+            validated = item.validate(errorMsg, item);
+            if (!validated)
+                return validated;
+		}
+		errorMsg=r"OK";
+		element=this;
+        return true;
+	}
 
-        for item in self.items:
-            (validated, message, element) = item.validate()
-            if not validated:
-                return (validated, message, element)
+/// a class that represent a containter tab with elements
+class Tab:Group{
+    this(Label label){
+        super(label);
+	}
+}
 
-        return (True, 'OK', self)
-
-
-class Tab(Group):
-    '''a class that represent a containter tab with elements'''
-
-    def __init__(self, label):
-        '''class constructor'''
-        Group.__init__(self, label)
-
-class TabGroup(Group):
-    '''a class that represent a group of tabs'''
-
-    def __init__(self):
-        '''class constructor'''
-        Group.__init__(self, None)
+class TabGroup:Group{
+    this(){
+        super(null);
+	}
     
-    def add_item(self, item):
-        '''add an item to the group, the item can be any element'''
-        if type(item) == Tab:
-            Group.add_item(self, item)
-        else:
-            raise ValueError("item is not of type Tab")
+    /// add an item to the group, the item can be any element
+    void add_item(Object item){
+        if (isSubclass!(Tab)(item))
+            Group.add_item(item);
+        else
+            throw new Exception(r"item is not of type Tab");
+	}
+}
 
-def build(element):
-    '''this method should be overrided by the implementation module, it should
+  /++ this method should be overrided by the implementation module, it should
     return a non modal window with an accept button, that will call to
     a method like this on close:
    
@@ -254,5 +264,10 @@ def build(element):
         # all fields are valid
         element.on_last_change()
         dialog_window.close() # or similar
-    '''
-    raise NotImplementedError
+    ++/
+	void build(element){
+    	throw new Exception(r"NotImplementedError");
+	}
+
+}
+}
