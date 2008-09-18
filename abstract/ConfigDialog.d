@@ -18,6 +18,8 @@
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+typedef char[] Label;
+
 ///base classes that represent abstract GUI elements to build configuration dialog
 
     /**the base class for all the items that can contain a value, it 
@@ -39,19 +41,19 @@ class Base{
     private:
     Object _value;
 
-    this(identifier, callback=null){
+    this(char[]identifier, void delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         this.identifier = identifier;
         this._value = null;
         this.callback = callback;
 	}
 
 	/// read for value property
-    char value(){
+    Object value(){
         return this._value;
 	}
 
 	/// write for value property
-    void value(value){
+    void value(Object value){
         this._value = value;
         this.on_value_changed();
 	}
@@ -80,7 +82,7 @@ class Validable:Base{
 
 	bool delegate(out char[], out Object, Object)[] validators;
 
-    this(char[] identifier, callback=null){
+    this(char[] identifier, void delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super(identifier, callback);
         this.validators = [];
 	}
@@ -112,10 +114,10 @@ class Validable:Base{
 
 /// a class that represent an abstract field that contains a label and a text field with an optional text content
 class Text:Validable{
-	gtk.Label label;
+	Label label;
 	char[] value;
 
-    this(char[] identifier, gtk.Label label, char[] text=null,bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+    this(char[] identifier, Label label, char[] text=null,bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super();
         this.label = label;
 		if (text) this.value = text; else this.value = "";
@@ -124,14 +126,14 @@ class Text:Validable{
 
 ///a class that represent an abstract field that contains a label and a password field with an optional text content
 class Password:Text{
-	this(char[] identifier, gtk.Label label, char[] text=null, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+	this(char[] identifier, Label label, char[] text=null, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super(identifier, label, text, callback);
 	}
 }
 
 ///a class that represent an abstract field that contains a label and can be set to checked or not checked
 class CheckBox:Base{
-    this(char[] identifier, gtk.Label label, bool value=false, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
+    this(char[] identifier, Label label, bool value=false, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super(identifier, callback);
         label = label;
         value = value;
@@ -149,7 +151,7 @@ class CheckBox:Base{
     or the label can be translated, but identifier stay the same
 **/
 class RadioGroup:Base{
-	gtk.Labels[] labels;
+	Label[] labels;
 	char[][] identifiers;
 	Group group_label;
 
@@ -161,7 +163,7 @@ class RadioGroup:Base{
         identifier is the identifier of the group, identifiers is a list or
         tuple of the identifier value for each label
 	**/
-    this(char [] identifier, gtk.Labels[] labels, char[][] identifiers, Group group_label, 
+    this(char [] identifier, Label[] labels, char[][] identifiers, Group group_label, 
             ushort selected_index=0, bool delegate(char[] identifier, Object value,  bool isClosed) callback=null){
         super(identifier, callback);
         if (len(labels) < 2)
@@ -189,13 +191,13 @@ Label label;
 Object[] items;
 
 class Group{
-    this(label=null){
+    this(Label label=null){
         self.label = label;
         self.items = [];
 	}
 
 	///add an item to the group, the item can be any element
-    void add_item(self, item){
+    void add_item(Object item){
         self.items.append(item);
 	}
 
@@ -228,6 +230,7 @@ class Group{
 		element=this;
         return true;
 	}
+}
 
 /// a class that represent a containter tab with elements
 class Tab:Group{
@@ -265,9 +268,8 @@ class TabGroup:Group{
         element.on_last_change()
         dialog_window.close() # or similar
     ++/
-	void build(element){
+	void build(Object element){
     	throw new Exception(r"NotImplementedError");
 	}
 
-}
 }
