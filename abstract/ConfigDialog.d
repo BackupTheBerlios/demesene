@@ -108,7 +108,7 @@ class Validable:Base{
                 return (false);
 			}
 		result_msg="OK";
-        return (True);
+        return (true);
 	}
 }
 
