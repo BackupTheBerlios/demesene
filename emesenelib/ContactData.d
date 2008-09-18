@@ -57,308 +57,317 @@ class Contact{
 	TGroup[] groups;
 	TDummy dummy;
 
+	char[] _dpPath;
+	int	cid;
+
     this(Email email, id="", nick="", personalMessage="", alias="", \
          status="FLN", mobile=false, blocked=false, space=false, allow=false, \
          reverse=false, pending=false, groups=null, dummy=false){
         this.email = email.toLower();
-        self.id = id
-        self.nick = nick
-        self.personalMessage = personalMessage
-        self.alias = alias
-        self.status = status
-        self.mobile = mobile
-        self.space = space
-        self.dummy = dummy
-        if groups:
-            self.groups = groups # for performance
-        else:
-            self.groups = []
+        this.id = id;
+        this.nick = nick;
+        this.personalMessage = personalMessage;
+        this.alias = alias;
+        this.status = status;
+        this.mobile = mobile;
+        this.space = space;
+        this.dummy = dummy;
+        if (groups)
+            this.groups = groups; // for performance
+        else
+            this.groups = [];
 
-        self.allow = allow
-        self.blocked = blocked
-        self.reverse = reverse
-        self.pending = pending
+        this.allow = allow;
+        this.blocked = blocked;
+        this.reverse = reverse;
+        this.pending = pending;
         
-        self.locked = False
-        self.msnobj = None
+        this.locked = false;
+        this.msnobj = null;
 
 
-        self._dpPath = ''
+        this._dpPath = "";
         
-        self.cid = 0
+        this.cid = 0;
+	} // end this
 
-    def __repr__(self):
-        return self.email + ': ' + self.id + ' ' + self.nick + '\n'\
-                         + str(self.groups)
+    char[] __repr__(){
+        return this.email ~ ": " ~ this.id ~ " " + this.nick ~ "\n"
+                         ~ str(this.groups);
+	}
 
-    def _getEmail(self):
-        return self._email
+    TEmail email(){
+        return this._email;
+	}
 
-    def _setEmail(self, value):
-        self._email = value.lower()
+    void email(char[] value){
+        this._email = cast (TEmail) value.lower();
+	}
     
-    email = property(_getEmail, _setEmail, None)
+    // Python was email = property(_getEmail, _setEmail, null)
 
-    def _getPath(self):
-        if self._dpPath:
-            return self._dpPath
-        elif self.msnobj is None:
-            return ''
+    char[] _getPath(){
+        if (this._dpPath)
+            return this._dpPath;
+        else if (!this.msnobj)
+            return "";
         
-        sha1d = sha.sha(self.msnobj.sha1d).hexdigest()
-        return self.email.split('@')[0] + "_" + sha1d
+        ///sha1d = sha.sha(this.msnobj.sha1d).hexdigest()
+		static assert(false); // previous and next line not translated yet!
+        //return this.email.split('@')[0] + "_" + sha1d
+	}
 
-    def _setPath(self, value):
-        self._dpPath = value
+    void _setPath(char[] value):
+        this._dpPath = value
 
-    displayPicturePath = property(_getPath, _setPath, None)
+    displayPicturePath = property(_getPath, _setPath, null)
     
-    def addGroup(self, id):
-        if not id in self.groups:
-            self.groups.append(id)
+    def addGroup(this, id):
+        if not id in this.groups:
+            this.groups.append(id)
 
-    def removeGroup(self, id):
+    def removeGroup(this, id):
         id = str(id)
-        if id in self.groups:
-            self.groups.remove(id)
+        if id in this.groups:
+            this.groups.remove(id)
         else:
             common.debug('Group %s not found' % id)
 
 class Group(object):
     '''class representing a group'''
 
-    def __init__(self, name, id = ''):
+    def __init__(this, name, id = ''):
         '''Contructor,
         users is a dict with an email as key and a contact object as value'''
 
-        self.name = name
-        self.id = id
+        this.name = name
+        this.id = id
         # { email: contact }
-        self.users = {}
+        this.users = {}
 
-    def getUsersByStatus(self, status):
+    def getUsersByStatus(this, status):
         '''Returns a list user users according to its status'''
-        return [i for i in self.users.values() if \
+        return [i for i in this.users.values() if \
              i.status == common.status_table[status]]
         
-    def getUser(self, email):
+    def getUser(this, email):
         email = email.lower()
-        if self.users.has_key(email):
-            return self.users[email]
+        if this.users.has_key(email):
+            return this.users[email]
         else:
-            None
+            null
 
-    def setUser(self, email, contactObject):
+    def setUser(this, email, contactObject):
         email = email.lower()
-        self.users[email] = contactObject
+        this.users[email] = contactObject
 
 
-    def removeUser(self, email):
+    def removeUser(this, email):
         email = email.lower()
-        # if self.users.has_key(email):
-        del self.users[email]
+        # if this.users.has_key(email):
+        del this.users[email]
 
-    def getSize(self):
+    def getSize(this):
         '''returns how many users the group has'''
-        return len(self.users)
+        return len(this.users)
 
-    def getOnlineUsersNumber(self):
+    def getOnlineUsersNumber(this):
         '''Returns the number of online users (not offline) in the group'''
         
-        offline = self.getUsersByStatus('offline')
-        return self.getSize() - len(offline)
+        offline = this.getUsersByStatus('offline')
+        return this.getSize() - len(offline)
 
 class ContactList(object):
     '''a class that contains groups that contains users'''
 
-    def __init__(self, groups=None):
+    def __init__(this, groups=null):
         '''Constructor,
         groups is a dict with the name as key and a Group object as value'''
 
-        self.groups = {}
-        self.reverseGroups = {}
-        self.noGroup = Group('No group', 'nogroup')
-        self.contacts = {}
+        this.groups = {}
+        this.reverseGroups = {}
+        this.noGroup = Group('No group', 'nogroup')
+        this.contacts = {}
 
         if groups:
-            self.setGroups(groups)
+            this.setGroups(groups)
             
-        self.lists = {}
-        self.lists['Allow'] = []
-        self.lists['Block'] = []
-        self.lists['Reverse'] = []
-        self.lists['Pending'] = []
-        self.pendingNicks = {}
+        this.lists = {}
+        this.lists['Allow'] = []
+        this.lists['Block'] = []
+        this.lists['Reverse'] = []
+        this.lists['Pending'] = []
+        this.pendingNicks = {}
 
 
-    def getGroupNames(self):
+    def getGroupNames(this):
         '''Returns a list with the groups' names in the contact list'''
         
-        return self.reverseGroups.keys()
+        return this.reverseGroups.keys()
 
-    def setGroups(self, groupDict):
+    def setGroups(this, groupDict):
         '''set the dict'''
 
-        self.groups = groupDict.copy()
-        self.reverseGroups = {}
-        for i in self.groups.keys():
-            self.reverseGroups[self.groups[i].name] = self.groups[i]
+        this.groups = groupDict.copy()
+        this.reverseGroups = {}
+        for i in this.groups.keys():
+            this.reverseGroups[this.groups[i].name] = this.groups[i]
 
-    def addGroup(self, name, gid):
+    def addGroup(this, name, gid):
         group = Group(name, gid)
-        self.setGroup(gid, group)
+        this.setGroup(gid, group)
 
-    def getGroup(self, id):
-        if self.groups.has_key(id):
-            return self.groups[id]
+    def getGroup(this, id):
+        if this.groups.has_key(id):
+            return this.groups[id]
         else:
             common.debug('group not found, returning dummy group')
             return Group(id, 'dummy' + id)
 
-    def setGroup(self, id, groupObject):
-        self.groups[id] = groupObject
-        self.reverseGroups[groupObject.name] = self.groups[id]
+    def setGroup(this, id, groupObject):
+        this.groups[id] = groupObject
+        this.reverseGroups[groupObject.name] = this.groups[id]
         # update contained contacts
         for contact in groupObject.users.copy():
-            self.addUserToGroup(contact, id)
+            this.addUserToGroup(contact, id)
 
-    def removeGroup(self, group):
-        if self.groups.has_key(group):
+    def removeGroup(this, group):
+        if this.groups.has_key(group):
             # update contained contacts
-            for contact in self.groups[group].users.copy():
-                self.removeUserFromGroup(contact, group)
-            name = self.groups[group].name
+            for contact in this.groups[group].users.copy():
+                this.removeUserFromGroup(contact, group)
+            name = this.groups[group].name
             # remove the group
-            del self.groups[group]
-            del self.reverseGroups[name]
+            del this.groups[group]
+            del this.reverseGroups[name]
 
-    def renameGroup(self, id, newName):
-        if self.groups.has_key(id):
-            del self.reverseGroups[self.groups[id].name]
-            self.groups[id].name = newName
-            self.reverseGroups[newName] = self.groups[id] 
+    def renameGroup(this, id, newName):
+        if this.groups.has_key(id):
+            del this.reverseGroups[this.groups[id].name]
+            this.groups[id].name = newName
+            this.reverseGroups[newName] = this.groups[id] 
 
-    def getGroupId(self, name):
-        if self.reverseGroups.has_key(name):
-            return self.reverseGroups[name].id
+    def getGroupId(this, name):
+        if this.reverseGroups.has_key(name):
+            return this.reverseGroups[name].id
         elif name == 'No group':
             return 'nogroup'
         else:
-            return None
+            return null
             
-    def getGroupName(self, id):
-        if id in self.groups:
-            return self.groups[id].name
+    def getGroupName(this, id):
+        if id in this.groups:
+            return this.groups[id].name
         elif id == 'nogroup':
             return 'No group'
         else:
             return 'dummy' + str(id)
 
-    def addContact(self, contact):
+    def addContact(this, contact):
 
-        self.contacts[contact.email] = contact
+        this.contacts[contact.email] = contact
 
         for id in contact.groups:
-            if self.groups.has_key(id):
-                self.groups[id].setUser(contact.email, contact)
+            if this.groups.has_key(id):
+                this.groups[id].setUser(contact.email, contact)
 
         if contact.groups == []:
-            self.noGroup.setUser(contact.email, contact)
+            this.noGroup.setUser(contact.email, contact)
             
-    def addNewContact(self, email, groups=None):
+    def addNewContact(this, email, groups=null):
         email = email.lower()        
-        if email in self.lists['Block']:
+        if email in this.lists['Block']:
             contact = Contact(email, blocked=True)
         else:
             contact = Contact(email, allow=True)
-        self.addContact(contact)
+        this.addContact(contact)
              
-    def setContactIdXml(self, email, xml):
+    def setContactIdXml(this, email, xml):
         '''Sets a contact's id from the add user soap response xml'''
         email = str(email).lower()
-        if email in self.contacts:
+        if email in this.contacts:
             guid = xml.split('<guid>')[1].split('</guid>')[0]
-            self.contacts[email].id = guid
+            this.contacts[email].id = guid
         else:
             common.debug('Contact %s not in list' % email)
 
-    def getContact(self, email):
+    def getContact(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email]
+        if this.contacts.has_key(email):
+            return this.contacts[email]
         else:
             common.debug('user %s not found, returning dummy user' % (email,))
-            return self.getDummyContact(email)
+            return this.getDummyContact(email)
         
-    def getDummyContact(self, email):
+    def getDummyContact(this, email):
         '''build a dummy contact with some data to be allowed to show data about
         contacts that we dont have i.e when someone add in a group chat someone that we dont have.'''
         email = email.lower()
         return Contact(email, '', email, '', '', 'NLN', False, False, False, 
             True, True, False, dummy=True)
     
-    def contact_exists(self, email): # breaking name conventions wdeaah
-        return self.contacts.has_key(email.lower())
+    def contact_exists(this, email): # breaking name conventions wdeaah
+        return this.contacts.has_key(email.lower())
 
-    def getContactStatus(self, email):
+    def getContactStatus(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].status
+        if this.contacts.has_key(email):
+            return this.contacts[email].status
         else:
             return 'FLN'
 
-    def setContactStatus(self, email, status):
+    def setContactStatus(this, email, status):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].status = status
+        if this.contacts.has_key(email):
+            this.contacts[email].status = status
 
-    def getContactHasSpace(self, email):
+    def getContactHasSpace(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].space
+        if this.contacts.has_key(email):
+            return this.contacts[email].space
         else:
             return False
 
-    def getContactHasMobile(self, email):
+    def getContactHasMobile(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].mobile
+        if this.contacts.has_key(email):
+            return this.contacts[email].mobile
         else:
             return False
     
-    def getContactIsBlocked(self, email):
+    def getContactIsBlocked(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].blocked
+        if this.contacts.has_key(email):
+            return this.contacts[email].blocked
         else:
             return False
 
-    def setContactIsBlocked(self, email, value):
+    def setContactIsBlocked(this, email, value):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].blocked = value
+        if this.contacts.has_key(email):
+            this.contacts[email].blocked = value
         else:
             pass
 
-    def getContactIsAllowed(self, email):
+    def getContactIsAllowed(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].allow
+        if this.contacts.has_key(email):
+            return this.contacts[email].allow
         else:
             return True
         
-    def setContactIsAllowed(self, email, value):
+    def setContactIsAllowed(this, email, value):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].allow = value
+        if this.contacts.has_key(email):
+            this.contacts[email].allow = value
 
-    def getContactNick(self, email, escaped=False):
+    def getContactNick(this, email, escaped=False):
         email = email.lower()
         
-        if self.contacts.has_key(email):
-            nick = self.contacts[email].nick
-        elif self.pendingNicks.has_key(email):
-            nick = self.pendingNicks[email]
+        if this.contacts.has_key(email):
+            nick = this.contacts[email].nick
+        elif this.pendingNicks.has_key(email):
+            nick = this.pendingNicks[email]
         else:
             nick = email
 
@@ -367,152 +376,152 @@ class ContactList(object):
         else:
             return nick
 
-    def setContactNick(self, email, value):
+    def setContactNick(this, email, value):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].nick = value
+        if this.contacts.has_key(email):
+            this.contacts[email].nick = value
 
-    def getContactPersonalMessage(self, email, escaped=False):
+    def getContactPersonalMessage(this, email, escaped=False):
         email = email.lower()
-        if self.contacts.has_key(email):
+        if this.contacts.has_key(email):
             if escaped:
-                return common.escape(self.contacts[email].personalMessage)
+                return common.escape(this.contacts[email].personalMessage)
             else:
-                return self.contacts[email].personalMessage
+                return this.contacts[email].personalMessage
 
-    def setContactPersonalMessage(self, email, value):
+    def setContactPersonalMessage(this, email, value):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].personalMessage = value
+        if this.contacts.has_key(email):
+            this.contacts[email].personalMessage = value
 
-    def getContactAlias(self, email, escaped=False):
+    def getContactAlias(this, email, escaped=False):
         email = email.lower()
-        if self.contacts.has_key(email):
+        if this.contacts.has_key(email):
             if escaped:
-                return common.escape(self.contacts[email].alias)
+                return common.escape(this.contacts[email].alias)
             else:
-                return self.contacts[email].alias
+                return this.contacts[email].alias
         else:
             return ''
 
-    def setContactAlias(self, email, value):
+    def setContactAlias(this, email, value):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].alias = value
+        if this.contacts.has_key(email):
+            this.contacts[email].alias = value
             
-    def getContactNameToDisplay(self, email):
+    def getContactNameToDisplay(this, email):
         email = email.lower()
-        displayName = self.getContactAlias(email, True)        
+        displayName = this.getContactAlias(email, True)        
         if displayName == '':
-            displayName = self.getContactNick(email, True)
+            displayName = this.getContactNick(email, True)
             
         return displayName
 
-    def getContactId(self, email):
+    def getContactId(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            return self.contacts[email].id
+        if this.contacts.has_key(email):
+            return this.contacts[email].id
         else:
             return ''
 
-    def getContactGroupIds(self, email):
+    def getContactGroupIds(this, email):
         '''return a list with the group ids or an empty list'''
         email = email.lower()
 
-        if self.contacts.has_key(email) and len(self.contacts[email].groups) > 0:
-            return self.contacts[email].groups
+        if this.contacts.has_key(email) and len(this.contacts[email].groups) > 0:
+            return this.contacts[email].groups
         return []
 
-    def unblockContact(self, email):
+    def unblockContact(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].blocked = False
-            self.contacts[email].allow = True
+        if this.contacts.has_key(email):
+            this.contacts[email].blocked = False
+            this.contacts[email].allow = True
 
-    def blockContact(self, email):
+    def blockContact(this, email):
         email = email.lower()
-        if self.contacts.has_key(email):
-            self.contacts[email].blocked = True
-            self.contacts[email].allow = False
+        if this.contacts.has_key(email):
+            this.contacts[email].blocked = True
+            this.contacts[email].allow = False
 
-    def removeUserFromGroup(self, user, group):
+    def removeUserFromGroup(this, user, group):
         user = str(user).lower()
         group = str(group)
-        if self.groups.has_key(group):
-            contact = self.groups[group].getUser(user)
-            if contact != None:
+        if this.groups.has_key(group):
+            contact = this.groups[group].getUser(user)
+            if contact != null:
                 # remove group from user's list of belongings
                 contact.removeGroup(group)
                 
                 # add the contact to no group if applicable
                 if contact.groups == []:
-                    self.noGroup.setUser(user, contact)
+                    this.noGroup.setUser(user, contact)
                     
                 # remove user from group
-                self.groups[group].removeUser(user)
+                this.groups[group].removeUser(user)
             else:
                 common.debug('Contact %s not in group %s' % (user, group))
         else:
             common.debug('Group %s not found' % group)
 
-    def removeContact(self, contactMail):
+    def removeContact(this, contactMail):
         contactMail = str(contactMail).lower()
-        if self.contacts.has_key(contactMail):
+        if this.contacts.has_key(contactMail):
             # remove user from groups to which he belongs
-            contact = self.contacts[contactMail]
+            contact = this.contacts[contactMail]
             for group in contact.groups:
-                self.groups[group].removeUser(contactMail)
+                this.groups[group].removeUser(contactMail)
             
             # remove user from the no group, if applicable
             if len(contact.groups) == 0:
-                self.noGroup.removeUser(contactMail)
+                this.noGroup.removeUser(contactMail)
             
             # remove user
-            del self.contacts[contactMail]
+            del this.contacts[contactMail]
         else:
             common.debug('Contact %s not in list' % contactMail)
 
-    def addUserToGroup(self, user, group):
+    def addUserToGroup(this, user, group):
         user = str(user).lower()
         group = str(group)
-        if self.groups.has_key(group) and self.contacts.has_key(user):
-            contact = self.contacts[user]
+        if this.groups.has_key(group) and this.contacts.has_key(user):
+            contact = this.contacts[user]
             # remove from nogroup if applicable
             if len(contact.groups) == 0:
-                self.noGroup.removeUser(user)
+                this.noGroup.removeUser(user)
             
-            groupObj = self.groups[group]
+            groupObj = this.groups[group]
             contact.addGroup(group)
             
             groupObj.setUser(user, contact)
-        elif not self.contacts.has_key(user):
+        elif not this.contacts.has_key(user):
             common.debug('Contact %s not in list' % user)
-        elif group not in self.groups:
+        elif group not in this.groups:
             common.debug('Group %s not found' % group)
 
-    def updateMemberships(self):
-        '''Updates contact membership info according to self.lists'''
+    def updateMemberships(this):
+        '''Updates contact membership info according to this.lists'''
         
-        for email in self.contacts:
-            self.contacts[email.lower()].reverse = (email in self.lists['Reverse'])
-            self.contacts[email.lower()].allow = (email in self.lists['Allow'])
-            self.contacts[email.lower()].blocked = (email in self.lists['Block'])
+        for email in this.contacts:
+            this.contacts[email.lower()].reverse = (email in this.lists['Reverse'])
+            this.contacts[email.lower()].allow = (email in this.lists['Allow'])
+            this.contacts[email.lower()].blocked = (email in this.lists['Block'])
 
-    def getADL(self):
+    def getADL(this):
         '''Create a XML String with all the contacts we have for
         the initial ADL Command'''
         contacts = {}
-        for user in self.contacts.keys():
+        for user in this.contacts.keys():
             l = 0
-            if self.getContact(user).allow:
+            if this.getContact(user).allow:
                 l = 3
-            if self.getContact(user).blocked:
+            if this.getContact(user).blocked:
                 l = 5
             contacts[user] = l
         
-        return self.buildDL(contacts, initial=True)
+        return this.buildDL(contacts, initial=True)
 
-    def buildDL(self, contacts, initial=False):
+    def buildDL(this, contacts, initial=False):
         '''return a list of XML for the DL command, is a list because each DL
         should be less than 7500 bytes
         contacts is a dict {user: type}'''
@@ -577,45 +586,45 @@ class ContactList(object):
         
         return adls
 
-    def getOnlineUsers(self):
+    def getOnlineUsers(this):
         '''return a list of online users'''
 
         ret = []
-        for i in self.contacts.keys():
-            if self.getContactStatus(i) != 'FLN':
-                ret.append([i, self.getContactStatus(i)])
+        for i in this.contacts.keys():
+            if this.getContactStatus(i) != 'FLN':
+                ret.append([i, this.getContactStatus(i)])
 
         return ret
     
-    def getOnlineUsersDict(self):
+    def getOnlineUsersDict(this):
         dictionary = {}
         
-        for i in self.contacts.keys():
-            if self.getContactStatus(i) != 'FLN':
-                dictionary[i] = self.getContact(i)
+        for i in this.contacts.keys():
+            if this.getContactStatus(i) != 'FLN':
+                dictionary[i] = this.getContact(i)
 
         return dictionary
 
-    def getOnOffUsersRelationByGroup(self, groupName):
+    def getOnOffUsersRelationByGroup(this, groupName):
         #return a 2 tuple containing the relation of users online and offline
         groupSizeStr = ''
-        groupObject = None
+        groupObject = null
 
         if groupName == 'No group':
-            groupObject = self.noGroup
+            groupObject = this.noGroup
         else:
             try:
-                groupObject = self.reverseGroups[groupName]
+                groupObject = this.reverseGroups[groupName]
             except KeyError:
                 common.debug('Group %s not found' % groupName)
 
-        if groupObject != None:
+        if groupObject != null:
             groupSize = groupObject.getSize()
             usersOnline = groupObject.getOnlineUsersNumber()
 
         return usersOnline, groupSize
 
-    def getContactList(self, showOffline = True, showEmptyGroups = False, \
+    def getContactList(this, showOffline = True, showEmptyGroups = False, \
             orderByStatus = False):
         '''return a dictionarie with the contact list sorted acording the parameters'''
 
@@ -624,33 +633,33 @@ class ContactList(object):
         if orderByStatus:
             cl['offline'] = {}
             cl['online'] = {}
-            for email in self.contacts:
-                status = self.getContactStatus(email)
+            for email in this.contacts:
+                status = this.getContactStatus(email)
                 if status == 'FLN' and not showOffline:
                     continue
                 elif status == 'FLN':
-                    cl['offline'][email] = self.contacts[email]
+                    cl['offline'][email] = this.contacts[email]
                 else:
-                    cl['online'][email] = self.contacts[email]
+                    cl['online'][email] = this.contacts[email]
         else:
             # Initialize return dict and build id2group_name dict
-            for i in self.reverseGroups:
+            for i in this.reverseGroups:
                 cl[i] = {}
             cl['No group'] = {}
                 
             # classify contacts into their group/s
-            for email in self.contacts:
+            for email in this.contacts:
                 contactGroups = []
-                for id in self.getContactGroupIds(email):
-                    contactGroups += [self.groups[id].name]    
+                for id in this.getContactGroupIds(email):
+                    contactGroups += [this.groups[id].name]    
                 if len(contactGroups) == 0: # email doesn't belong to any group
                     contactGroups = ['No group']
                 # the actual classification:
                 for group in contactGroups:
                     if showOffline:
-                            cl[group][email] = self.contacts[email]
-                    elif self.getContactStatus(email) != 'FLN':
-                            cl[group][email] = self.contacts[email]
+                            cl[group][email] = this.contacts[email]
+                    elif this.getContactStatus(email) != 'FLN':
+                            cl[group][email] = this.contacts[email]
 
         if not showEmptyGroups:
             for i in cl.keys():
@@ -660,24 +669,24 @@ class ContactList(object):
         return cl
 
 class ContactNotInListError(Exception):
-    def __init__(self, value):
-        self.value = value
+    def __init__(this, value):
+        this.value = value
         
-    def __str__(self):
-        return 'Contact ' + repr(self.value) + ' is not in the list'
+    def __str__(this):
+        return 'Contact ' + repr(this.value) + ' is not in the list'
     
 class ContactNotInGroupError(Exception):
-    def __init__(self, value, group):
-        self.value = value
-        self.group = group
+    def __init__(this, value, group):
+        this.value = value
+        this.group = group
         
-    def __str__(self):
-        return 'Contact ' + repr(self.value) + ' is not in this group: ' \
-                        + str(self.group)
+    def __str__(this):
+        return 'Contact ' + repr(this.value) + ' is not in this group: ' \
+                        + str(this.group)
                         
 class GroupNotFoundError(Exception):
-    def __init__(self, value):
-        self.value = value
+    def __init__(this, value):
+        this.value = value
         
-    def __str__(self):
-        return 'Group ' + repr(self.value) + ' does not exist'
+    def __str__(this):
+        return 'Group ' + repr(this.value) + ' does not exist'
