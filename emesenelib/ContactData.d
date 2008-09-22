@@ -46,6 +46,8 @@ typedef bool TDummy;
 
 typedef void* TMsnObj;  // Don't know either
 
+typedef short TGId;
+
 class Contact{
 	TEmail email;
 	TId id;
@@ -143,92 +145,111 @@ class Contact{
         else
             throw ("Group " ~ id ~ "not found"); //was: common.debug('Group %s not found' % id);
 	}
+} // end Class Contact
 
-class Group(object):
-    '''class representing a group'''
+class Group(){
 
-    def __init__(this, name, id = ''):
+	char[] name, id;
+	TContact[TEmail] users;
+
+    this(char[] name,char[] id = ""){
+		/*
         '''Contructor,
         users is a dict with an email as key and a contact object as value'''
+		*/
 
-        this.name = name
-        this.id = id
-        # { email: contact }
-        this.users = {}
-
-    def getUsersByStatus(this, status):
-        '''Returns a list user users according to its status'''
-        return [i for i in this.users.values() if \
-             i.status == common.status_table[status]]
+        this.name = name;
+        this.id = id;
+        // was a comment in Python code # { email: contact }
+        this.users = [];
+	}
+	
+	///Returns a list user users according to its status
+    CircularSeq!(TContact) getUsersByStatus(char[] status){
+        /* Python code was: return [i for i in this.users.values() if \
+             i.status == common.status_table[status]] */
+		CircularSeq!(TContact) answer;
+		foreach (user; this.users)
+			if (user.status == common.status_table[status]) answer.append(user); // common not implemented yet
+		return answer;
+	}
         
-    def getUser(this, email):
-        email = email.lower()
-        if this.users.has_key(email):
-            return this.users[email]
-        else:
-            null
+    Contact getUser(TEmail email){
+        lower_email = (cast (char[]) email).toLower();
+        if lower_email in this.users
+            return this.users[email];
+        else
+            null;
+	}
 
-    def setUser(this, email, contactObject):
-        email = email.lower()
-        this.users[email] = contactObject
+    void setUser(TEmail email, Contact contactObject){
+        lower_email = (cast (char[]) email).toLower();
+        this.users[lower_email] = contactObject;
+	}
 
+    void removeUser(email){
+        lower_email = (cast (char[]) email).toLower();
+        // comment in original Python code # if this.users.has_key(email):
+        this.users.remove(lower_email);
+	}
 
-    def removeUser(this, email):
-        email = email.lower()
-        # if this.users.has_key(email):
-        del this.users[email]
+    /// returns how many users the group has
+    short getSize(){
+		return this.users.length;
+	}
 
-    def getSize(this):
-        '''returns how many users the group has'''
-        return len(this.users)
+	/// Returns the number of online users (not offline) in the group
+    short getOnlineUsersNumber(){
+		Contact[] offline = this.getUsersByStatus('offline');
+        return this.getSize() - len(offline);
+	}
+} // end of Class Group
 
-    def getOnlineUsersNumber(this):
-        '''Returns the number of online users (not offline) in the group'''
-        
-        offline = this.getUsersByStatus('offline')
-        return this.getSize() - len(offline)
+// a class that contains groups that contains users
+class ContactList(Object){
 
-class ContactList(object):
-    '''a class that contains groups that contains users'''
+	Group[TName] groups;
+	Group[TName] reverseGroups; // I suppose
+	Group noGroup;
+	Contact[/* heu */] contacts; 
+	??? [char[]] lists;
 
-    def __init__(this, groups=null):
-        '''Constructor,
-        groups is a dict with the name as key and a Group object as value'''
+    this(groups=null){
+        this.groups = [];
+        this.reverseGroups = [];
+        this.noGroup = Group("No group", "nogroup");
+        this.contacts = [];
 
-        this.groups = {}
-        this.reverseGroups = {}
-        this.noGroup = Group('No group', 'nogroup')
-        this.contacts = {}
-
-        if groups:
-            this.setGroups(groups)
+        if groups
+            this.setGroups(groups);
             
-        this.lists = {}
-        this.lists['Allow'] = []
-        this.lists['Block'] = []
-        this.lists['Reverse'] = []
-        this.lists['Pending'] = []
-        this.pendingNicks = {}
+        this.lists = [];
+        this.lists["Allow"] = [];
+        this.lists["Block"] = [];
+        this.lists["Reverse"] = [];
+        this.lists["Pending"] = [];
+        this.pendingNicks = [];
+	}
 
+	/// Returns a list with the groups' names in the contact list
+    Group[TName] getGroupNames(){
+        return this.reverseGroups.keys();
+	}
 
-    def getGroupNames(this):
-        '''Returns a list with the groups' names in the contact list'''
-        
-        return this.reverseGroups.keys()
+	///set the dict
+    void setGroups(??? groupDict){
+        this.groups = groupDict.dup;
+        this.reverseGroups = [];
+		foreach (int i, Group whatever ; groups)
+            this.reverseGroups[this.groups[i].name] = this.groups[i];
+	}
 
-    def setGroups(this, groupDict):
-        '''set the dict'''
+    void addGroup(char name, TGId gid){ // short for gid ??
+        group = Group(name, gid);
+        this.setGroup(gid, group);
+	}
 
-        this.groups = groupDict.copy()
-        this.reverseGroups = {}
-        for i in this.groups.keys():
-            this.reverseGroups[this.groups[i].name] = this.groups[i]
-
-    def addGroup(this, name, gid):
-        group = Group(name, gid)
-        this.setGroup(gid, group)
-
-    def getGroup(this, id):
+    Group getGroup(TypeId id){
         if this.groups.has_key(id):
             return this.groups[id]
         else:
