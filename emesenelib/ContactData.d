@@ -29,6 +29,8 @@ import tango.io.digest: Sha1;
 import tango.text.Util: head; // in _getpath
 import tango.util.collection: CircularSeq;  // see TGroup
 
+import tango.util.log.Log; // used in ContactList.getGroup
+
 typedef char[] TEmail;
 typedef char[] TId;
 typedef char[] TNick;
@@ -47,6 +49,8 @@ typedef bool TDummy;
 typedef void* TMsnObj;  // Don't know either
 
 typedef short TGId;
+
+Logger logger = Log.getLogger("ContactData");	// a new Logger instance
 
 class Contact{
 	TEmail email;
@@ -250,78 +254,91 @@ class ContactList(Object){
 	}
 
     Group getGroup(TypeId id){
-        if this.groups.has_key(id):
-            return this.groups[id]
-        else:
-            common.debug('group not found, returning dummy group')
-            return Group(id, 'dummy' + id)
+        if (id in this.groups)
+            return this.groups[id];
+        else{
+            logger.warn("group not found, returning dummy group");
+            return Group(id, "dummy" ~ id);
+		}
+	}
 
-    def setGroup(this, id, groupObject):
-        this.groups[id] = groupObject
-        this.reverseGroups[groupObject.name] = this.groups[id]
-        # update contained contacts
-        for contact in groupObject.users.copy():
-            this.addUserToGroup(contact, id)
+    void setGroup(TGId id, Group groupObject){
+        this.groups[id] = groupObject;
+        this.reverseGroups[groupObject.name] = this.groups[id];
+        // update contained contacts
+        foreach (contact; groupObject.users.dup())
+            this.addUserToGroup(contact, id);
+	}
 
-    def removeGroup(this, group):
-        if this.groups.has_key(group):
-            # update contained contacts
-            for contact in this.groups[group].users.copy():
-                this.removeUserFromGroup(contact, group)
-            name = this.groups[group].name
-            # remove the group
-            del this.groups[group]
-            del this.reverseGroups[name]
+    void removeGroup(Group group){
+        if (group in this.groups){
+            // update contained contacts
+            foreach (contact ; this.groups[group].users.dup())
+                this.removeUserFromGroup(contact, group);
+            name = this.groups[group].name;
+            // remove the group
+            this.groups.removeAll(group);
+            this.reverseGroups.removeAll(name);
+		} //if
+	} // removeGroup
 
-    def renameGroup(this, id, newName):
-        if this.groups.has_key(id):
-            del this.reverseGroups[this.groups[id].name]
-            this.groups[id].name = newName
-            this.reverseGroups[newName] = this.groups[id] 
+    void renameGroup(TGId id,TName newName){
+        if (id in this.groups){
+            this.reverseGroups.removeAll(this.groups[id].name);
+            this.groups[id].name = newName;
+            this.reverseGroups[newName] = this.groups[id];
+		}
+	} 
 
-    def getGroupId(this, name):
-        if this.reverseGroups.has_key(name):
-            return this.reverseGroups[name].id
-        elif name == 'No group':
-            return 'nogroup'
-        else:
-            return null
+    TGId getGroupId(TName name){
+        if (name in this.reverseGroups)
+            return this.reverseGroups[name].id;
+        else if (name == "No group")
+            return "nogroup"
+        else
+            return null;
+	}
             
-    def getGroupName(this, id):
-        if id in this.groups:
-            return this.groups[id].name
-        elif id == 'nogroup':
-            return 'No group'
-        else:
-            return 'dummy' + str(id)
+    TName getGroupName(TGId id){
+        if (id in this.groups)
+            return this.groups[id].name;
+        else if (id == "nogroup")
+            return "No group";
+        else
+            return "dummy" ~ cast (char[]) id);
+	}
 
-    def addContact(this, contact):
+    void addContact(Contact contact){
 
-        this.contacts[contact.email] = contact
+        this.contacts[contact.email] = contact;
 
-        for id in contact.groups:
-            if this.groups.has_key(id):
-                this.groups[id].setUser(contact.email, contact)
+        foreach (id ; contact.groups)
+            if (id in this.groups.keys)
+                this.groups[id].setUser(contact.email, contact);
 
-        if contact.groups == []:
-            this.noGroup.setUser(contact.email, contact)
+        if (contact.groups == [])
+            this.noGroup.setUser(contact.email, contact);
+	}
             
-    def addNewContact(this, email, groups=null):
-        email = email.lower()        
-        if email in this.lists['Block']:
-            contact = Contact(email, blocked=True)
-        else:
-            contact = Contact(email, allow=True)
-        this.addContact(contact)
+    void addNewContact(TEmail email, Group[] groups=null){
+        lower_email = email.toLower()        ;
+        if (lower_email in this.lists['Block'])
+            contact = Contact(email, blocked=True);
+        else
+            contact = Contact(email, allow=True);
+        this.addContact(contact);
+	}
              
-    def setContactIdXml(this, email, xml):
-        '''Sets a contact's id from the add user soap response xml'''
-        email = str(email).lower()
-        if email in this.contacts:
+	///Sets a contact's id from the add user soap response xml
+    void setContactIdXml(TEmail email, char[] xml){
+        auto lower_email = cast(char[])(email).toLower();
+        if (email in this.contacts)
+// euh!?
             guid = xml.split('<guid>')[1].split('</guid>')[0]
             this.contacts[email].id = guid
-        else:
-            common.debug('Contact %s not in list' % email)
+        else
+            logger.warn("Contact %s not in list" ~ email);
+	}
 
     def getContact(this, email):
         email = email.lower()
