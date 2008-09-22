@@ -25,6 +25,9 @@ import sha
 */
 
 import tango.text.Ascii: toLower;
+import tango.io.digest: Sha1;
+import tango.text.Util: head; // in _getpath
+import tango.util.collection: CircularSeq;  // see TGroup
 
 typedef char[] TEmail;
 typedef char[] TId;
@@ -38,8 +41,10 @@ typedef bool TSpace;
 typedef bool TAllow;
 typedef bool TReverse;
 typedef bool TPending;
-typedef void* TGroup;    // Don't know yet
+typedef CircularSeq!(char[]) TGroup;    // a guess
 typedef bool TDummy;
+
+typedef void* TMsnObj;  // Don't know either
 
 class Contact{
 	TEmail email;
@@ -59,6 +64,8 @@ class Contact{
 
 	char[] _dpPath;
 	int	cid;
+
+	TMsnObj msnobj;  // see _getpath
 
     this(Email email, id="", nick="", personalMessage="", alias="", \
          status="FLN", mobile=false, blocked=false, space=false, allow=false, \
@@ -92,7 +99,7 @@ class Contact{
 	} // end this
 
     char[] __repr__(){
-        return this.email ~ ": " ~ this.id ~ " " + this.nick ~ "\n"
+        return this.email ~ ": " ~ this.id ~ " " + this.nick ~ "\n";
                          ~ str(this.groups);
 	}
 
@@ -106,32 +113,36 @@ class Contact{
     
     // Python was email = property(_getEmail, _setEmail, null)
 
-    char[] _getPath(){
+    //was _getPath
+	char[] displayPicturePath(){
         if (this._dpPath)
             return this._dpPath;
         else if (!this.msnobj)
             return "";
         
-        ///sha1d = sha.sha(this.msnobj.sha1d).hexdigest()
-		static assert(false); // previous and next line not translated yet!
-        //return this.email.split('@')[0] + "_" + sha1d
+        sha1d = new Sha1().update(this.msnobj.sha1d).hexDigest();
+        return (this.email.head!(char)('@')) ~ "_" ~ sha1d;
 	}
 
-    void _setPath(char[] value):
-        this._dpPath = value
+	//was _setPath
+    void displayPicturePath(char[] value){
+        this._dpPath = value;
+	}
 
-    displayPicturePath = property(_getPath, _setPath, null)
+    //displayPicturePath = property(_getPath, _setPath, null)
     
-    def addGroup(this, id):
+    void addGroup(char[] id){
         if not id in this.groups:
-            this.groups.append(id)
+            this.groups.append(id);
+	}
 
-    def removeGroup(this, id):
-        id = str(id)
-        if id in this.groups:
-            this.groups.remove(id)
-        else:
-            common.debug('Group %s not found' % id)
+    def removeGroup(char[] id){
+// hum, should I do something with this Python code: Id = str(id)
+        if (id in this.groups)
+            this.groups.removeAll(id); //was remove only
+        else
+            throw ("Group " ~ id ~ "not found"); //was: common.debug('Group %s not found' % id);
+	}
 
 class Group(object):
     '''class representing a group'''
