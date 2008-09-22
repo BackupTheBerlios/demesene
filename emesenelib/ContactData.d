@@ -332,43 +332,48 @@ class ContactList(Object){
 	///Sets a contact's id from the add user soap response xml
     void setContactIdXml(TEmail email, char[] xml){
         auto lower_email = cast(char[])(email).toLower();
-        if (email in this.contacts)
+        if (email in this.contacts){
 // euh!?
-            guid = xml.split('<guid>')[1].split('</guid>')[0]
-            this.contacts[email].id = guid
-        else
+            guid = xml.split("<guid>")[1].split("</guid>")[0];
+            this.contacts[email].id = guid;
+		} else
             logger.warn("Contact %s not in list" ~ email);
 	}
 
-    def getContact(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email]
-        else:
-            common.debug('user %s not found, returning dummy user' % (email,))
-            return this.getDummyContact(email)
+    Contact getContact(TEmail email){
+        auto lowerEmail = email.toLower()
+        if (lowerEmail in this.contacts.keys)
+            return this.contacts[email];
+        else{
+            logger.warn("user " ~ lowerEmail ~ "not found, returning dummy user");
+            return this.getDummyContact(email);
+	}
         
-    def getDummyContact(this, email):
-        '''build a dummy contact with some data to be allowed to show data about
-        contacts that we dont have i.e when someone add in a group chat someone that we dont have.'''
-        email = email.lower()
-        return Contact(email, '', email, '', '', 'NLN', False, False, False, 
-            True, True, False, dummy=True)
+    /**  build a dummy contact with some data to be allowed to show data about
+        contacts that we dont have i.e when someone add in a group chat someone that we dont have. **/
+    Contact getDummyContact(TEmail email){
+        lowerEmail = email.toLower();
+        return Contact(email, "", lowerEmail, "", "", "NLN", false, false, false, 
+            true, true, false, dummy=True);
+	}
     
-    def contact_exists(this, email): # breaking name conventions wdeaah
-        return this.contacts.has_key(email.lower())
+    bool contact_exists(TEmail email){  // comment in Python code # breaking name conventions wdeaah
+        return (email.toLower) in this.contacts.keys;
+	}
 
-    def getContactStatus(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email].status
-        else:
-            return 'FLN'
+    TStatus getContactStatus(TEmail email){
+        lowerEmail = email.toLower();
+        if (lowerEmail in this.contacts.keys)
+            return this.contacts[lowerEmail].status;
+        else
+            return "FLN";
+	}
 
-    def setContactStatus(this, email, status):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].status = status
+    void setContactStatus(TEmail email, TStatus status){
+        emailLower = email.toLower();
+        if this.contacts.has_key(emailLower)
+            this.contacts[emailLower].status = status;
+	}
 
     def getContactHasSpace(this, email):
         email = email.lower()
