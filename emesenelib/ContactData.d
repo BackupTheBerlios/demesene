@@ -1,5 +1,7 @@
 // -*- coding: utf-8 -*-
 
+// A small change to test if "ssl required" only in gnome-terminal
+
 /*
 #   This file is part of emesene.
 #
