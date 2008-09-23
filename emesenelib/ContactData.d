@@ -745,18 +745,19 @@ euh                    contactGroups += [this.groups[id].name]
                 if (len(contactGroups) == 0)  //Python: email doesn't belong to any group
                     contactGroups = ["No group"];
                 // the actual classification:
-                for group in contactGroups:
-                    if showOffline:
-                            cl[group][email] = this.contacts[email]
-                    elif this.getContactStatus(email) != 'FLN':
-                            cl[group][email] = this.contacts[email]
+                foreach (Group group ; contactGroups)
+                    if (showOffline)
+                            cl[group][email] = this.contacts[email];
+                    else if (this.getContactStatus(email) != "FLN")
+                            cl[group][email] = this.contacts[email];
 
-        if not showEmptyGroups:
-            for i in cl.keys():
-                if len(cl[i]) == 0:
-                    del cl[i]
+        if (!showEmptyGroups){
+            foreach (char[] i; cl.keys)
+                if (len(cl[i]) == 0)
+                    cl.removeAll(i);
 
-        return cl
+        return cl;
+	}
 
 class ContactNotInListError(Exception):
     def __init__(this, value):
