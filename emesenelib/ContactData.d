@@ -375,195 +375,220 @@ class ContactList(Object){
             this.contacts[emailLower].status = status;
 	}
 
-    def getContactHasSpace(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email].space
-        else:
-            return False
+    bool getContactHasSpace(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            return this.contacts[emailLower].space;
+        else
+            return false;
+	}
 
-    def getContactHasMobile(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email].mobile
-        else:
-            return False
+    bool getContactHasMobile(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            return this.contacts[email].mobile;
+        else
+            return false;
+	}
     
-    def getContactIsBlocked(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
+    bool getContactIsBlocked(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
             return this.contacts[email].blocked
-        else:
-            return False
+        else
+            return false;
+	}
 
-    def setContactIsBlocked(this, email, value):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].blocked = value
-        else:
-            pass
+    bool setContactIsBlocked(TEmail email, bool value):
+        emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            this.contacts[email].blocked = value;
+        else
+            // pass
+	}
 
-    def getContactIsAllowed(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email].allow
-        else:
-            return True
+    bool getContactIsAllowed(TEmail email){
+        emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            return this.contacts[email].allow;
+        else
+            return true;
+	}
         
-    def setContactIsAllowed(this, email, value):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].allow = value
+    void setContactIsAllowed(TEmail email, bool value){
+        emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            this.contacts[email].allow = value;
+	}
 
-    def getContactNick(this, email, escaped=False):
-        email = email.lower()
+    TNick getContactNick(TEmail email, escaped=false){
+        auto emailLower = email.lower();
         
-        if this.contacts.has_key(email):
-            nick = this.contacts[email].nick
-        elif this.pendingNicks.has_key(email):
-            nick = this.pendingNicks[email]
-        else:
-            nick = email
+        if (emailLower in this.contacts.keys)
+            nick = this.contacts[email].nick;
+        else if (emailLower in this.pendingNicks.keys)
+            nick = this.pendingNicks[emailLower];
+        else
+            nick = emailLower;
 
-        if escaped:
-            return common.escape(nick)
-        else:
-            return nick
+        if (escaped)
+            return common.escape(nick);
+        else
+            return nick;
+	}
 
-    def setContactNick(this, email, value):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].nick = value
+    void setContactNick(TEmail email, value){
+        auto emailLower = email.lower();
+        if (emailLower in this.contacts.keys)
+            this.contacts[emailLower].nick = value;
+	}
 
-    def getContactPersonalMessage(this, email, escaped=False):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            if escaped:
-                return common.escape(this.contacts[email].personalMessage)
-            else:
-                return this.contacts[email].personalMessage
+    TPersonalMessage getContactPersonalMessage(TEmail email, bool escaped=false){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            if (escaped)
+                return common.escape(this.contacts[emailLower].personalMessage);
+            else
+                return this.contacts[emailLower].personalMessage;
+	}
 
-    def setContactPersonalMessage(this, email, value):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].personalMessage = value
+    void setContactPersonalMessage(TEmail email, TPersonalMessage value){
+        auto email = email.toLower();
+        if (emailLower in this.contacts.keys)
+            this.contacts[emailLower].personalMessage = value;
+	}
 
-    def getContactAlias(this, email, escaped=False):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            if escaped:
-                return common.escape(this.contacts[email].alias)
-            else:
-                return this.contacts[email].alias
-        else:
-            return ''
+    TAlias getContactAlias(TEmail email, bool escaped=false){
+        auto TEmail email = email.toLower();
+        if (email in this.contacts.keys)
+            if (escaped)
+                return common.escape(this.contacts[emailLower].alias);
+            else
+                return this.contacts[emailLower].alias;
+        else
+            return "";
+	}
 
-    def setContactAlias(this, email, value):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].alias = value
-            
-    def getContactNameToDisplay(this, email):
-        email = email.lower()
-        displayName = this.getContactAlias(email, True)        
-        if displayName == '':
-            displayName = this.getContactNick(email, True)
-            
-        return displayName
+    void setContactAlias(TEmail email,Contact value){
+        auto emailLower = email.toLower();
+        if (emailLower) in this.contacts.keys)
+            this.contacts[emailLower].alias = value;
+	}
 
-    def getContactId(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            return this.contacts[email].id
-        else:
-            return ''
+    char[] getContactNameToDisplay(TEmail email){
+        auto emailLower = email.toLower();
+        char[] displayName = this.getContactAlias(email, true);
+        if (displayName == "")
+            displayName = this.getContactNick(email, true);
+        return displayName;
+	}
 
-    def getContactGroupIds(this, email):
-        '''return a list with the group ids or an empty list'''
-        email = email.lower()
+    TCId getContactId(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys)
+            return this.contacts[emailLower].id;
+        else
+            return "";
+	}
 
-        if this.contacts.has_key(email) and len(this.contacts[email].groups) > 0:
-            return this.contacts[email].groups
-        return []
+	///return a list with the group ids or an empty list
+    TGId getContactGroupIds(TEmail email){
 
-    def unblockContact(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].blocked = False
-            this.contacts[email].allow = True
+        auto email = email.toLower();
 
-    def blockContact(this, email):
-        email = email.lower()
-        if this.contacts.has_key(email):
-            this.contacts[email].blocked = True
-            this.contacts[email].allow = False
+        if (emailLower in this.contacts.keys && len(this.contacts[email].groups) > 0)
+            return this.contacts[email].groups;
+        return [];
+	}
 
-    def removeUserFromGroup(this, user, group):
-        user = str(user).lower()
-        group = str(group)
-        if this.groups.has_key(group):
-            contact = this.groups[group].getUser(user)
-            if contact != null:
-                # remove group from user's list of belongings
-                contact.removeGroup(group)
+    void unblockContact(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLower in this.contacts.keys){
+            this.contacts[email].blocked = false;
+            this.contacts[email].allow = true;
+		}
+	}
+
+    void blockContact(TEmail email){
+        auto emailLower = email.toLower();
+        if (emailLowre in this.contacts.keys){
+            this.contacts[emailLower].blocked = true;
+            this.contacts[emailLower].allow = false;
+		}
+	}
+
+    void removeUserFromGroup(TUser user, Group group)
+        auto userLower = (cast (char[]) user).toLower();
+        Group group = cast (Group) group;
+        if (group in this.groups.keys)
+            contact = this.groups[group].getUser(user);
+            if (contact != null)
+                //Python comment: remove group from user's list of belongings
+                contact.removeGroup(group);
                 
-                # add the contact to no group if applicable
-                if contact.groups == []:
-                    this.noGroup.setUser(user, contact)
+                //Python comment: add the contact to no group if applicable
+                if (contact.groups == [])
+                    this.noGroup.setUser(user, contact);
                     
-                # remove user from group
-                this.groups[group].removeUser(user)
-            else:
-                common.debug('Contact %s not in group %s' % (user, group))
-        else:
-            common.debug('Group %s not found' % group)
+                //Python comment: remove user from group
+                this.groups[group].removeUser(user);
+            else
+                logger.warn("Contact " ~ user ~ "not in group" ~ group);
+        else
+            logger.warn("Group " ~ group ~ "not found");
+	}
 
-    def removeContact(this, contactMail):
-        contactMail = str(contactMail).lower()
-        if this.contacts.has_key(contactMail):
-            # remove user from groups to which he belongs
-            contact = this.contacts[contactMail]
-            for group in contact.groups:
-                this.groups[group].removeUser(contactMail)
+    void removeContact(TEmail contactMail){
+        auto contactMailLower = (cast (char[]) contactMail).toLower();
+        if (contacMailLower in this.contacts.keys)
+            //Python comment: remove user from groups to which he belongs
+            contact = this.contacts[contactMailLower];
+            foreach (Group group ; contact.groups)
+                this.groups[group].removeUser(contactMailLower);
             
-            # remove user from the no group, if applicable
-            if len(contact.groups) == 0:
-                this.noGroup.removeUser(contactMail)
+            //Python comment: remove user from the no group, if applicable
+            if (len(contact.groups) == 0)
+                this.noGroup.removeUser(contactMailLower);
             
-            # remove user
-            del this.contacts[contactMail]
-        else:
-            common.debug('Contact %s not in list' % contactMail)
+            // remove user
+            this.contacts.remove(contactMailLower);
+        else
+            logger.warn("Contact " ~ contactMailLower ~ "not in list");
+	}
 
-    def addUserToGroup(this, user, group):
-        user = str(user).lower()
-        group = str(group)
-        if this.groups.has_key(group) and this.contacts.has_key(user):
-            contact = this.contacts[user]
-            # remove from nogroup if applicable
-            if len(contact.groups) == 0:
-                this.noGroup.removeUser(user)
+    void addUserToGroup(TUser user_arg, Group group_arg){
+        char[] user = (cast (char[]) user_arg).toLower();
+        char[] group = (cast (char[]) group_arg);
+        if (group in this.groups.keys && user in this.contacts.keys){
+            contact = this.contacts[user];
+            //Python comment: remove from nogroup if applicable
+            if (len(contact.groups) == 0)
+                this.noGroup.removeUser(user);
             
-            groupObj = this.groups[group]
-            contact.addGroup(group)
+            groupObj = this.groups[group];
+            contact.addGroup(group);
             
-            groupObj.setUser(user, contact)
-        elif not this.contacts.has_key(user):
-            common.debug('Contact %s not in list' % user)
-        elif group not in this.groups:
-            common.debug('Group %s not found' % group)
+            groupObj.setUser(user, contact);
+		} else if (! user in this.contacts.keys)
+            logger.warn("Contact " ~ user ~ "not in list");
+        else if (! group in this.groups)
+            logger.warn("Group " ~ group ~ " not found");
+	}
 
-    def updateMemberships(this):
-        '''Updates contact membership info according to this.lists'''
-        
-        for email in this.contacts:
-            this.contacts[email.lower()].reverse = (email in this.lists['Reverse'])
-            this.contacts[email.lower()].allow = (email in this.lists['Allow'])
-            this.contacts[email.lower()].blocked = (email in this.lists['Block'])
+    /// Updates contact membership info according to this.lists
+    void updateMemberships(){
+        foreach (TEmail email ; this.contacts){
+            this.contacts[email.toLower()].reverse = (email in this.lists['Reverse']);
+            this.contacts[email.toLower()].allow = (email in this.lists['Allow']);
+            this.contacts[email.toLower()].blocked = (email in this.lists['Block']);
+		}
+	}
 
-    def getADL(this):
-        '''Create a XML String with all the contacts we have for
-        the initial ADL Command'''
+    /** Create a XML String with all the contacts we have for
+        the initial ADL Command **/
+
+/+  Sorry this code is too weird for me to translate right now
+    char[] getADL(){
         contacts = {}
         for user in this.contacts.keys():
             l = 0
@@ -574,91 +599,101 @@ class ContactList(Object){
             contacts[user] = l
         
         return this.buildDL(contacts, initial=True)
++/
 
-    def buildDL(this, contacts, initial=False):
-        '''return a list of XML for the DL command, is a list because each DL
+
+    /** return a list of XML for the DL command, is a list because each DL
         should be less than 7500 bytes
-        contacts is a dict {user: type}'''
+        contacts is a dict {user: type} **/
+    void buildDL(Contact[] contacts, initial=false){
 
-        domains = {}
+        CircularSeq!(char []) domains = [];
 
-        for i in contacts.keys():
-            (user, domain) = i.split('@')
+        foreach (char[] i) in contacts.keys{
+            auto user = i.split('@') [0];
+			auto domain = i.split("@") [1];
 
-            if domains.has_key(domain):
-                domains[domain].append(user)
-            else:
-                domains[domain] = [user]
+            if (domain in domains.keys)
+                domains[domain].append(user);
+            else
+                domains[domain] = [user];
+		}
 
-        xmlDomains = []
+        CircularSeq!(char []) xmlDomains = [];
 
-        for i in domains.keys():
-            users = ''
-            for j in domains[i]:
+        foreach ( i in domains.keys ){
+            users = "";
+            foreach ( j in domains[i]){
                 
-                l = contacts[j + '@' + i]
+                l = contacts[j ~ "@" ~ i];
                 
-                if l > 0:
-                    users += '<c n="' + j + '" l="' + str(l) + '" t="1" />'
+                if (l > 0)
+                    users ~= "\"<c n=\"" ~ j ~ "\" l=\"" ~ cast (char []) (l) ~ "\" t=\"1\" />";
 
-                if len(users) + len('<d n="' + i + '"></d>') > 7200:
-                    xmlDomains.append('<d n="' + i + '">' + users + '</d>')
-                    users = ''
+                if (len(users) + len("<d n=\"" ~ i ~ "\"></d>") > 7200){
+                    xmlDomains.append("<d n=\"" ~ i ~ "\">" ~ users ~ "</d>");
+                    users = "";
+				}
 
-            if len(users) > 0:
-                xmlDomains.append('<d n="' + i + '">' + users + '</d>')
+            if (len(users) > 0)
+                xmlDomains.append("<d n=\"" ~ i ~ "\">" ~ users ~ "</d>");
 
 
-        adls = []
-        full = False
+        CircularSeq!(char []) adls = [];
+        full = false;
 
-        while xmlDomains:
-            if initial:
-                xml = '<ml l="1">'
-            else:
-                xml = '<ml>'
+        while (xmlDomains){
+            if (initial)
+                xml = `<ml l="1">`; 
+            else
+                xml = "<ml>";
 
-            for i in range(len(xmlDomains)):
-                domain = xmlDomains.pop()
+            foreach (int i in range(len(xmlDomains)){
+                char[] domain = xmlDomains.pop();
                 
-                # TODO: consider domains > 7500
-                # here that's an infinite loop
-                if len(xml) + len(domain) < 7400:
-                    xml += domain
-                else:
-                    xml += '</ml>'
-                    adls.append(xml)
-                    xmlDomains.append(domain)
-                    full = True
-                    break
+                //Python comment: TODO: consider domains > 7500
+                //Python comment: here that's an infinite loop
+                if ((len(xml) + len(domain)) < 7400)
+                    xml ~= domain;
+                else{
+                    xml ~= "</ml>";
+                    adls.append(xml);
+                    xmlDomains.append(domain);
+                    full = true;
+                    break;
+				}
+			}
 
-            if not full:
-                xml += '</ml>'
-                adls.append(xml)
-            else:
-                full = False
+            if (!full){
+                xml ~= "</ml>";
+                adls.append(xml);
+				}
+            else
+                full = false;
         
-        return adls
+        return adls;
+	}
 
-    def getOnlineUsers(this):
-        '''return a list of online users'''
-
-        ret = []
-        for i in this.contacts.keys():
-            if this.getContactStatus(i) != 'FLN':
-                ret.append([i, this.getContactStatus(i)])
-
+    ///return a list of online users
+    char[][char[]] getOnlineUsers(){
+        char[][char[]] ret = [];
+        foreach (char[] i ; this.contacts.keys)
+            if (this.getContactStatus(i) != 'FLN')
+                ret.append([i, this.getContactStatus(i)]);
         return ret
+	}
     
-    def getOnlineUsersDict(this):
-        dictionary = {}
+    char[][char[]] getOnlineUsersDict(){
+        dictionary = [];
         
-        for i in this.contacts.keys():
-            if this.getContactStatus(i) != 'FLN':
-                dictionary[i] = this.getContact(i)
+        foreach ( char[] i ; this.contacts.keys)
+            if (this.getContactStatus(i) != "FLN")
+                dictionary[i] = this.getContact(i);
 
-        return dictionary
+        return dictionary;
+	}
 
+// hum, looks too hard to translate for now... I pass
     def getOnOffUsersRelationByGroup(this, groupName):
         #return a 2 tuple containing the relation of users online and offline
         groupSizeStr = ''
@@ -678,37 +713,38 @@ class ContactList(Object){
 
         return usersOnline, groupSize
 
-    def getContactList(this, showOffline = True, showEmptyGroups = False, \
-            orderByStatus = False):
-        '''return a dictionarie with the contact list sorted acording the parameters'''
+    ///return a dictionarie with the contact list sorted acording the parameters
+    char[][char[]] getContactList(showOffline = true, showEmptyGroups = false, \
+            orderByStatus = false){
 
-        cl = {}
+        char[][char[]] cl = [];
 
-        if orderByStatus:
-            cl['offline'] = {}
-            cl['online'] = {}
-            for email in this.contacts:
-                status = this.getContactStatus(email)
-                if status == 'FLN' and not showOffline:
-                    continue
-                elif status == 'FLN':
-                    cl['offline'][email] = this.contacts[email]
-                else:
-                    cl['online'][email] = this.contacts[email]
-        else:
-            # Initialize return dict and build id2group_name dict
-            for i in this.reverseGroups:
-                cl[i] = {}
-            cl['No group'] = {}
+        if (orderByStatus){
+            cl['offline'] = []; // empty dict
+            cl['online'] = []; // empty dict
+            for (TEmail email ; this.contacts){
+                status = this.getContactStatus(email);
+                if (status == 'FLN' && !showOffline)
+                    continue;
+                else if (status == "FLN")
+                    cl["offline"][email] = this.contacts[email];
+                else
+                    cl["online"][email] = this.contacts[email];
+			}
+		} else{
+            // Python comment:  Initialize return dict and build id2group_name dict
+            foreach (char[] i ; this.reverseGroups)
+                cl[i] = []; // empty dict
+            cl["No group"] = []; //empty dict
                 
-            # classify contacts into their group/s
-            for email in this.contacts:
-                contactGroups = []
-                for id in this.getContactGroupIds(email):
-                    contactGroups += [this.groups[id].name]    
-                if len(contactGroups) == 0: # email doesn't belong to any group
-                    contactGroups = ['No group']
-                # the actual classification:
+            //Python comment: classify contacts into their group/s
+            foreach (TEMail email ; this.contacts){
+                contactGroups = [];
+                foreach (char[] id ; this.getContactGroupIds(email))
+euh                    contactGroups += [this.groups[id].name]    
+                if (len(contactGroups) == 0)  //Python: email doesn't belong to any group
+                    contactGroups = ["No group"];
+                // the actual classification:
                 for group in contactGroups:
                     if showOffline:
                             cl[group][email] = this.contacts[email]
