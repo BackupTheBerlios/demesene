@@ -48,6 +48,8 @@ typedef bool TPending;
 typedef CircularSeq!(char[]) TGroup;    // a guess
 typedef bool TDummy;
 
+typedef Group TGroup;
+
 typedef void* TMsnObj;  // Don't know either
 
 typedef short TGId;
@@ -59,7 +61,7 @@ class Contact{
 	TId id;
 	TNick nick;
 	TPersonalMessage personalMessage;
-	TAlias alias;
+	TAlias _alias;
 	TStatus status;
 	TMobile mobile;
 	TBlocked blocked;
@@ -75,14 +77,14 @@ class Contact{
 
 	TMsnObj msnobj;  // see _getpath
 
-    this(Email email, id="", nick="", personalMessage="", alias="", \
-         status="FLN", mobile=false, blocked=false, space=false, allow=false, \
-         reverse=false, pending=false, groups=null, dummy=false){
+    this(TEmail email, Tid id="", TNick nick="", TPersonalMessagepersonalMessage="", Talias _alias="", 
+         TStatus status="FLN", TMobile mobile=false, TBlocked blocked=false, TSpace space=false, TAllow allow=false, 
+         TReverse reverse=false, TPending pending=false, TGroup[] groups=null, TDummy dummy=false){
         this.email = email.toLower();
         this.id = id;
         this.nick = nick;
         this.personalMessage = personalMessage;
-        this.alias = alias;
+        this._alias = _alias;
         this.status = status;
         this.mobile = mobile;
         this.space = space;
@@ -107,8 +109,7 @@ class Contact{
 	} // end this
 
     char[] __repr__(){
-        return this.email ~ ": " ~ this.id ~ " " + this.nick ~ "\n";
-                         ~ str(this.groups);
+        return this.email ~ ": " ~ this.id ~ " " + this.nick ~ "\n" ~ str(this.groups);
 	}
 
     TEmail email(){
@@ -128,8 +129,9 @@ class Contact{
         else if (!this.msnobj)
             return "";
         
-        sha1d = new Sha1().update(this.msnobj.sha1d).hexDigest();
-        return (this.email.head!(char)('@')) ~ "_" ~ sha1d;
+        auto sha1d = new Sha1();
+        sha1d.update(this.msnobj.sha1d);
+        return (this.email.head!(char)('@')) ~ "_" ~ sha1d.hexDigest();
 	}
 
 	//was _setPath
@@ -140,7 +142,7 @@ class Contact{
     //displayPicturePath = property(_getPath, _setPath, null)
     
     void addGroup(char[] id){
-        if not id in this.groups:
+        if (! id in this.groups)
             this.groups.append(id);
 	}
 
@@ -182,10 +184,10 @@ class Group(){
         
     Contact getUser(TEmail email){
         lower_email = (cast (char[]) email).toLower();
-        if lower_email in this.users
+        if (lower_email in this.users)
             return this.users[email];
         else
-            null;
+            return null;
 	}
 
     void setUser(TEmail email, Contact contactObject){
@@ -206,10 +208,11 @@ class Group(){
 
 	/// Returns the number of online users (not offline) in the group
     short getOnlineUsersNumber(){
-		Contact[] offline = this.getUsersByStatus('offline');
+		Contact[] offline = this.getUsersByStatus("offline");
         return this.getSize() - len(offline);
 	}
 } // end of Class Group
+
 
 // a class that contains groups that contains users
 class ContactList(Object){
@@ -226,7 +229,7 @@ class ContactList(Object){
         this.noGroup = Group("No group", "nogroup");
         this.contacts = [];
 
-        if groups
+        if (groups)
             this.setGroups(groups);
             
         this.lists = [];
@@ -296,7 +299,7 @@ class ContactList(Object){
         if (name in this.reverseGroups)
             return this.reverseGroups[name].id;
         else if (name == "No group")
-            return "nogroup"
+            return "nogroup";
         else
             return null;
 	}
@@ -307,7 +310,7 @@ class ContactList(Object){
         else if (id == "nogroup")
             return "No group";
         else
-            return "dummy" ~ cast (char[]) id);
+            return "dummy" ~ cast (char[]) id;
 	}
 
     void addContact(Contact contact){
@@ -324,7 +327,7 @@ class ContactList(Object){
             
     void addNewContact(TEmail email, Group[] groups=null){
         lower_email = email.toLower()        ;
-        if (lower_email in this.lists['Block'])
+        if (lower_email in this.lists["Block"])
             contact = Contact(email, blocked=True);
         else
             contact = Contact(email, allow=True);
@@ -343,7 +346,7 @@ class ContactList(Object){
 	}
 
     Contact getContact(TEmail email){
-        auto lowerEmail = email.toLower()
+        auto lowerEmail = email.toLower();
         if (lowerEmail in this.contacts.keys)
             return this.contacts[email];
         else{
@@ -373,7 +376,7 @@ class ContactList(Object){
 
     void setContactStatus(TEmail email, TStatus status){
         emailLower = email.toLower();
-        if this.contacts.has_key(emailLower)
+        if (emailLower in this.contacts.keys)
             this.contacts[emailLower].status = status;
 	}
 
@@ -396,17 +399,17 @@ class ContactList(Object){
     bool getContactIsBlocked(TEmail email){
         auto emailLower = email.toLower();
         if (emailLower in this.contacts.keys)
-            return this.contacts[email].blocked
+            return this.contacts[email].blocked;
         else
             return false;
 	}
 
-    bool setContactIsBlocked(TEmail email, bool value):
+    bool setContactIsBlocked(TEmail email, bool value){
         emailLower = email.toLower();
         if (emailLower in this.contacts.keys)
             this.contacts[email].blocked = value;
         else
-            // pass
+            {} // pass
 	}
 
     bool getContactIsAllowed(TEmail email){
@@ -423,7 +426,7 @@ class ContactList(Object){
             this.contacts[email].allow = value;
 	}
 
-    TNick getContactNick(TEmail email, escaped=false){
+    TNick getContactNick(TEmail email, bool escaped=false){
         auto emailLower = email.lower();
         
         if (emailLower in this.contacts.keys)
@@ -439,7 +442,7 @@ class ContactList(Object){
             return nick;
 	}
 
-    void setContactNick(TEmail email, value){
+    void setContactNick(TEmail email, char[] value){
         auto emailLower = email.lower();
         if (emailLower in this.contacts.keys)
             this.contacts[emailLower].nick = value;
@@ -464,17 +467,17 @@ class ContactList(Object){
         auto TEmail email = email.toLower();
         if (email in this.contacts.keys)
             if (escaped)
-                return common.escape(this.contacts[emailLower].alias);
+                return common.escape(this.contacts[emailLower]._alias);
             else
-                return this.contacts[emailLower].alias;
+                return this.contacts[emailLower]._alias;
         else
             return "";
 	}
 
     void setContactAlias(TEmail email,Contact value){
         auto emailLower = email.toLower();
-        if (emailLower) in this.contacts.keys)
-            this.contacts[emailLower].alias = value;
+        if (emailLower in this.contacts.keys)
+            this.contacts[emailLower]._alias = value;
 	}
 
     char[] getContactNameToDisplay(TEmail email){
@@ -519,12 +522,12 @@ class ContactList(Object){
 		}
 	}
 
-    void removeUserFromGroup(TUser user, Group group)
+    void removeUserFromGroup(TUser user, Group group){
         auto userLower = (cast (char[]) user).toLower();
         Group group = cast (Group) group;
-        if (group in this.groups.keys)
+        if (group in this.groups.keys){
             contact = this.groups[group].getUser(user);
-            if (contact != null)
+            if (contact != null){
                 //Python comment: remove group from user's list of belongings
                 contact.removeGroup(group);
                 
@@ -534,15 +537,15 @@ class ContactList(Object){
                     
                 //Python comment: remove user from group
                 this.groups[group].removeUser(user);
-            else
+			} else
                 logger.warn("Contact " ~ user ~ "not in group" ~ group);
-        else
+		} else
             logger.warn("Group " ~ group ~ "not found");
 	}
 
     void removeContact(TEmail contactMail){
         auto contactMailLower = (cast (char[]) contactMail).toLower();
-        if (contacMailLower in this.contacts.keys)
+        if (contacMailLower in this.contacts.keys){
             //Python comment: remove user from groups to which he belongs
             contact = this.contacts[contactMailLower];
             foreach (Group group ; contact.groups)
@@ -554,7 +557,7 @@ class ContactList(Object){
             
             // remove user
             this.contacts.remove(contactMailLower);
-        else
+		} else
             logger.warn("Contact " ~ contactMailLower ~ "not in list");
 	}
 
@@ -580,9 +583,9 @@ class ContactList(Object){
     /// Updates contact membership info according to this.lists
     void updateMemberships(){
         foreach (TEmail email ; this.contacts){
-            this.contacts[email.toLower()].reverse = (email in this.lists['Reverse']);
-            this.contacts[email.toLower()].allow = (email in this.lists['Allow']);
-            this.contacts[email.toLower()].blocked = (email in this.lists['Block']);
+            this.contacts[email.toLower()].reverse = (email in this.lists["Reverse"]);
+            this.contacts[email.toLower()].allow = (email in this.lists["Allow"]);
+            this.contacts[email.toLower()].blocked = (email in this.lists["Block"]);
 		}
 	}
 
@@ -611,7 +614,7 @@ class ContactList(Object){
 
         CircularSeq!(char []) domains = [];
 
-        foreach (char[] i) in contacts.keys{
+        foreach (char[] i; contacts.keys){
             auto user = i.split('@') [0];
 			auto domain = i.split("@") [1];
 
@@ -623,9 +626,9 @@ class ContactList(Object){
 
         CircularSeq!(char []) xmlDomains = [];
 
-        foreach ( i in domains.keys ){
+        foreach ( char[] i ; domains.keys ){
             users = "";
-            foreach ( j in domains[i]){
+            foreach ( char[] j ; domains[i]){
                 
                 l = contacts[j ~ "@" ~ i];
                 
@@ -650,7 +653,7 @@ class ContactList(Object){
             else
                 xml = "<ml>";
 
-            foreach (int i in range(len(xmlDomains)){
+            foreach (int i ; range(len(xmlDomains))){
                 char[] domain = xmlDomains.pop();
                 
                 //Python comment: TODO: consider domains > 7500
@@ -680,9 +683,9 @@ class ContactList(Object){
     char[][char[]] getOnlineUsers(){
         char[][char[]] ret = [];
         foreach (char[] i ; this.contacts.keys)
-            if (this.getContactStatus(i) != 'FLN')
+            if (this.getContactStatus(i) != "FLN")
                 ret.append([i, this.getContactStatus(i)]);
-        return ret
+        return ret;
 	}
     
     char[][char[]] getOnlineUsersDict(){
@@ -696,6 +699,7 @@ class ContactList(Object){
 	}
 
 // hum, looks too hard to translate for now... I pass
+/+
     def getOnOffUsersRelationByGroup(this, groupName):
         #return a 2 tuple containing the relation of users online and offline
         groupSizeStr = ''
@@ -714,19 +718,20 @@ class ContactList(Object){
             usersOnline = groupObject.getOnlineUsersNumber()
 
         return usersOnline, groupSize
++/
 
     ///return a dictionarie with the contact list sorted acording the parameters
-    char[][char[]] getContactList(showOffline = true, showEmptyGroups = false, \
+    char[][char[]] getContactList(showOffline = true, showEmptyGroups = false, 
             orderByStatus = false){
 
         char[][char[]] cl = [];
 
         if (orderByStatus){
-            cl['offline'] = []; // empty dict
-            cl['online'] = []; // empty dict
-            for (TEmail email ; this.contacts){
+            cl["offline"] = []; // empty dict
+            cl["online"] = []; // empty dict
+            foreach (TEmail email ; this.contacts){
                 status = this.getContactStatus(email);
-                if (status == 'FLN' && !showOffline)
+                if (status == "FLN" && !showOffline)
                     continue;
                 else if (status == "FLN")
                     cl["offline"][email] = this.contacts[email];
@@ -743,7 +748,8 @@ class ContactList(Object){
             foreach (TEMail email ; this.contacts){
                 contactGroups = [];
                 foreach (char[] id ; this.getContactGroupIds(email))
-euh                    contactGroups += [this.groups[id].name]    
+// euh
+                      contactGroups += [this.groups[id].name];    
                 if (len(contactGroups) == 0)  //Python: email doesn't belong to any group
                     contactGroups = ["No group"];
                 // the actual classification:
@@ -760,6 +766,7 @@ euh                    contactGroups += [this.groups[id].name]
 
         return cl;
 	}
+}
 
 class ContactNotInListError:Exception){
     this( char[] value){
@@ -780,7 +787,7 @@ class ContactNotInGroupError:Exception{
 	}
         
     char[] toString(){
-        return "Contact " ~ (cast(char[]) this.value) ~ " is not in this group: " \
+        return "Contact " ~ (cast(char[]) this.value) ~ " is not in this group: " 
                         ~ (cast (char[]) this.group);
 	}
 }
