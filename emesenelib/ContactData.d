@@ -761,25 +761,36 @@ euh                    contactGroups += [this.groups[id].name]
         return cl;
 	}
 
-class ContactNotInListError(Exception):
-    def __init__(this, value):
-        this.value = value
-        
-    def __str__(this):
-        return 'Contact ' + repr(this.value) + ' is not in the list'
+class ContactNotInListError:Exception){
+    this( char[] value){
+        super(value);
+	}
+         
+    char[] toString(){
+        return "Contact " ~ value ~ " is not in the list";
+	}
+}
     
-class ContactNotInGroupError(Exception):
-    def __init__(this, value, group):
-        this.value = value
-        this.group = group
+class ContactNotInGroupError:Exception{
+	Group group;
+
+    this (char[] value, Group group){
+        super(value);
+        this.group = group;
+	}
         
-    def __str__(this):
-        return 'Contact ' + repr(this.value) + ' is not in this group: ' \
-                        + str(this.group)
+    char[] toString(){
+        return "Contact " ~ (cast(char[]) this.value) ~ " is not in this group: " \
+                        ~ (cast (char[]) this.group);
+	}
+}
                         
-class GroupNotFoundError(Exception):
-    def __init__(this, value):
-        this.value = value
+class GroupNotFoundError:Exception{
+    this(char[] value){
+        super(value);
+	}
         
-    def __str__(this):
-        return 'Group ' + repr(this.value) + ' does not exist'
+    char[] toString(){
+        return "Group " ~ this.value ~ " does not exist";
+	}
+}
